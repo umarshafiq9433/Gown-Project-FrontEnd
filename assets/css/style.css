@@ -6347,7 +6347,7 @@ p {
 }
 .product {
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   transition: box-shadow 0.35s ease;
   background-color: #fff;
 }
