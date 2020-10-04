@@ -5,40 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/Jquery/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Navbar</a>
+  <div class="container-fluid  navbg sticky-top position-sticky">
+    <div class="row">
+      <div class="col-md-10">
+        <nav class="navbar navbar-expand-sm ">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#"><img src="images/logo.png" title="The Gown Connoisseur" width="160px" height="76px"></a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <!-- Links -->
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item pt-4 pl-5">
+              <a class="nav-link" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item pl-4 pt-4">
+              <a class="nav-link" href="#">Catalogue</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+            <li class="nav-item pl-4 pt-4">
+              <a class="nav-link" href="#">Gown Rates</a>
             </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item pl-4 pt-4 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">
+                Packages
+              </a>
+              <div class="dropdown-menu dp">
+                <a class="dropdown-item" href="#">Pre Wedding Package</a>
+                <a class="dropdown-item" href="#">Actual Day Makeuo & Gowns</a>
+                <a class="dropdown-item" href="#">Actual Day Makeuo, Photographer & Gowns</a>
+              </div>
+            </li>
+            <li class="nav-item pl-4 pt-4">
+              <a class="nav-link" href="#">Appointment</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item pt-4 pl-4 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Vendors
+              </a>
+              <div class="dropdown-menu dp">
+                <a class="dropdown-item" href="#">Preferred Photographers</a>
+                <a class="dropdown-item" href="#">Preferred Makeup Artist</a>
+                <a class="dropdown-item" href="#">Actual Day Makeuo, Photographer & Gowns</a>
+              </div>
+            </li>
+            <li class="nav-item pl-4 pt-4">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item pl-4 pt-4">
+              <a class="nav-link" href="#">Lifestyle</a>
+            </li>
+
           </ul>
+        </nav>
+      </div>
+      <div class="col-md-2 pt-5">
+        <a href="#"> <i class="fa fa-shopping-cart icon1" style='font-size:24px;'></i></a>
+        <a href="#"><i class='fas fa-user-circle icon2' style='font-size:24px; padding-left: 10px'></i><span style="padding-left: 5px"> Login</span></a>
+      </div>
+    </div>
+  </div>
+  <!-- NavBar -->
+  <!--Crousal-->
+  <div class=" ">
+
+    <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 slider" src="images/slider1.jpg" alt="Gowns" >
         </div>
-      </nav>
-    </header>
+        <div class="carousel-item">
+          <img class="d-block w-100 slider" src="images/slider2.jpg" alt="Gowns">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 slider " src="images/slider3.jpg" alt="Gowns">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 slider" src="images/slider4.jpg" alt="Gowns">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+  </div>
+
+
+  <!--Crousal End-->
+
+  <!-- Content (Our Gowns) -->
+
+  <div class="container">
+    <div class="text-center font-weight-bold py-3"><h1>Our Gowns</h1></div>
+  </div>
+
+  <!-- Content (Our Gowns) -->
+
   </body>
 </html>
