@@ -278,6 +278,7 @@ footer .container .row .col-4 p {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
 }
 
 @media (max-width: 1199px) {
@@ -387,18 +388,27 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-.um-sp {
+
+.sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-.um-vp {
+.vp {
   color: #1f1f1f;
   font-size: larger;
 }
-.etc {
-  height: 250px;
-}
-.ls {
+/*End Umair'Css*/
+
+ .um-sp {
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+ }
+ .um-vp{
+   color: #1f1f1f;
+   font-size: larger;
+ }
+ 
+.ls{
   position: absolute;
   top: 0;
   left: 15px;
@@ -408,13 +418,19 @@ footer .container .row .col-4 p {
   padding: 5px;
   font-size: 14px;
 }
-.qv {
+.qv{
   width: 100%;
-  background-color: rgb(255, 255, 255, 0.5);
+  background-color: rgb(255, 255, 255,0.5);
   text-decoration: none;
   color: black;
   position: absolute;
   left: 0;
   top: 201px;
 }
+
+.tgc{
+  color: #7f7f7f;
+  font-family:"Open Sans", sans-serif;
+}
+/*End Umair'Css*/
 /*End Umair'Css*/
