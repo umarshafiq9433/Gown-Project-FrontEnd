@@ -8,25 +8,35 @@ header {
   filter: drop-shadow(0px 8px 8px gray);
 }
 
-.top-bar .row a {
+.navbar-nav {
+  margin-top: 80px;
+}
+
+.b2 {
+  margin-top: -70px;
+}
+
+.collapse ul,
+.collapse ul li a,
+.collapse ul li {
+  width: 100%;
+}
+
+.b2 a {
   color: rgba(144, 112, 87, 1) !important;
 }
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 39px;
   color: rgb(20, 91, 91);
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
-.b2 {
-  display: none;
-}
-
-.navbar-brancd .active {
+.navbar-brand .active {
   color: #0fa8a1 !important;
 }
 
@@ -259,9 +269,41 @@ footer .container .row .col-4 p {
   filter: drop-shadow(4px 4px 4px grey);
 }
 
+.u-contact-bg {
+  background-color: #ebe7e4;
+}
+
+.u-contact-head {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(127, 127, 127);
+}
+
+.u-contact-para {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 200;
+  color: rgb(127, 127, 127);
+}
+
+.u-contact-inp {
+  margin: 5px 0px;
+  background-color: #c9e9e9;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .nav-link {
-    font-size: 1rem;
+    font-size: 11px;
+    margin-left: 0px;
+  }
+
+  .navbar-nav {
+    margin-top: 70px;
+  }
+
+  .b2 {
+    margin-top: -60px;
   }
 
   .u-appoint-img {
@@ -271,7 +313,15 @@ footer .container .row .col-4 p {
 
 @media (max-width: 991px) {
   .nav-link {
-    font-size: 0.9rem;
+    font-size: 9px;
+  }
+
+  .navbar-nav {
+    margin-top: 50px;
+  }
+
+  .b2 {
+    margin-top: -50px;
   }
 
   .carousel-inner .carousel-item img {
@@ -285,11 +335,14 @@ footer .container .row .col-4 p {
 
 @media (max-width: 932px) {
   .nav-link {
-    font-size: 0.7rem;
+    font-size: 7px;
+    font-weight: bolder;
   }
+}
 
-  .nt-a {
-    font-size: 0.8rem !important;
+@media (min-width: 768px) and (max-width: 785px) {
+  .nav-link {
+    font-size: 7px;
   }
 }
 
@@ -299,7 +352,9 @@ footer .container .row .col-4 p {
   }
 
   .nav-link {
+    font-size: 1rem;
     margin: 0px !important;
+    text-align: left !important;
   }
 
   .ab-btn {
@@ -312,62 +367,58 @@ footer .container .row .col-4 p {
     display: none;
   }
 
-  .b2 {
-    display: block;
-  }
-
   .carousel-inner .carousel-item img {
     height: 500px;
+  }
+
+  .b2 {
+    margin-top: auto;
   }
 }
 
 @media (max-width: 575px) {
-  .nt-a {
-    margin-top: 0px !important;
-  }
-
   .carousel-inner .carousel-item img {
     height: 400px;
   }
 }
 
 /*Umair'Css*/
-.grp{
+.grp {
   color: #0f5b5b;
   font-family: "Open Sans", sans-serif;
 }
-.gr p{
+.gr p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-.um-ba{
+.um-ba {
   background-color: #0fa8a1;
-    color: white;
-    font-family: "Open Sans", sans-serif;
+  color: white;
+  font-family: "Open Sans", sans-serif;
 }
-.um-ba:hover{
-  background-color: rgba(144,112,87,0.5);
+.um-ba:hover {
+  background-color: rgba(144, 112, 87, 0.5);
   color: white;
 }
 
-.um-op{
+.um-op {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-.um-pop{
+.um-pop {
   color: #55c0bb;
   font-family: "Open Sans", sans-serif;
 }
-.um-ph{
+.um-ph {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
- .sp{
+.sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
- }
- .vp{
-   color: #1f1f1f;
-   font-size: larger;
- }
+}
+.vp {
+  color: #1f1f1f;
+  font-size: larger;
+}
 /*End Umair'Css*/
