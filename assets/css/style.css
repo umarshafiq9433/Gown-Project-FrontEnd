@@ -217,9 +217,7 @@ footer .container .row .col-4 p {
    color: #1f1f1f;
    font-size: larger;
  }
- .etc{
-   height: 250px;
- }
+ 
 .ls{
   position: absolute;
   top: 0;
@@ -238,5 +236,9 @@ footer .container .row .col-4 p {
   position: absolute;
   left: 0;
   top: 201px;
+}
+.tgc{
+  color: #7f7f7f;
+  font-family:"Open Sans", sans-serif;
 }
 /*End Umair'Css*/
