@@ -432,5 +432,29 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family:"Open Sans", sans-serif;
 }
+.um-pwc h1{
+  color: #0f5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+.um-p1{
+  color: #7f7f7f;
+  font-family:""Open Sans", sans-serif";
+  font-weight: bold;
+  font-size: 16px;
+
+}
+.um-p2{
+  color: #0f5b5b;
+}
+.um-ba{
+  background-color: #7f7f7f;
+  color:#0f5b5b;
+}
+.um-sv{
+  background-color:#c9e9e9;
+  color:  #7f7f7f;
+  font-family:""Open Sans", sans-serif";
+
+}
 /*End Umair'Css*/
 /*End Umair'Css*/
