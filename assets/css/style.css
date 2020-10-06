@@ -177,3 +177,44 @@ footer .container .row .col-4 p {
     height: 400px;
   }
 }
+
+/*Umair'Css*/
+.grp{
+  color: #0f5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+.gr p{
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+}
+.um-ba{
+  background-color: #0fa8a1;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.um-ba:hover{
+  background-color: rgba(144,112,87,0.5);
+  color: white;
+}
+
+.um-op{
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+}
+.um-pop{
+  color: #55c0bb;
+  font-family: "Open Sans", sans-serif;
+}
+.um-ph{
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+}
+ .sp{
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+ }
+ .vp{
+   color: #1f1f1f;
+   font-size: larger;
+ }
+/*End Umair'Css*/
