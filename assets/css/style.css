@@ -217,4 +217,26 @@ footer .container .row .col-4 p {
    color: #1f1f1f;
    font-size: larger;
  }
+ .etc{
+   height: 250px;
+ }
+.ls{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: #907057;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-size: 14px;
+}
+.qv{
+  width: 100%;
+  background-color: rgb(255, 255, 255,0.5);
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 201px;
+}
 /*End Umair'Css*/
