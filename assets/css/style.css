@@ -65,12 +65,7 @@ header {
 }
 
 .sli-btn button {
-  background-color: #7eccc5;
-  color: white;
-}
-
-.sli-btn button:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -80,12 +75,7 @@ header {
 }
 
 .sli-btn2 button {
-  background-color: #7eccc5;
-  color: white;
-}
-
-.sli-btn2 .btn:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -111,12 +101,7 @@ header {
 
 .ab-btn {
   margin-top: 10px;
-  background-color: #7eccc5;
-  color: white;
-}
-
-.ab-btn:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -139,6 +124,7 @@ footer .container .row .col-4 p {
   font-family: "Open Sans", sans-serif;
 }
 
+<<<<<<< HEAD
 .u-cat-head {
   font-size: 2.5rem;
   font-family: "Open Sans", sans-serif;
@@ -293,6 +279,10 @@ footer .container .row .col-4 p {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (max-width: 1199px) {
   .nav-link {
     font-size: 11px;
     margin-left: 0px;
@@ -304,10 +294,6 @@ footer .container .row .col-4 p {
 
   .b2 {
     margin-top: -60px;
-  }
-
-  .u-appoint-img {
-    height: 300px;
   }
 }
 
@@ -327,22 +313,12 @@ footer .container .row .col-4 p {
   .carousel-inner .carousel-item img {
     height: 600px;
   }
-
-  .u-appoint-bdr {
-    padding: 20px 0px;
-  }
 }
 
 @media (max-width: 932px) {
   .nav-link {
     font-size: 7px;
     font-weight: bolder;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 785px) {
-  .nav-link {
-    font-size: 7px;
   }
 }
 
@@ -413,6 +389,7 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
+<<<<<<< HEAD
 .sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
@@ -422,3 +399,36 @@ footer .container .row .col-4 p {
   font-size: larger;
 }
 /*End Umair'Css*/
+=======
+ .um-sp {
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+ }
+ .um-vp{
+   color: #1f1f1f;
+   font-size: larger;
+ }
+ .etc{
+   height: 250px;
+ }
+.ls{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  background-color: #907057;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  font-size: 14px;
+}
+.qv{
+  width: 100%;
+  background-color: rgb(255, 255, 255,0.5);
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 201px;
+}
+/*End Umair'Css*/
+>>>>>>> f212e3a806a25f884c745ea8bfbf1ae1904df8e2
