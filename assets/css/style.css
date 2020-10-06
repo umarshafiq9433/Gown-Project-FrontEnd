@@ -55,12 +55,7 @@ header {
 }
 
 .sli-btn button {
-  background-color: #7eccc5;
-  color: white;
-}
-
-.sli-btn button:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -70,12 +65,7 @@ header {
 }
 
 .sli-btn2 button {
-  background-color: #7eccc5;
-  color: white;
-}
-
-.sli-btn2 .btn:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -101,12 +91,7 @@ header {
 
 .ab-btn {
   margin-top: 10px;
-  background-color: #7eccc5;
-  color: white;
-}
-
-.ab-btn:hover {
-  background-color: #0f5b5b;
+  background-color: #0fa8a1;
   color: white;
 }
 
@@ -129,143 +114,9 @@ footer .container .row .col-4 p {
   font-family: "Open Sans", sans-serif;
 }
 
-.u-cat-head {
-  font-size: 2.5rem;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  margin: 40px 0px;
-  color: #545454;
-}
-
-.u-cat-para {
-  font-size: 15px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  margin: 40px 0px;
-  color: #545454;
-}
-
-/* Container needed to position the overlay. Adjust the width as needed */
-.u-over-container {
-  position: relative;
-  width: 100%;
-  max-width: 300px;
-}
-
-/* Make the image to responsive */
-.u-over-image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.u-overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 90%;
-  transition: 0.5s ease;
-  opacity: 0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.u-over-container:hover .u-overlay {
-  opacity: 1;
-}
-
-.u-load {
-  border: 1px solid #f4b22e;
-  color: #f4b22e;
-}
-
-.u-appoint {
-  background-color: rgba(126, 204, 197, 1);
-  color: white;
-}
-
-.u-appoint:hover {
-  background-color: #0f5b5b;
-  color: white;
-}
-
-.u-pkg-head {
-  color: #0f5b5b;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.8rem;
-  font-weight: lighter;
-  margin: 20px 0px;
-}
-
-.u-pkg-para {
-  color: #0f5b5b;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.1rem;
-  font-weight: lighter;
-  margin: 20px 0px;
-}
-
-.u-pkg-img {
-  height: 450px;
-}
-
-.u-pkg-brd {
-  border: 1px solid #7eccc5;
-  padding: 10px 0px;
-}
-
-.u-appoint-bg {
-  background-color: #c9e9e9;
-}
-
-.u-appoint-head {
-  color: rgb(127, 127, 127);
-  font-size: 2rem;
-  padding-top: 40px;
-  padding-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.u-appoint-para {
-  color: rgb(127, 127, 127);
-  font-size: 1rem;
-  padding: 40px 0px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.u-appoint-bdr {
-  border: 1px solid rgb(127, 127, 127);
-}
-
-.u-appoint-btn {
-  background-color: rgb(127, 127, 127);
-}
-
-.u-vend-para {
-  color: #0f5b5b;
-  font-size: 0.8rem;
-  padding-top: 40px;
-  padding-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.u-vend-bdr {
-  filter: drop-shadow(4px 4px 4px grey);
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   .nav-link {
     font-size: 1rem;
-  }
-
-  .u-appoint-img {
-    height: 300px;
   }
 }
 
@@ -276,10 +127,6 @@ footer .container .row .col-4 p {
 
   .carousel-inner .carousel-item img {
     height: 600px;
-  }
-
-  .u-appoint-bdr {
-    padding: 20px 0px;
   }
 }
 
@@ -362,11 +209,11 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
- .sp{
+ .um-sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
  }
- .vp{
+ .um-vp{
    color: #1f1f1f;
    font-size: larger;
  }
