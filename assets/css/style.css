@@ -278,7 +278,6 @@ footer .container .row .col-4 p {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
 }
 
 @media (max-width: 1199px) {
@@ -399,16 +398,16 @@ footer .container .row .col-4 p {
 }
 /*End Umair'Css*/
 
- .um-sp {
+.um-sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
- }
- .um-vp{
-   color: #1f1f1f;
-   font-size: larger;
- }
- 
-.ls{
+}
+.um-vp {
+  color: #1f1f1f;
+  font-size: larger;
+}
+
+.ls {
   position: absolute;
   top: 0;
   left: 15px;
@@ -418,9 +417,9 @@ footer .container .row .col-4 p {
   padding: 5px;
   font-size: 14px;
 }
-.qv{
+.qv {
   width: 100%;
-  background-color: rgb(255, 255, 255,0.5);
+  background-color: rgb(255, 255, 255, 0.5);
   text-decoration: none;
   color: black;
   position: absolute;
@@ -428,73 +427,70 @@ footer .container .row .col-4 p {
   top: 201px;
 }
 
-.tgc{
+.tgc {
   color: #7f7f7f;
-  font-family:"Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
-.um-pwc h1{
+.um-pwc h1 {
   color: #0f5b5b;
   font-family: "Open Sans", sans-serif;
 }
-.um-p1{
+.um-p1 {
   color: #7f7f7f;
-  font-family:""Open Sans", sans-serif";
+  font-family: "" Open Sans ", sans-serif";
   font-weight: bold;
   font-size: 16px;
-
 }
-.um-p2{
+.um-p2 {
   color: #0f5b5b;
 }
-.um-ba{
+.um-ba {
   background-color: #7f7f7f;
-  color:#0f5b5b;
+  color: #0f5b5b;
 }
-.um-sv{
-  background-color:#c9e9e9;
-  color:  #7f7f7f;
-  font-family:""Open Sans", sans-serif";
-
+.um-sv {
+  background-color: #c9e9e9;
+  color: #7f7f7f;
+  font-family: "" Open Sans ", sans-serif";
 }
-.um-sel{
+.um-sel {
   width: 100%;
-  color:  #7f7f7f;
+  color: #7f7f7f;
   font-size: normal;
-  font-family:""Open Sans", sans-serif";
+  font-family: "" Open Sans ", sans-serif";
   display: inline;
 }
-.um-c{
+.um-c {
   padding: 1px;
   text-align: center;
   font-size: 10px;
   color: white;
   background-color: #7f7f7f;
   border-radius: 50%;
-
 }
-.um-rad{
+.um-rad {
   background-color: #c9e9e9;
-   }
-   .um-l{
-     font-size: 16px;
-    color:  #7f7f7f;
-    font-family:""Open Sans", sans-serif";
-   }
-   .um-l2{
-     font-size: 18px;
-     color:  #545454;
-     font-family:""Open Sans", sans-serif";
-   }
-   .um-tp{
-     background-color:  #c9e9e9;
-     width: 100%;
-     color: #7f7f7f;
-   }
-   .um-tp p{
-     color: #1f1f1f;
-      font-size: xx-large;
-      font-weight: bold;
-   }
-  
+}
+.um-l {
+  font-size: 16px;
+  color: #7f7f7f;
+  font-family: "" Open Sans ", sans-serif";
+}
+.um-l2 {
+  font-size: 18px;
+  color: #545454;
+  font-family: "" Open Sans ", sans-serif";
+}
+.um-tp {
+  background-color: #c9e9e9;
+  width: 100%;
+  color: #7f7f7f;
+}
+.um-tp p {
+  color: #1f1f1f;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
 /*End Umair'Css*/
 /*End Umair'Css*/
