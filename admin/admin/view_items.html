@@ -17,6 +17,22 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <link href="./assets/css/admin.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Data Tables -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"
+    />
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
   </head>
   <body>
     <div
@@ -193,7 +209,7 @@
                 <li class="app-sidebar__heading">Inventory</li>
                 <li>
                   <a href="#" class="mm-active">
-                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    <i class="metismenu-icon pe-7s-diamond mm"></i>
                     Stock
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
@@ -201,13 +217,13 @@
                   </a>
                   <ul class="mm-collapse mm-show">
                     <li>
-                      <a href="./add_item.html" class="mm-active">
+                      <a href="./add_item.html">
                         <i class="metismenu-icon"></i>
                         Add Item
                       </a>
                     </li>
                     <li>
-                      <a href="./view_items.html">
+                      <a href="./view_items.html" class="mm-active">
                         <i class="metismenu-icon"></i>
                         View Items
                       </a>
@@ -289,183 +305,71 @@
           </div>
         </div>
         <div class="app-main__outer">
-          <div class="app-main__inner">
-            <div class="app-page-title">
-              <div class="page-title-wrapper">
-                <div class="page-title-heading">
-                  <div class="page-title-icon">
-                    <i class="lnr-picture text-danger pe-7s-display2"> </i>
-                  </div>
-                  <div>
-                    Add Item
-                    <div class="page-title-subheading">
-                      Add Item to the inventory
+          <div class="app-wrapper-footer">
+            <div class="app-main__inner">
+              <div class="app-page-title">
+                <div class="page-title-wrapper">
+                  <div class="page-title-heading">
+                    <div class="page-title-icon">
+                      <i class="lnr-picture text-danger pe-7s-display2"> </i>
+                    </div>
+                    <div>
+                      Items List
+                      <div class="page-title-subheading">Items List</div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="main-card mb-3 card">
-              <div class="card-body">
-                <h5 class="card-title">Add Gown details</h5>
-                <form class="needs-validation" novalidate>
-                  <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                      <label for="validationCustom01">RFID</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="validationCustom01"
-                        placeholder="RFID"
-                        value="ABXD1234VDC"
-                        required
-                      />
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid RFID</div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                      <label for="validationCustom02">Article Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="validationCustom02"
-                        placeholder="Article Name"
-                        value="AX202C"
-                        required
-                      />
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Article Name</div>
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="col-md-3 mb-3">
-                      <label for="outfit-Select" class="">Outfit Type</label
-                      ><select
-                        name="select"
-                        id="outfit-Select"
-                        class="form-control"
-                      >
-                        <option>Bridal Gown</option>
-                        <option>Evening Gown</option>
-                      </select>
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Selection</div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <label for="Silhouette-Select" class=""
-                        >Silhouette Type</label
-                      ><select
-                        name="select"
-                        id="Silhouette-Select"
-                        class="form-control"
-                      >
-                        <option>Mermaid</option>
-                        <option>Ball</option>
-                        <option>A-Line</option>
-                        <option>Modified-Line</option>
-                        <option>Column</option>
-                        <option>Trumpet</option>
-                      </select>
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Selection</div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <label for="neckline-Select" class="">Neckline Type</label
-                      ><select
-                        name="select"
-                        id="neckline-Select"
-                        class="form-control"
-                      >
-                        <option>Sweetheart</option>
-                        <option>V-Neck</option>
-                        <option>Off-Shoulder</option>
-                        <option>Straight-Across</option>
-                        <option>Illusion</option>
-                        <option>Bateau</option>
-                      </select>
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Selection</div>
-                    </div>
-                    <div class="col-md-3 mb-3">
-                      <label for="other-Select" class="">Other Type</label
-                      ><select
-                        name="select"
-                        id="other-Select"
-                        class="form-control"
-                      >
-                        <option>Bead Dress</option>
-                        <option>Lace Dress</option>
-                        <option>Plain</option>
-                      </select>
-                      <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Selection</div>
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="col-md-6 mb-3">
-                      <label for="price">Price</label>
-                      <input
-                        type="number"
-                        name="price"
-                        id="price"
-                        placeholder="Price"
-                        class="form-control"
-                      />
-                    </div>
-                  </div>
-                  <div class="form-row">
-                    <div class="col-md-12 mb-3">
-                      <label for="description">Description</label>
-                      <textarea
-                        class="form-control"
-                        id="description"
-                        placeholder="Description"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <button class="btn btn-primary float-right" type="submit">
-                    Add
-                  </button>
-                </form>
+              <div class="main-card mb-3 card">
+                <div class="card-body">
+                  <h5 class="card-title">Items List</h5>
 
-                <script>
-                  // Example starter JavaScript for disabling form submissions if there are invalid fields
-                  (function () {
-                    "use strict";
-                    window.addEventListener(
-                      "load",
-                      function () {
-                        // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                        var forms = document.getElementsByClassName(
-                          "needs-validation"
-                        );
-                        // Loop over them and prevent submission
-                        var validation = Array.prototype.filter.call(
-                          forms,
-                          function (form) {
-                            form.addEventListener(
-                              "submit",
-                              function (event) {
-                                if (form.checkValidity() === false) {
-                                  event.preventDefault();
-                                  event.stopPropagation();
-                                }
-                                form.classList.add("was-validated");
-                              },
-                              false
-                            );
-                          }
-                        );
-                      },
-                      false
-                    );
-                  })();
-                </script>
+                  <table
+                    id="example"
+                    class="table dt-responsive nowrap"
+                    style="width: 100%"
+                  >
+                    <thead>
+                      <tr>
+                        <th>SR #</th>
+                        <th>Article No.</th>
+                        <th>RFID</th>
+                        <th>Price</th>
+                        <th>Month's Sale</th>
+                        <th>Rentouts this Month</th>
+                        <th>Total Outs</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>AX123E</td>
+                        <td>ABCD234ED</td>
+                        <td>625$</td>
+                        <td>8765$</td>
+                        <td>2</td>
+                        <td>8</td>
+                        <td>5421</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="app-wrapper-footer">
-            <div class="app-footer"></div>
+            <div class="app-footer">
+              <script>
+                $(document).ready(function () {
+                  var table = $("#example").DataTable({
+                    fixedHeader: true,
+                  });
+                });
+              </script>
+              <div class="app-footer__inner">
+                <div class="app-footer-left"></div>
+                <div class="app-footer-right"></div>
+              </div>
+            </div>
           </div>
         </div>
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
