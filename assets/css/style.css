@@ -456,5 +456,45 @@ footer .container .row .col-4 p {
   font-family:""Open Sans", sans-serif";
 
 }
+.um-sel{
+  width: 100%;
+  color:  #7f7f7f;
+  font-size: normal;
+  font-family:""Open Sans", sans-serif";
+  display: inline;
+}
+.um-c{
+  padding: 1px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: #7f7f7f;
+  border-radius: 50%;
+
+}
+.um-rad{
+  background-color: #c9e9e9;
+   }
+   .um-l{
+     font-size: 16px;
+    color:  #7f7f7f;
+    font-family:""Open Sans", sans-serif";
+   }
+   .um-l2{
+     font-size: 18px;
+     color:  #545454;
+     font-family:""Open Sans", sans-serif";
+   }
+   .um-tp{
+     background-color:  #c9e9e9;
+     width: 100%;
+     color: #7f7f7f;
+   }
+   .um-tp p{
+     color: #1f1f1f;
+      font-size: xx-large;
+      font-weight: bold;
+   }
+  
 /*End Umair'Css*/
 /*End Umair'Css*/
