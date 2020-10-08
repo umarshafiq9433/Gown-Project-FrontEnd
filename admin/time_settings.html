@@ -297,7 +297,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./tax_setting.html" class="mm-active">
+                  <a href="./tax_setting.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Taxes
                   </a>
                 </li>
@@ -307,7 +307,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./orders.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
@@ -317,8 +317,33 @@
         </div>
         <div class="app-main__outer">
           <div class="app-main__inner">
-            <div class="col-md-6 bg-white mx-auto rounded">
-              <form class="p-3">
+            <div class="col-md-6 bg-white mx-auto p-3 rounded">
+              <form>
+                <div class="form-group">
+                  <label><b>Timezone</b></label>
+                  <select class="form-control" name="" id="">
+                    <option value="">(GMT+07:00) Bangkok</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label><b>First day of the week</b></label>
+                  <select class="form-control" name="" id="">
+                    <option value="">Sunday</option>
+                    <option value="">Monday</option>
+                    <option value="">Tuesday</option>
+                    <option value="">Wednesday</option>
+                    <option value="">friday</option>
+                    <option value="">saturday</option>
+                    <option value="">Sunday</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label><b>Date Format</b></label>
+                  <select class="form-control" name="" id="">
+                    <option value="">yyyy-mm-dd</option>
+                    <option value="">dd-mm-yyyy</option>
+                  </select>
+                </div>
                 <div class="custom-control custom-checkbox">
                   <input
                     type="checkbox"
@@ -327,32 +352,16 @@
                     name="example1"
                   />
                   <label class="custom-control-label" for="customCheck"
-                    ><b>My prices include taxes</b><br />Enable this option if
-                    your prices are entered inlcuding taxes.</label
+                    ><b>Use AM/PM</b></label
                   >
                 </div>
                 <hr />
                 <div class="form-group mb-5">
-                  <input
-                    type="submit"
-                    class="btn btn-primary float-right"
-                    value="Save"
-                    disabled
-                  />
+                  <button type="button" class="btn btn-primary float-right">
+                    Save
+                  </button>
                 </div>
               </form>
-            </div>
-            <hr />
-            <div class="col-md-6 bg-white mx-auto p-3 rounded">
-              <button class="btn btn-light">
-                <b>New product tax profile</b>
-              </button>
-            </div>
-            <hr />
-            <div class="col-md-6 bg-white mx-auto p-3 rounded">
-              <button class="btn btn-light">
-                <b>New customer tax profile</b>
-              </button>
             </div>
           </div>
           <div class="app-wrapper-footer">

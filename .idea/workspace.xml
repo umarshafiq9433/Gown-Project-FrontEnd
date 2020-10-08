@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/tax_setting.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/gen_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gen_settings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <workItem from="1601987428692" duration="3462000" />
       <workItem from="1602042486419" duration="13634000" />
       <workItem from="1602133293131" duration="3237000" />
-      <workItem from="1602136558103" duration="9865000" />
+      <workItem from="1602136558103" duration="13350000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>
@@ -112,10 +112,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601803197233" />
-    <state x="395" y="85" key="MultipleFileMergeDialog" timestamp="1602144633615">
+    <state x="129" y="56" key="MergeDialog" timestamp="1602154866658">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602144633615" />
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866658" />
+    <state x="395" y="85" key="MultipleFileMergeDialog" timestamp="1602154866665">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866665" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602134775675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
