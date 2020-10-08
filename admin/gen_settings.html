@@ -292,27 +292,27 @@
 
                 <li class="app-sidebar__heading">Settings</li>
                 <li>
-                  <a href="./orders.html" class="mm-active">
+                  <a href="./gen_settings.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-diamond"> </i>General
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./email_settings.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Email
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./tax_setting.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Taxes
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./pay_settings.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Payment
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./time_settings.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
@@ -323,372 +323,85 @@
         <div class="app-main__outer">
           <div class="app-wrapper-footer">
             <div class="app-main__inner">
-
-
               <!-- General Setting Form-->
-                <div class="app-page-title">
-                  <div class="page-title-wrapper">
-                    <div class="page-title-heading">
-                      <div class="page-title-icon">
-                        <i class="lnr-picture text-danger pe-7s-display2"> </i>
-                      </div>
-                      <div>
-                        General Settings
-                      </div>
+              <div class="app-page-title">
+                <div class="page-title-wrapper">
+                  <div class="page-title-heading">
+                    <div class="page-title-icon">
+                      <i class="lnr-picture text-danger pe-7s-display2"> </i>
                     </div>
+                    <div>General Settings</div>
                   </div>
                 </div>
-                <div class="main-card col-md-6 mb-3 mx-auto card">
-                  <div class="card-body">
-                    <h5 class="card-title"></h5>
-                    <form class="needs-validation" novalidate>
-                      <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                          <div class="border py-5 px-3">
-                          <label class="button" for="fileElem">Select some files</label>
-                               <input type="file" id="fileElem" multiple accept="image/*" ">
-
-                          </div>
-
-                        </div>
-                        <div class="col-md-6 mb-3">
-
-                          <label for="validationCustom01">Company Name</label>
-                          <input
-                                  type="text"
-                                  class="form-control"
-                                  id="validationCustom01"
-                                  placeholder="Company Name"
-                                  value="ABXD1234VDC"
-                                  required
-                          />
-                          <div class="valid-feedback">Looks good!</div>
-                          <div class="invalid-feedback">Invalid Name</div>
-
-                          <label for="validationCustom03">Comapny Email</label>
-                          <input
-                                  type="email"
-                                  class="form-control"
-                                  id="validationCustom03"
-                                  placeholder="Example@mail.com"
-                                  value=""
-                                  required
-                          />
-                          <div class="valid-feedback">Looks good!</div>
-                          <div class="invalid-feedback">Invalid Email</div>
-                          <label for="validationCustom04">Company Phone</label>
-                          <input
-                                  type="number"
-                                  class="form-control"
-                                  id="validationCustom04"
-                                  placeholder="Comapny Phone"
-                                  value=""
-                                  required
-                          />
-                          <div class="valid-feedback">Looks good!</div>
-                          <div class="invalid-feedback">Invalid Phone</div>
-
-
-                          <label for="validationCustom05">Comapny Website</label>
-                          <input
-                                  type="text"
-                                  class="form-control"
-                                  id="validationCustom05"
-                                  placeholder="Company Website"
-                                  value=""
-                                  required
-                          />
-                          <div class="valid-feedback">Looks good!</div>
-                          <div class="invalid-feedback">Invalid</div>
-
-
-                        </div>
-
-
-                      </div>
-                      <hr>
-                      <button class="btn btn-primary float-right mt-4 " type="submit">
-                        Add
-                      </button>
-                    </form>
-
-                    <script>
-                      // Example starter JavaScript for disabling form submissions if there are invalid fields
-                      (function () {
-                        "use strict";
-                        window.addEventListener(
-                                "load",
-                                function () {
-                                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                  var forms = document.getElementsByClassName(
-                                          "needs-validation"
-                                  );
-                                  // Loop over them and prevent submission
-                                  var validation = Array.prototype.filter.call(
-                                          forms,
-                                          function (form) {
-                                            form.addEventListener(
-                                                    "submit",
-                                                    function (event) {
-                                                      if (form.checkValidity() === false) {
-                                                        event.preventDefault();
-                                                        event.stopPropagation();
-                                                      }
-                                                      form.classList.add("was-validated");
-                                                    },
-                                                    false
-                                            );
-                                          }
-                                  );
-                                },
-                                false
-                        );
-                      })();
-                    </script>
-                  </div>
-                </div>
-
+              </div>
               <div class="main-card col-md-6 mb-3 mx-auto card">
                 <div class="card-body">
                   <h5 class="card-title"></h5>
                   <form class="needs-validation" novalidate>
                     <div class="form-row">
-                      <div class="col-md-12 mb-3">
-
-                        <label for="validationCustom06">Address Line 1</label>
+                      <div class="col-md-6 mb-3">
+                        <div class="border py-5 px-3">
+                          <label class="button" for="fileElem"
+                            >Select some files</label
+                          >
+                          <input type="file" id="fileElem" multiple
+                          accept="image/*" ">
+                        </div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">Company Name</label>
                         <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom06"
-                                placeholder="Address"
-                                value="ABXD1234VDC"
-                                required
+                          type="text"
+                          class="form-control"
+                          id="validationCustom01"
+                          placeholder="Company Name"
+                          value="ABXD1234VDC"
+                          required
                         />
                         <div class="valid-feedback">Looks good!</div>
                         <div class="invalid-feedback">Invalid Name</div>
 
-                        <label for="validationCustom07">Address Line 2</label>
+                        <label for="validationCustom03">Comapny Email</label>
                         <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom07"
-                                placeholder=""
-                                value=""
-                                required
+                          type="email"
+                          class="form-control"
+                          id="validationCustom03"
+                          placeholder="Example@mail.com"
+                          value=""
+                          required
                         />
                         <div class="valid-feedback">Looks good!</div>
                         <div class="invalid-feedback">Invalid Email</div>
-                        <label for="validationCustom08">Postal/Zip code</label>
+                        <label for="validationCustom04">Company Phone</label>
                         <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom08"
-                                placeholder="Postal/Zip code"
-                                value=""
-                                required
+                          type="number"
+                          class="form-control"
+                          id="validationCustom04"
+                          placeholder="Comapny Phone"
+                          value=""
+                          required
                         />
                         <div class="valid-feedback">Looks good!</div>
                         <div class="invalid-feedback">Invalid Phone</div>
 
-
-                        <label for="validationCustom09">Region</label>
+                        <label for="validationCustom05">Comapny Website</label>
                         <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom09"
-                                placeholder="Region"
-                                value=""
-                                required
+                          type="text"
+                          class="form-control"
+                          id="validationCustom05"
+                          placeholder="Company Website"
+                          value=""
+                          required
                         />
                         <div class="valid-feedback">Looks good!</div>
                         <div class="invalid-feedback">Invalid</div>
-                        <label for="validationCustom010">City</label>
-                        <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom010"
-                                placeholder="City"
-                                value=""
-                                required
-                        />
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid</div>
-
-                        <label for="validationCustom011">Country</label>
-                        <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom011"
-                                placeholder="Country"
-                                value=""
-                                required
-                        />
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid</div>
-<hr>
-                        <button class="btn btn-primary float-right mt-4 " type="submit">
-                          Add
-                        </button>
                       </div>
                     </div>
-                  </form>
-
-                  <script>
-                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                    (function () {
-                      "use strict";
-                      window.addEventListener(
-                              "load",
-                              function () {
-                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                var forms = document.getElementsByClassName(
-                                        "needs-validation"
-                                );
-                                // Loop over them and prevent submission
-                                var validation = Array.prototype.filter.call(
-                                        forms,
-                                        function (form) {
-                                          form.addEventListener(
-                                                  "submit",
-                                                  function (event) {
-                                                    if (form.checkValidity() === false) {
-                                                      event.preventDefault();
-                                                      event.stopPropagation();
-                                                    }
-                                                    form.classList.add("was-validated");
-                                                  },
-                                                  false
-                                          );
-                                        }
-                                );
-                              },
-                              false
-                      );
-                    })();
-                  </script>
-                </div>
-              </div>
-
-
-              <div class="main-card col-md-6 mb-3 mx-auto card">
-                <div class="card-body">
-                  <h5 class="card-title"></h5>
-                  <form class="needs-validation" novalidate>
-                    <div class="form-row">
-                      <div class="col-md-12 mb-3">
-
-                        <label for="validationCustom20">Additional Information Line 1</label>
-                        <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom20"
-                                placeholder="Address"
-                                value="ABXD1234VDC"
-                                required
-                        />
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid Name</div>
-
-                        <label for="validationCustom21">Additional Information Line 2</label>
-                        <input
-                                type="text"
-                                class="form-control"
-                                id="validationCustom21"
-                                placeholder="Abcd"
-                                value=""
-                                required
-                        />
-                        <p class="pt-2">Add any information you want your cutomers to see. like bank or tax information</p>
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid Email</div>
-<hr>
-                        <button class="btn btn-primary float-right mt-4 " type="submit">
-                          Add
-                        </button>
-                      </div>
-                    </div>
-                  </form>
-
-                  <script>
-                    // Example starter JavaScript for disabling form submissions if there are invalid fields
-                    (function () {
-                      "use strict";
-                      window.addEventListener(
-                              "load",
-                              function () {
-                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                var forms = document.getElementsByClassName(
-                                        "needs-validation"
-                                );
-                                // Loop over them and prevent submission
-                                var validation = Array.prototype.filter.call(
-                                        forms,
-                                        function (form) {
-                                          form.addEventListener(
-                                                  "submit",
-                                                  function (event) {
-                                                    if (form.checkValidity() === false) {
-                                                      event.preventDefault();
-                                                      event.stopPropagation();
-                                                    }
-                                                    form.classList.add("was-validated");
-                                                  },
-                                                  false
-                                          );
-                                        }
-                                );
-                              },
-                              false
-                      );
-                    })();
-                  </script>
-                </div>
-              </div>
-
-              <div class="main-card col-md-6 mb-3 mx-auto card">
-                <div class="card-body">
-                  <p class="card-title">By default,orders are picked up and returned at a:</p>
-                  <form class="needs-validation" novalidate>
-                    <div class="form-row">
-                      <div class="form-control ">
-                       <input type="radio" id="rbtn" name="fixedtime" id="timefixed">
-                        <label for="timefixed">Fixed time of day</label>
-                      </div>
-                      <div class="col-md-6 mb-3">
-
-                        <label for="validationCustom21">Pickup</label>
-                        <input
-                                type="time"
-                                class="form-control"
-                                id="validationCustom21"
-                                placeholder="Abcd"
-                                value=""
-                                required
-                        />
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid Email</div>
-                      </div>
-                      <div class="col-md-6 mb-3">
-
-                        <label for="validationCustom21">Return</label>
-                        <input
-                                type="time"
-                                class="form-control"
-                                id="validationCustom21"
-                                placeholder="Abcd"
-                                value=""
-                                required
-                        />
-                        <div class="valid-feedback">Looks good!</div>
-                        <div class="invalid-feedback">Invalid Email</div>
-                      </div>
-                      <div class="form-control ">
-                        <input type="radio" id="rbtn" name="fixedtime" id="timefixed">
-                        <label for="timefixed">Fixed time of day</label>
-                      </div>
-                    </div>
-                    <hr>
-                    <button class="btn btn-primary float-right mt-4 " type="submit">
+                    <hr />
+                    <button
+                      class="btn btn-primary float-right mt-4"
+                      type="submit"
+                    >
                       Add
                     </button>
                   </form>
@@ -698,37 +411,339 @@
                     (function () {
                       "use strict";
                       window.addEventListener(
-                              "load",
-                              function () {
-                                // Fetch all the forms we want to apply custom Bootstrap validation styles to
-                                var forms = document.getElementsByClassName(
-                                        "needs-validation"
-                                );
-                                // Loop over them and prevent submission
-                                var validation = Array.prototype.filter.call(
-                                        forms,
-                                        function (form) {
-                                          form.addEventListener(
-                                                  "submit",
-                                                  function (event) {
-                                                    if (form.checkValidity() === false) {
-                                                      event.preventDefault();
-                                                      event.stopPropagation();
-                                                    }
-                                                    form.classList.add("was-validated");
-                                                  },
-                                                  false
-                                          );
-                                        }
-                                );
-                              },
-                              false
+                        "load",
+                        function () {
+                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                          var forms = document.getElementsByClassName(
+                            "needs-validation"
+                          );
+                          // Loop over them and prevent submission
+                          var validation = Array.prototype.filter.call(
+                            forms,
+                            function (form) {
+                              form.addEventListener(
+                                "submit",
+                                function (event) {
+                                  if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                  }
+                                  form.classList.add("was-validated");
+                                },
+                                false
+                              );
+                            }
+                          );
+                        },
+                        false
                       );
                     })();
                   </script>
                 </div>
               </div>
 
+              <div class="main-card col-md-6 mb-3 mx-auto card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationCustom06">Address Line 1</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom06"
+                          placeholder="Address"
+                          value="ABXD1234VDC"
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Name</div>
+
+                        <label for="validationCustom07">Address Line 2</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom07"
+                          placeholder=""
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Email</div>
+                        <label for="validationCustom08">Postal/Zip code</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom08"
+                          placeholder="Postal/Zip code"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Phone</div>
+
+                        <label for="validationCustom09">Region</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom09"
+                          placeholder="Region"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid</div>
+                        <label for="validationCustom010">City</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom010"
+                          placeholder="City"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid</div>
+
+                        <label for="validationCustom011">Country</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom011"
+                          placeholder="Country"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid</div>
+                        <hr />
+                        <button
+                          class="btn btn-primary float-right mt-4"
+                          type="submit"
+                        >
+                          Add
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      "use strict";
+                      window.addEventListener(
+                        "load",
+                        function () {
+                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                          var forms = document.getElementsByClassName(
+                            "needs-validation"
+                          );
+                          // Loop over them and prevent submission
+                          var validation = Array.prototype.filter.call(
+                            forms,
+                            function (form) {
+                              form.addEventListener(
+                                "submit",
+                                function (event) {
+                                  if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                  }
+                                  form.classList.add("was-validated");
+                                },
+                                false
+                              );
+                            }
+                          );
+                        },
+                        false
+                      );
+                    })();
+                  </script>
+                </div>
+              </div>
+
+              <div class="main-card col-md-6 mb-3 mx-auto card">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationCustom20"
+                          >Additional Information Line 1</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom20"
+                          placeholder="Address"
+                          value="ABXD1234VDC"
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Name</div>
+
+                        <label for="validationCustom21"
+                          >Additional Information Line 2</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="validationCustom21"
+                          placeholder="Abcd"
+                          value=""
+                          required
+                        />
+                        <p class="pt-2">
+                          Add any information you want your cutomers to see.
+                          like bank or tax information
+                        </p>
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Email</div>
+                        <hr />
+                        <button
+                          class="btn btn-primary float-right mt-4"
+                          type="submit"
+                        >
+                          Add
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      "use strict";
+                      window.addEventListener(
+                        "load",
+                        function () {
+                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                          var forms = document.getElementsByClassName(
+                            "needs-validation"
+                          );
+                          // Loop over them and prevent submission
+                          var validation = Array.prototype.filter.call(
+                            forms,
+                            function (form) {
+                              form.addEventListener(
+                                "submit",
+                                function (event) {
+                                  if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                  }
+                                  form.classList.add("was-validated");
+                                },
+                                false
+                              );
+                            }
+                          );
+                        },
+                        false
+                      );
+                    })();
+                  </script>
+                </div>
+              </div>
+
+              <div class="main-card col-md-6 mb-3 mx-auto card">
+                <div class="card-body">
+                  <p class="card-title">
+                    By default,orders are picked up and returned at a:
+                  </p>
+                  <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                      <div class="form-control">
+                        <input
+                          type="radio"
+                          id="rbtn"
+                          name="fixedtime"
+                          id="timefixed"
+                        />
+                        <label for="timefixed">Fixed time of day</label>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom21">Pickup</label>
+                        <input
+                          type="time"
+                          class="form-control"
+                          id="validationCustom21"
+                          placeholder="Abcd"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Email</div>
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <label for="validationCustom21">Return</label>
+                        <input
+                          type="time"
+                          class="form-control"
+                          id="validationCustom21"
+                          placeholder="Abcd"
+                          value=""
+                          required
+                        />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Invalid Email</div>
+                      </div>
+                      <div class="form-control">
+                        <input
+                          type="radio"
+                          id="rbtn"
+                          name="fixedtime"
+                          id="timefixed"
+                        />
+                        <label for="timefixed">Fixed time of day</label>
+                      </div>
+                    </div>
+                    <hr />
+                    <button
+                      class="btn btn-primary float-right mt-4"
+                      type="submit"
+                    >
+                      Add
+                    </button>
+                  </form>
+
+                  <script>
+                    // Example starter JavaScript for disabling form submissions if there are invalid fields
+                    (function () {
+                      "use strict";
+                      window.addEventListener(
+                        "load",
+                        function () {
+                          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                          var forms = document.getElementsByClassName(
+                            "needs-validation"
+                          );
+                          // Loop over them and prevent submission
+                          var validation = Array.prototype.filter.call(
+                            forms,
+                            function (form) {
+                              form.addEventListener(
+                                "submit",
+                                function (event) {
+                                  if (form.checkValidity() === false) {
+                                    event.preventDefault();
+                                    event.stopPropagation();
+                                  }
+                                  form.classList.add("was-validated");
+                                },
+                                false
+                              );
+                            }
+                          );
+                        },
+                        false
+                      );
+                    })();
+                  </script>
+                </div>
+              </div>
 
               <!--- General Setting Form End-->
             </div>

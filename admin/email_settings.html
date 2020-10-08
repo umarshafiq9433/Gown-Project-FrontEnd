@@ -292,27 +292,27 @@
 
                 <li class="app-sidebar__heading">Settings</li>
                 <li>
-                  <a href="./orders.html" class="mm-active">
+                  <a href="./gen_settings.html">
                     <i class="metismenu-icon pe-7s-diamond"> </i>General
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./email_settings.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-display2"> </i>Email
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./tax_setting.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Taxes
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./pay_settings.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Payment
                   </a>
                 </li>
                 <li>
-                  <a href="./orders.html">
+                  <a href="./time_settings.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
@@ -323,7 +323,98 @@
         <div class="app-main__outer">
           <div class="app-wrapper-footer">
             <div class="app-main__inner">
-              <h1>Umar</h1>
+              <div class="container mt-5">
+                <p><b>Send a copy of all outgoing emails for:</b></p>
+                <form>
+                  <div class="col-6">
+                    <input class="form-control" type="text" />
+                  </div>
+                  <p class="pt-2">
+                    You can enter multiple eamils addresses,comma seprateed.
+                  </p>
+                  <hr />
+
+                  <input
+                    type="button"
+                    class="btn btn-primary px-4"
+                    name="Save"
+                    value="Save"
+                  />
+                </form>
+              </div>
+              <hr />
+              <div class="container my-5">
+                <p><b>Online reservation Confirmation</b></p>
+                <div class="row pb-5">
+                  <form action="/action_page.php">
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="switch1"
+                        name="example"
+                      />
+                      <label class="custom-control-label" for="switch1"></label>
+                    </div>
+                    <br />
+                  </form>
+                  <p>
+                    <b>Send online order confirmation</b>:<br />Automatically
+                    send an email to customers after they place an online order
+                  </p>
+                </div>
+                <h4>Template</h4>
+                <hr />
+                <a link="" href=""><b>Webshop Confirmation</b></a>
+                <hr />
+                <a link="" href=""><b>Payment SCA Authentication</b></a>
+                <hr />
+              </div>
+              <div class="container">
+                <h4><b>Manuals Emails</b></h4>
+                <h6>
+                  These templates are available when viewing orders,customers
+                  and documents.
+                </h6>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Template</th>
+                      <th>Available For</th>
+                    </tr>
+                  </thead>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Order Confirmation</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Order Certification</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send quote</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send contract</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send Invoice</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                </table>
+              </div>
             </div>
             <div class="app-footer">
               <script>
