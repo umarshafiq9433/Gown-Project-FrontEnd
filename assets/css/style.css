@@ -418,3 +418,79 @@ footer .container .row .col-4 p {
   top: 201px;
 }
 /*End Umair'Css*/
+/*Farman'Css*/
+
+.nab {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  padding-left: 60px;
+}
+.por {
+  margin-top: 100px;
+}
+.rd {
+  border-radius: 50%;
+  height: 25px;
+  background-color: #f62b07;
+}
+.pk {
+  border-radius: 50%;
+  height: 25px;
+  background-color: #dfc0ba;
+}
+.bt {
+  margin-top: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.im img {
+  height: 40px;
+  width: 60px;
+  border: steelblue 1px solid;
+}
+.icn {
+  margin-top: 120px;
+}
+@media (max-width: 1199px) {
+  .nab {
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-left: 5px;
+  }
+  .por {
+    margin-top: 100px;
+    padding-left: 50px;
+  }
+  .icn {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .nab {
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+
+  .por {
+    margin-top: 100px;
+    padding-left: 160px;
+  }
+  .icn {
+    margin-top: 30px;
+  }
+  .bt {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 80px;
+  }
+}
+
+.frak img {
+  width: 250px;
+  height: 220;
+}
+.brnone {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+}
