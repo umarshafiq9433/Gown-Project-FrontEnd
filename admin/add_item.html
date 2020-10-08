@@ -288,7 +288,7 @@
                 </div>
               </div>
             </div>
-            <div class="main-card col-md-6 mb-3 card">
+            <div class="main-card col-md-6 mb-3 mx-auto card">
               <div class="card-body">
                 <h5 class="card-title">Add Gown details</h5>
                 <form class="needs-validation" novalidate>
@@ -305,7 +305,7 @@
                       <div class="invalid-feedback">Invalid Image</div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <label for="validationCustom01">RFID</label>
+                      <label for="validationCustom01">SKU ID</label>
                       <input
                         type="text"
                         class="form-control"
@@ -315,10 +315,10 @@
                         required
                       />
                       <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid RFID</div>
+                      <div class="invalid-feedback">Invalid SKU ID</div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <label for="validationCustom02">Article Name</label>
+                      <label for="validationCustom02">Product Name</label>
                       <input
                         type="text"
                         class="form-control"
@@ -328,7 +328,7 @@
                         required
                       />
                       <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Article Name</div>
+                      <div class="invalid-feedback">Invalid Product Name</div>
                     </div>
                   </div>
                   <div class="form-row">
@@ -396,13 +396,23 @@
                     </div>
                   </div>
                   <div class="form-row">
-                    <div class="col-md-12 mb-3">
+                    <div class="col-md-6 mb-3">
                       <label for="price">Price</label>
                       <input
                         type="number"
                         name="price"
                         id="price"
                         placeholder="Price"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="quantity">Quantity</label>
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        placeholder="quantity"
                         class="form-control"
                       />
                     </div>
