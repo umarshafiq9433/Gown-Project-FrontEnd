@@ -112,7 +112,7 @@
               >
             </li>
             <li class="nav-item b2">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="./login.html"
                 ><i class="fa fa-user-circle"></i> Login</a
               >
             </li>
@@ -124,97 +124,12 @@
     <!-- Header Ended -->
     <!-- Content Starts -->
     <div class="content">
-        <div class="container p-3 my-4">
-            <div class="row">
-                <div class="col-md-7 p-3">
-               
-                    <div class="m-2"><p style="color:#0f5b5b; font-size: x-large; font-weight: bold; font-family:Open Sans, sans-serif;">My Cart</p></div><hr>
-                    <button type="button" class="close col-md-1 float-right pt-3 col-sm-3 col-3" aria-label="Close" onclick="document.location='empty_cart.html'">
-                      <span aria-hidden="true">&times;</span>
-                    </button> 
-                    <div class="row p-3">
-                        <div class="col-md-3 col-sm-4 col-12 um-img">
-                        <img src="./images/mc1.jpg" width="140px" height="170px" class="p-1">
-                    </div>
-                    
-                    <div class="col-md-6 px-4 align-middle h-auto col-sm-6 col-10 m-2">
-                           
-                      <p style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Michelle</p>
-                            <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">$628.00</small><br>
-                            <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Colour : Red</small><br>
-                          <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Colour: Red</small>
-                          <div class="input-group um-pm">
-                            <input type="button" value="-" class="button-minus" data-field="quantity">
-                            <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
-                            <input type="button" value="+" class="button-plus" data-field="quantity">
-                          </div>
-                          
-                        </div>
-                        <div class="float-right col-md-2 col-sm-2 col-2 um-rp" style="color:#0f5b5b; font-size: large; font-family:Open Sans, sans-serif;"><span>$628.00</span></div>
-                      
-                    </div><hr>
-                    <!--plus minus-->
-                    
-                      
-
-                    <!--plus minus-->
-
-                    <!--plus minus Jquery/JavaScript-->
-<script>
-                    function incrementValue(e) {
-                        e.preventDefault();
-                        var fieldName = $(e.target).data('field');
-                        var parent = $(e.target).closest('div');
-                        var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-                      
-                        if (!isNaN(currentVal)) {
-                          parent.find('input[name=' + fieldName + ']').val(currentVal + 1);
-                        } else {
-                          parent.find('input[name=' + fieldName + ']').val(0);
-                        }
-                      }
-                      
-                      function decrementValue(e) {
-                        e.preventDefault();
-                        var fieldName = $(e.target).data('field');
-                        var parent = $(e.target).closest('div');
-                        var currentVal = parseInt(parent.find('input[name=' + fieldName + ']').val(), 10);
-                      
-                        if (!isNaN(currentVal) && currentVal > 0) {
-                          parent.find('input[name=' + fieldName + ']').val(currentVal - 1);
-                        } else {
-                          parent.find('input[name=' + fieldName + ']').val(0);
-                        }
-                      }
-                      
-                      $('.input-group').on('click', '.button-plus', function(e) {
-                        incrementValue(e);
-                      });
-                      
-                      $('.input-group').on('click', '.button-minus', function(e) {
-                        decrementValue(e);
-                      });
-                    </script>                      
-
-                    <!--plus minus Jquery/JavaScript-->
-                
-                    <div class="m-1"><a href="#" style="color:#907057; font-weight: lighter; font-family:Open Sans, sans-serif;"><i class="fa fa-tag px-2" ></i>Enter a promo code</a></div>
-                    <div class="m-1"> <a href="#" style="color:#907057; font-weight: lighter; font-family:Open Sans, sans-serif;"><i class="fa fa-sticky-note px-2" ></i>Add a Note</a></div>
-                </div>
-                <div class="col-md-5 p-3">
-                    <div class="m-2"><p style="color:#0f5b5b; font-size: x-large; font-weight: bold; font-family:Open Sans, sans-serif;">Order Summary</p></div><hr>
-                    <div class="row p-3">
-                        <div class="col-md-6" style="color:#0f5b5b; font-size:large; font-family:Open Sans, sans-serif;">Sub Total</div>
-                        <div class="col-md-6" style="color:#0f5b5b; font-size: large; font-family:Open Sans, sans-serif;">$628.00</div>
-                    </div>
-                    <div class="p-3"><a href="#" style="color:#0f5b5b; font-size: small; font-family:Open Sans, sans-serif; text-decoration: underline;">Estimate Shipping</a></div><hr>
-                    <div class="row px-3">
-                        <div class="col-md-6" style="color:#0f5b5b; font-size: large; font-weight: bold; font-family:Open Sans, sans-serif;">Total</div>
-                        <div class="col-md-6" style="color:#0f5b5b; font-size: large; font-weight: bold; font-family:Open Sans, sans-serif;">$628.00</div>
-                    </div>
-                    <div class="text-center mt-5 mx-auto" style="background-color: #907057; width: 80%;"><button class="btn m-auto" style="color: #bee5e5"><i class="fa fa-lock px-1" style="color: #bee5e5"></i>Checkout</button></div>
-                </div>
-            </div>
+        <div class="container m-5 p-5 d-block">
+            <div class="m-2"><p style="color:#0f5b5b; font-size: x-large; font-family:Open Sans, sans-serif;">My Cart</p></div><hr>
+            <div class="text-center mx-auto um-em">
+                <p style="color:#0f5b5b; font-size: large; font-family:Open Sans, sans-serif;">Cart is empty</p>
+                <a href="#" style="text-decoration: underline;font-size: small; color: #055b5b;">Continue Shopping</a>
+            </div><hr>
         </div>
     </div>
     <!-- Content Start End-->
@@ -278,5 +193,5 @@
         },
       });
     </script>
-  </body>
-</html>
+    <div class="container my-4">
+      <!-- Modal -->
