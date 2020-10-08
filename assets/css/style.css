@@ -387,17 +387,6 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-
-.sp {
-  color: #7f7f7f;
-  font-family: "Open Sans", sans-serif;
-}
-.vp {
-  color: #1f1f1f;
-  font-size: larger;
-}
-
-
 .um-sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
@@ -406,7 +395,9 @@ footer .container .row .col-4 p {
   color: #1f1f1f;
   font-size: larger;
 }
-
+.etc {
+  height: 250px;
+}
 .ls {
   position: absolute;
   top: 0;
@@ -453,8 +444,8 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "" Open Sans ", sans-serif";
 }
-.um-sel{
-  color:  #7f7f7f;
+.um-sel {
+  color: #7f7f7f;
   width: 100%;
   color: #7f7f7f;
   font-size: normal;
@@ -520,7 +511,7 @@ input::-webkit-inner-spin-button {
   position: relative;
 }
 
-.input-group input[type='button'] {
+.input-group input[type="button"] {
   background-color: #eeeeee;
   min-width: 38px;
   width: auto;
@@ -558,84 +549,79 @@ input[type="number"] {
 }
 /* Plus Minus Button */
 
-
-@media (min-width: 992px) and (max-width: 1199px){
-  .um-img{
+@media (min-width: 992px) and (max-width: 1199px) {
+  .um-img {
     margin-right: 70px;
   }
-  
 }
-@media (min-width: 768px) and (max-width: 991px){
-  .um-img{
+@media (min-width: 768px) and (max-width: 991px) {
+  .um-img {
     margin-right: 50px;
   }
- 
-
 }
-@media (min-width: 576px) and (max-width: 767px){
-  .um-img{
+@media (min-width: 576px) and (max-width: 767px) {
+  .um-img {
     margin-right: 40px;
   }
-
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .input,
   .textarea {
     border: 1px solid #eeeeee;
     box-sizing: border-box;
     padding: 5px;
+  }
+  .input-group {
+    margin: 10px 0;
+  }
+  .input-group input[type="button"] {
+    min-width: 28px;
+  }
+  .input-group .button-minus,
+  .input-group .button-plus {
+    font-weight: normal;
+    height: 30px;
+    width: 30px;
+  }
+  .input-group .quantity-field {
+    height: 30px;
+    width: 50px;
+    font-size: 10px;
+    margin: 0 0 2px;
+  }
 }
-.input-group {
-  margin: 10px 0;
-}
-.input-group input[type='button'] {
-  min-width: 28px;
-}
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: normal;
-  height: 30px;
-  width: 30px;
- }
- .input-group .quantity-field {
-   height: 30px;
-   width: 50px;
-   font-size: 10px;
-   margin: 0 0 2px;
-} 
-}
-.um-em{
+.um-em {
   padding-top: 180px;
   padding-bottom: 180px;
 }
-@media (min-width: 768px) and (max-width:991px){
-  .um-em{
-  padding-top: 140px;
-  padding-bottom: 140px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .um-em {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
 }
-}
-@media (min-width: 576px) and (max-width:767px){
-  .um-em{
+@media (min-width: 576px) and (max-width: 767px) {
+  .um-em {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
-@media(max-width: 576px){
-  .um-em{
+@media (max-width: 576px) {
+  .um-em {
     padding-top: 70px;
     padding-bottom: 7s0px;
   }
 }
 /*End Umair'Css*/
-
-
-=======
 /*Farman'Css*/
 
 .nab {
   margin-top: 100px;
   margin-bottom: 150px;
-  padding-left: 60px;
+  padding-left: 50px;
+}
+.nab img {
+  width: 100%;
 }
 .por {
   margin-top: 100px;
@@ -663,36 +649,59 @@ input[type="number"] {
 .icn {
   margin-top: 120px;
 }
-@media (max-width: 1199px) {
-  .nab {
-    margin-top: 100px;
-    margin-bottom: 150px;
-    padding-left: 5px;
-  }
-  .por {
-    margin-top: 100px;
-    padding-left: 50px;
-  }
-  .icn {
-    margin-top: 70px;
-  }
-}
-@media (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .nab {
     margin-top: 100px;
     margin-bottom: 120px;
+
+    padding-left: 0px;
+  }
+  .por {
+    margin-top: 100px;
+    padding-left: 20px;
+  }
+  .icn {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nab {
+    margin-top: 70px;
+  }
+  .bt {
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .por {
-    margin-top: 100px;
-    padding-left: 160px;
+    margin-top: 70px;
   }
   .icn {
     margin-top: 30px;
   }
+  .im img {
+    height: 30px;
+    width: 45px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nab {
+    margin-bottom: 50px;
+  }
+  .por {
+    margin-top: 50px;
+  }
+  .icn {
+    margin-top: 10px;
+  }
+  .im img {
+    height: 20px;
+    width: 35px;
+  }
   .bt {
-    margin-top: 20px;
-    padding-left: 50px;
+    margin-top: 10px;
+    padding-left: 80px;
     padding-right: 80px;
   }
 }
@@ -707,12 +716,3 @@ input[type="number"] {
   border-radius: 0%;
 }
 /*Farma,s CSS END*/
-
-
-
-
-
-
-
-
-
