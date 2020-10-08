@@ -17,6 +17,8 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="./assets/css/calender.css" />
+
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="dist/assets/owl.carousel.min.css" />
     <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css" />
@@ -24,6 +26,28 @@
     <script src="./assets/Jquery/jquery-3.5.1.min.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+
+    <link href="./assets/lib/main.css" rel="stylesheet" />
+    <script src="./assets/lib/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var d = new Date();
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: "dayGridMonth",
+          selectable: true,
+          schedulerLicenseKey: "GPL-My-Project-Is-Open-Source",
+          validRange: {
+            start: d.getFullYear + "-" + d.getMonth + "-" + d.getDay,
+          },
+          dateClick: function (info) {
+            alert("Date: " + info.dateStr);
+            alert("Resource ID: " + info.resource.id);
+          },
+        });
+        calendar.render();
+      });
+    </script>
   </head>
   <body>
     <!-- Header Started -->
@@ -48,7 +72,7 @@
         <div class="collapse navbar-collapse col-md-10" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="catalogue.html">Catalogue</a>
@@ -84,7 +108,7 @@
             <!-- Dropdown -->
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle active"
+                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbardrop"
                 data-toggle="dropdown"
@@ -124,153 +148,9 @@
     <!-- Header Ended -->
     <!-- Content Starts -->
     <div class="content">
-      <div class="container">
-        <div>
-          <h3 class="justify-content-end text-center um-op py-4">
-            Our Prefferred Partner
-          </h3>
-          <p class="justify-content-end text-center um-pop">
-            Get these exclusive rates from our partners when you sign with
-            us!​<br />
-            Our exclusive partners are carefully curated by us from us in the
-            wedding industry.<br />
-            <small>*Applicable for new sign ups </small>
-          </p>
-        </div>
-      
-        <div class="text-center">
-          <h5 class="um-ph">Photographers</h5>
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name and package He will give. Artist Name and package
-                    He will give.
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-                <div class="col-md-12 m-3 u-vend-bdr">
-                  <img
-                    src="./images/b6a11d_1116051af0ac483d8f0d49f67c1aa1f6_mv2.png"
-                    alt=""
-                    width="100%"
-                  />
-                  <div
-                    class="u-vend-para text-center bg-white"
-                    style="padding-top: 0px; color: black"
-                  >
-                    Artist Name
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      
-    </div>
+      <div class="container my-5">
+        <div id="calendar"></div>
+      </div>
     </div>
     <!-- Content Start End-->
 
@@ -295,8 +175,9 @@
           <div class="col-md-4">
             <h4>Follow Us</h4>
             <p>
-              <i class="fa fa-facebook"></i> <i class="fa fa-pinterest"></i>
-              <i class="fa fa-instagram"></i>
+              <i class="fa fa-facebook fa-2x"></i>
+              <i class="fa fa-pinterest fa-2x"></i>
+              <i class="fa fa-instagram fa-2x"></i>
             </p>
           </div>
         </div>
@@ -315,7 +196,7 @@
         items: 3,
         loop: true,
         margin: 10,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 2500,
         autoplayHoverPause: true,
 
