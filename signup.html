@@ -24,9 +24,99 @@
     <script src="./assets/Jquery/jquery-3.5.1.min.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
+    <style>
+        /*Ahsan,s CSS Start*/
+        form {
+            margin: 2em 0;
+        }
+        .mdiv{
+            margin-top: 120px;
+        }
+        .field {
+            display: flex;
+            flex-flow: column-reverse;
+            margin-bottom: 2em;
+            width: 100% ;
+            color: #86CCCC;
+        }
+        label, input {
+            transition: all 0.2s;
+            touch-action: manipulation;
+        }
+
+        input {
+            font-size: 100%;
+            border: 0;
+            border-bottom: 1px solid #86CCCC;
+            font-family: "Open Sans", sans-serif;
+            -webkit-appearance: none;
+            border-radius: 0;
+            padding: 0;
+            cursor: text;
+            background-color: transparent;
+            /*color: #86CCCC;*/
+        }
+        input:focus {
+            outline: 0;
+            border-bottom: 1px solid #86CCCC;
+        }
+
+        #logIn{
+            background-color: #907057;
+            width: 100%;
+        }
+        .anchor a {
+            text-decoration: none;
+            color:#907057;
+        }
+        .anchor1 a {
+            text-decoration: none;
+            color: #0F5B5B;
+        }
+        .la{
+            margin-bottom: 10px !important;
+            font-weight: normal;
+
+        }
+        .lh{
+            font-weight: normal !important;
+            color: #0F5B5B;
+            font-family: "Open Sans", sans-serif;
+        }
+        label {
+            font-size: 70%;
+            letter-spacing: 0.05em;
+            font-weight: normal !important;
+        }
+        input:placeholder-shown + label {
+            cursor: text;
+            max-width: 66.66%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transform-origin: left bottom;
+            transform: translate(0, 2.125rem) scale(1.5);
+
+        }
+        ::-webkit-input-placeholder {
+            opacity: 0;
+            transition: inherit;
+        }
+
+        input:focus::-webkit-input-placeholder {
+            opacity: 1;
+        }
+
+        input:not(:placeholder-shown) + label,
+        input:focus + label {
+            transform: translate(0, 0) scale(1);
+            cursor: pointer;
+        }
+        /*Ahsan's CSS END*/
+    </style>
 </head>
 <body style="background-color: #c9e9e9">
-<div class=" w-100 mdiv" >
+<div class=" container-fluid w-100 mdiv" >
     <div class="row">
         <div class="col-md-3 m-auto ">
             <h1 class="text-center lh" >Sign Up</h1>
