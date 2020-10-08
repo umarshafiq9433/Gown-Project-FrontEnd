@@ -558,32 +558,7 @@ input[type="number"] {
 }
 /* Plus Minus Button */
 
-/*@media (max-width: 374px){
-  .input,
-  .textarea {
-    border: 1px solid #eeeeee;
-    box-sizing: border-box;
-    padding: 5px;
-}
-.input-group {
-  margin: 10px 0;
-}
-.input-group input[type='button'] {
-  min-width: 28px;
-}
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: normal;
-  height: 30px;
-  width: 30px;
- }
- .input-group .quantity-field {
-   height: 30px;
-   width: 50px;
-   font-size: 10px;
-   margin: 0 0 2px;
-}
-}*/
+
 @media (min-width: 992px) and (max-width: 1199px){
   .um-img{
     margin-right: 70px;
@@ -595,59 +570,13 @@ input[type="number"] {
     margin-right: 50px;
   }
  
-  /*.input,
-  .textarea {
-    border: 1px solid #eeeeee;
-    box-sizing: border-box;
-    padding: 5px;
-}
-.input-group {
-  margin: 10px 0;
-}
-.input-group input[type='button'] {
-  min-width: 28px;
-}
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: normal;
-  height: 30px;
-  width: 30px;
- }
- .input-group .quantity-field {
-   height: 30px;
-   width: 50px;
-   font-size: 10px;
-   margin: 0 0 2px;
-} */
+
 }
 @media (min-width: 576px) and (max-width: 767px){
   .um-img{
     margin-right: 40px;
   }
- /* .input,
-  .textarea {
-    border: 1px solid #eeeeee;
-    box-sizing: border-box;
-    padding: 5px;
-}
-.input-group {
-  margin: 10px 0;
-}
-.input-group input[type='button'] {
-  min-width: 28px;
-}
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: normal;
-  height: 30px;
-  width: 30px;
- }
- .input-group .quantity-field {
-   height: 30px;
-   width: 50px;
-   font-size: 10px;
-   margin: 0 0 2px;
-} */
+
 }
 @media (max-width: 991px){
   .input,
@@ -674,6 +603,28 @@ input[type="number"] {
    font-size: 10px;
    margin: 0 0 2px;
 } 
+}
+.um-em{
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+@media (min-width: 768px) and (max-width:991px){
+  .um-em{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+}
+@media (min-width: 576px) and (max-width:767px){
+  .um-em{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media(max-width: 576px){
+  .um-em{
+    padding-top: 70px;
+    padding-bottom: 7s0px;
+  }
 }
 /*End Umair'Css*/
 
