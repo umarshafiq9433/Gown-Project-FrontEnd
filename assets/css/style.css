@@ -387,17 +387,6 @@ footer .container .row .col-4 p {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
 }
-
-.sp {
-  color: #7f7f7f;
-  font-family: "Open Sans", sans-serif;
-}
-.vp {
-  color: #1f1f1f;
-  font-size: larger;
-}
-
-
 .um-sp {
   color: #7f7f7f;
   font-family: "Open Sans", sans-serif;
@@ -406,7 +395,9 @@ footer .container .row .col-4 p {
   color: #1f1f1f;
   font-size: larger;
 }
-
+.etc {
+  height: 250px;
+}
 .ls {
   position: absolute;
   top: 0;
@@ -426,148 +417,16 @@ footer .container .row .col-4 p {
   left: 0;
   top: 201px;
 }
-
-.tgc {
-  color: #7f7f7f;
-  font-family: "Open Sans", sans-serif;
-}
-.um-pwc h1 {
-  color: #0f5b5b;
-  font-family: "Open Sans", sans-serif;
-}
-.um-p1 {
-  color: #7f7f7f;
-  font-family: "" Open Sans ", sans-serif";
-  font-weight: bold;
-  font-size: 16px;
-}
-.um-p2 {
-  color: #0f5b5b;
-}
-.um-ba {
-  background-color: #7f7f7f;
-  color: #0f5b5b;
-}
-.um-sv {
-  background-color: #c9e9e9;
-  color: #7f7f7f;
-  font-family: "" Open Sans ", sans-serif";
-}
-.um-sel{
-  color:  #7f7f7f;
-  width: 100%;
-  color: #7f7f7f;
-  font-size: normal;
-  font-family: "" Open Sans ", sans-serif";
-  display: inline;
-}
-.um-c {
-  padding: 1px;
-  text-align: center;
-  font-size: 10px;
-  color: white;
-  background-color: #7f7f7f;
-  border-radius: 50%;
-}
-.um-rad {
-  background-color: #c9e9e9;
-}
-.um-l {
-  font-size: 16px;
-  color: #7f7f7f;
-  font-family: "" Open Sans ", sans-serif";
-}
-.um-l2 {
-  font-size: 18px;
-  color: #545454;
-  font-family: "" Open Sans ", sans-serif";
-}
-.um-tp {
-  background-color: #c9e9e9;
-  width: 100%;
-  color: #7f7f7f;
-}
-.um-tp p {
-  color: #1f1f1f;
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-/* Plus Minus Button */
-
-input,
-textarea {
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  margin: 0;
-  outline: none;
-  padding: 10px;
-}
-
-input[type="button"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-.input-group {
-  clear: both;
-  margin: 15px 0;
-  position: relative;
-}
-
-.input-group input[type='button'] {
-  background-color: #eeeeee;
-  min-width: 38px;
-  width: auto;
-  transition: all 300ms ease;
-}
-
-.input-group .button-minus,
-.input-group .button-plus {
-  font-weight: bold;
-  height: 38px;
-  padding: 0;
-  width: 38px;
-  position: relative;
-}
-
-.input-group .quantity-field {
-  position: relative;
-  height: 38px;
-  left: -6px;
-  text-align: center;
-  width: 62px;
-  display: inline-block;
-  font-size: 13px;
-  margin: 0 0 5px;
-  resize: vertical;
-}
-
-.button-plus {
-  left: -13px;
-}
-
-input[type="number"] {
-  -moz-appearance: textfield;
-  -webkit-appearance: none;
-}
-/* Plus Minus Button */
-
 /*End Umair'Css*/
-
-
-=======
 /*Farman'Css*/
 
 .nab {
   margin-top: 100px;
   margin-bottom: 150px;
-  padding-left: 60px;
+  padding-left: 50px;
+}
+.nab img {
+  width: 100%;
 }
 .por {
   margin-top: 100px;
@@ -595,143 +454,59 @@ input[type="number"] {
 .icn {
   margin-top: 120px;
 }
-@media (max-width: 1199px) {
-  .nab {
-    margin-top: 100px;
-    margin-bottom: 150px;
-    padding-left: 5px;
-  }
-  .por {
-    margin-top: 100px;
-    padding-left: 50px;
-  }
-  .icn {
-    margin-top: 70px;
-  }
-}
-@media (max-width: 991px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .nab {
     margin-top: 100px;
     margin-bottom: 120px;
+
+    padding-left: 0px;
+  }
+  .por {
+    margin-top: 100px;
+    padding-left: 20px;
+  }
+  .icn {
+    margin-top: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .nab {
+    margin-top: 70px;
+  }
+  .bt {
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .por {
-    margin-top: 100px;
-    padding-left: 160px;
+    margin-top: 70px;
   }
   .icn {
     margin-top: 30px;
   }
+  .im img {
+    height: 30px;
+    width: 45px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nab {
+    margin-bottom: 50px;
+  }
+  .por {
+    margin-top: 50px;
+  }
+  .icn {
+    margin-top: 10px;
+  }
+  .im img {
+    height: 20px;
+    width: 35px;
+  }
   .bt {
-    margin-top: 20px;
-    padding-left: 50px;
+    margin-top: 10px;
+    padding-left: 80px;
     padding-right: 80px;
   }
 }
-
-.frak img {
-  width: 250px;
-  height: 220;
-}
-.brnone {
-  border: none;
-  border-bottom: 1px solid black;
-  border-radius: 0%;
-}
-/*Farma,s CSS END*/
-
-
-
-
-
-
-/*!*Ahsan,s CSS Start*!*/
-/*form {*/
-/*  margin: 2em 0;*/
-/*}*/
-/*.mdiv{*/
-/*  margin-top: 120px;*/
-/*}*/
-/*.field {*/
-/*  display: flex;*/
-/*  flex-flow: column-reverse;*/
-/*  margin-bottom: 2em;*/
-/*  width: 100% ;*/
-/*  color: #86CCCC;*/
-/*}*/
-/*label, input {*/
-/*  transition: all 0.2s;*/
-/*  touch-action: manipulation;*/
-/*}*/
-
-/*input {*/
-/*  font-size: 100%;*/
-/*  border: 0;*/
-/*  border-bottom: 1px solid #86CCCC;*/
-/*  font-family: "Open Sans", sans-serif;*/
-/*  -webkit-appearance: none;*/
-/*  border-radius: 0;*/
-/*  padding: 0;*/
-/*  cursor: text;*/
-/*  background-color: transparent;*/
-/*  !*color: #86CCCC;*!*/
-/*}*/
-/*input:focus {*/
-/*  outline: 0;*/
-/*  border-bottom: 1px solid #86CCCC;*/
-/*}*/
-
-/*#logIn{*/
-/*  background-color: #907057;*/
-/*  width: 100%;*/
-/*}*/
-/*.anchor a {*/
-/*  text-decoration: none;*/
-/*  color:#907057;*/
-/*}*/
-/*.anchor1 a {*/
-/*  text-decoration: none;*/
-/*  color: #0F5B5B;*/
-/*}*/
-/*.la{*/
-/*  margin-bottom: 10px !important;*/
-/*  font-weight: normal;*/
-
-/*}*/
-/*.lh{*/
-/*  font-weight: normal !important;*/
-/*  color: #0F5B5B;*/
-/*  font-family: "Open Sans", sans-serif;*/
-/*}*/
-/*label {*/
-/*  font-size: 70%;*/
-/*  letter-spacing: 0.05em;*/
-/*  font-weight: normal !important;*/
-/*}*/
-/*input:placeholder-shown + label {*/
-/*  cursor: text;*/
-/*  max-width: 66.66%;*/
-/*  white-space: nowrap;*/
-/*  overflow: hidden;*/
-/*  text-overflow: ellipsis;*/
-/*  transform-origin: left bottom;*/
-/*  transform: translate(0, 2.125rem) scale(1.5);*/
-
-/*}*/
-/*::-webkit-input-placeholder {*/
-/*  opacity: 0;*/
-/*  transition: inherit;*/
-/*}*/
-
-/*input:focus::-webkit-input-placeholder {*/
-/*  opacity: 1;*/
-/*}*/
-
-/*input:not(:placeholder-shown) + label,*/
-/*input:focus + label {*/
-/*  transform: translate(0, 0) scale(1);*/
-/*  cursor: pointer;*/
-/*}*/
-/*!*Ahsan's CSS END*!*/
-
-
