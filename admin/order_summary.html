@@ -303,27 +303,27 @@
 
                 <li class="app-sidebar__heading">Settings</li>
                 <li>
-                  <a href="./gen_settings.html">
+                  <a href="./orders.html" class="">
                     <i class="metismenu-icon pe-7s-diamond"> </i>General
                   </a>
                 </li>
                 <li>
-                  <a href="./email_settings.html">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Email
                   </a>
                 </li>
                 <li>
-                  <a href="./tax_setting.html">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Taxes
                   </a>
                 </li>
                 <li>
-                  <a href="./pay_settings.html">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Payment
                   </a>
                 </li>
                 <li>
-                  <a href="./time_settings.html">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
@@ -334,7 +334,7 @@
         <div class="app-main__outer">
           
             <div class="app-main__inner">
-              <div class="container-fluid bg-white">
+              <div class="container-fluid my-3 bg-white">
                   <div class="row ">
                   <div class="col-md-4 p-3">
                       <span>Order</span> <label>#3290</label>
@@ -348,12 +348,13 @@
             </div>
                    </div>
                 </div>
-                <div class="col-md-6 bg-white m-3 p-3">
+                <div class="row">
+                <div class="col-md-6 bg-white p-3">
                 <div>Customer</div>
                 <div class="row">
                     <div class="col-md-2 text-center ">
                         <div class="p-3 text-center">
-                            <p class="p-3" style="font-size: x-large; color: white; background-color: green; border-radius: 50%;">S</p>
+                            <p class="p-auto text-center" style="font-size: large; color: white; background-color: green; border-radius: 50%;">S</p>
                         </div>
                     </div>
                     <div class="col-md-10">
@@ -361,8 +362,8 @@
                     </div>
                 </div>
                 <hr>
-                <div>Rental Period</div>
-                <div class="p-3 border bg-white"style="font-size: medium;" >
+                <div class="my-3 mx-2">Rental Period</div>
+                <div class="p-3 border bg-white my-5" >
                     <span class="px-3">
                         <i class="fas fa-calendar-alt p-2"></i>
                         11 - 12 - 2020  09:00 AM
@@ -372,6 +373,84 @@
                 </div>
               
                 </div>
+                
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="row">
+                            <br>
+                        <div class="card-header col-md-5">Information | <small>5 items</small></div>
+                        <div class="col-md-3 offset-md-4 my-auto"><button class="btn btn-outline-secondary btn-small"><i class="fa fa-plus px-1"></i>Add</button></div>
+                    
+                    </div>
+                        <div class="card-body">
+                
+                                <div class="pb-4 px-2 pt-2 my-2"  style="background-color: lightgray;">ROM Date <i class="fa fa-edit float-right"></i></div>
+                     
+                                <div class="pb-4 px-2 pt-2 my-2"  style="background-color: lightgray;">PWS Date <i class="fa fa-edit float-right"></i></div>
+
+                                <div class="pb-4 px-2 pt-2 my-2"  style="background-color: lightgray;">Wedding Date <i class="fa fa-edit float-right"></i><br>12 Dec 2020</div>
+                            
+                        </div>
+                
+                      </div>
+                </div>
+                </div>
+                <div class="bg-white my-4 p-3 border">
+                    <div><input class="form-control p-3" type="text" placeholder="Search.."></div>
+                </div>
+
+                <!-- Table -->
+                <table class="table table-hover" style="text-align: center;">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>Available</th>
+                        <th>Quantity</th>
+                        <th>Unit Price</th>
+                        <th>Line Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                          <td>
+                              <i class="fa fa-angle-down"></i>
+                            <img src="img.png" width="30px" height="30px" class="rounded">1 Gown Rented
+                            </td>
+                          <td></td>
+                          <td></td>
+                        <td><button class="btn" style="background-color: lime; color: white;"><i class="fa fa-calender-alt"></i>986 lfet</button></td>
+                        <td style="font-size: 14px;">1</td>
+                        <td><span class="border" style="color: mediumblue;">fixed   $628<i class="fa fa-angle-up px-2"></i></span><i class="fa fa-edit"></i></td>
+                        <td style="font-weight: bold;"> $628.00</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+                <div class="row my-3 bg-white">
+                    <div class="col-md-6">
+                        <select class="form-control m-4" style="width: 40%;">
+                            <option selected>Add custom line</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="m-5 float-right">
+                            <span class="">Subtotal  <label> $628.00</label></span>
+                        </div>
+                        </div>
+                        <div class="my-2 mx-auto">
+                            <a href="#">Add a discount</a>
+                            <br>
+                            <a href="#">Add a coupon</a>
+                        </div>
+                </div>
+                
+ <!-- Table -->
             </div>
               </div>
             </div>
