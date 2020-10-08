@@ -188,7 +188,7 @@
               <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                  <a href="index.html">
+                  <a href="index.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-rocket"></i>
                     Dashboard
                   </a>
@@ -196,7 +196,7 @@
                 <li class="app-sidebar__heading">Inventory</li>
                 <li>
                   <a href="#">
-                    <i class="metismenu-icon pe-7s-diamond mm"></i>
+                    <i class="metismenu-icon pe-7s-diamond"></i>
                     Stock
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
@@ -257,6 +257,7 @@
                     ></i>
                   </a>
                   <ul>
+                    <li>
                       <a href="./invoice_list.html">
                         <i class="metismenu-icon"></i>
                         View Invoices List
@@ -264,30 +265,57 @@
                     </li>
                   </ul>
                 </li>
-                <li>
-              <a href="#" class="mm-active">
-                <i class="metismenu-icon pe-7s-diamond"></i>
-                Orders
-                <i
-                        class="metismenu-state-icon pe-7s-angle-down caret-left"
-                ></i>
-              </a>
-              <ul class="mm-collapse mm-show">
-                <li>
-                  <a href="./add_order.html">
-                    <i class="metismenu-icon"></i>
-                    Add Orders
-                  </a>
-                </li>
-                <li>
-                  <a href="./orders.html" class="mm-active">
-                    <i class="metismenu-icon"></i>
-                    View Orders
-                  </a>
-                </li>
-              </ul>
-            </li>
 
+                <li>
+                  <a href="#" class="mm-active">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Orders
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul class="mm-collapse mm-show">
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        Add Orders
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        View Orders
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="app-sidebar__heading">Settings</li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>General
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Email
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Taxes
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Payment
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Timezone
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
@@ -301,10 +329,7 @@
                     <div class="page-title-icon">
                       <i class="lnr-picture text-danger pe-7s-display2"> </i>
                     </div>
-                    <div>
-                      Order List
-
-                    </div>
+                    <div>Order List</div>
                   </div>
                 </div>
               </div>
@@ -335,14 +360,16 @@
                       <tr>
                         <td>1</td>
                         <td>XE321</td>
-                        <td>Deny </td>
+                        <td>Deny</td>
                         <td>Alex Brown</td>
                         <td>AXDC432E</td>
                         <td>LA</td>
                         <td>$1750</td>
                         <td>$750</td>
                         <td>07-Oct-2020</td>
-                        <td><span class="btn btn-warning">1st Session</span></td>
+                        <td>
+                          <span class="btn btn-warning">1st Session</span>
+                        </td>
                         <td>
                           <div class="dropdown">
                             <button
@@ -398,7 +425,9 @@
                         <td>$1750</td>
                         <td>$750</td>
                         <td>13-Oct-2020</td>
-                        <td><span class="btn btn-warning">Final Session</span></td>
+                        <td>
+                          <span class="btn btn-warning">Final Session</span>
+                        </td>
                         <td>
                           <div class="dropdown">
                             <button
@@ -415,6 +444,7 @@
                             </div>
                           </div>
                         </td>
+                      </tr>
 
                       <tr>
                         <td>3</td>
@@ -426,13 +456,15 @@
                         <td>$1750</td>
                         <td>$750</td>
                         <td>13-Oct-2020</td>
-                        <td><span class="btn btn-warning">1st Session</span></td>
+                        <td>
+                          <span class="btn btn-warning">1st Session</span>
+                        </td>
                         <td>
                           <div class="dropdown">
                             <button
-                                    type="button"
-                                    class="btn btn-primary dropdown-toggle"
-                                    data-toggle="dropdown"
+                              type="button"
+                              class="btn btn-primary dropdown-toggle"
+                              data-toggle="dropdown"
                             >
                               Actions
                             </button>
@@ -444,14 +476,17 @@
                           </div>
                         </td>
                       </tr>
-
                     </tbody>
-                  </table>  
+                  </table>
                   <!-- Data Tables -->
-
+                  <link
+                    rel="stylesheet"
+                    href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"
+                  />
                   <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+                  <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
                   <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                  <!-- Data Tables -->              
+                  <!-- Data Tables -->
                 </div>
               </div>
             </div>
@@ -459,7 +494,7 @@
               <script>
                 $(document).ready(function () {
                   var table = $("#example").DataTable({
-                    "scrollX": true
+                    scrollX: true,
                   });
                 });
               </script>
