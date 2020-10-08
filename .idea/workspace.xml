@@ -112,10 +112,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601803197233" />
-    <state x="395" y="85" key="MultipleFileMergeDialog" timestamp="1602144633615">
+    <state x="129" y="56" key="MergeDialog" timestamp="1602154866658">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602144633615" />
+    <state x="129" y="56" key="MergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866658" />
+    <state x="395" y="85" key="MultipleFileMergeDialog" timestamp="1602154866665">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866665" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602134775675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
