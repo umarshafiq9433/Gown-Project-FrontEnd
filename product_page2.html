@@ -127,23 +127,31 @@
         <div class="container p-3 my-4">
             <div class="row">
                 <div class="col-md-7 p-3">
+               
                     <div class="m-2"><p style="color:#0f5b5b; font-size: x-large; font-weight: bold; font-family:Open Sans, sans-serif;">My Cart</p></div><hr>
+                    <button type="button" class="close col-md-1 float-right pt-3 col-sm-3 col-3" aria-label="Close" onclick="document.location='empty_cart.html'">
+                      <span aria-hidden="true">&times;</span>
+                    </button> 
                     <div class="row p-3">
                         <div class="col-md-3 col-sm-4 col-12 um-img">
                         <img src="./images/mc1.jpg" width="140px" height="170px" class="p-1">
                     </div>
-                    <div class="col-md-7 px-4 col align-middle h-auto col-sm-6 col-10">
-                            <p style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Michelle</p>
+                    
+                    <div class="col-md-6 px-4 align-middle h-auto col-sm-6 col-10 m-2">
+                           
+                      <p style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Michelle</p>
                             <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">$628.00</small><br>
                             <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Colour : Red</small><br>
                           <small style="color:#0f5b5b; font-family:Open Sans, sans-serif;">Colour: Red</small>
-                          <div class="input-group">
+                          <div class="input-group um-pm">
                             <input type="button" value="-" class="button-minus" data-field="quantity">
                             <input type="number" step="1" max="" value="1" name="quantity" class="quantity-field">
                             <input type="button" value="+" class="button-plus" data-field="quantity">
                           </div>
+                          
                         </div>
                         <div class="float-right col-md-2 col-sm-2 col-2 um-rp" style="color:#0f5b5b; font-size: large; font-family:Open Sans, sans-serif;"><span>$628.00</span></div>
+                      
                     </div><hr>
                     <!--plus minus-->
                     
@@ -204,7 +212,7 @@
                         <div class="col-md-6" style="color:#0f5b5b; font-size: large; font-weight: bold; font-family:Open Sans, sans-serif;">Total</div>
                         <div class="col-md-6" style="color:#0f5b5b; font-size: large; font-weight: bold; font-family:Open Sans, sans-serif;">$628.00</div>
                     </div>
-                    <div class="text-center mt-5" style="background-color: #907057; width: 80%;"><button class="btn m-auto" style="color: #bee5e5"><i class="fa fa-lock px-1" style="color: #bee5e5"></i>Checkout</button></div>
+                    <div class="text-center mt-5 mx-auto" style="background-color: #907057; width: 80%;"><button class="btn m-auto" style="color: #bee5e5"><i class="fa fa-lock px-1" style="color: #bee5e5"></i>Checkout</button></div>
                 </div>
             </div>
         </div>

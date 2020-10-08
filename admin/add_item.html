@@ -233,7 +233,7 @@
                     <li>
                       <a href="./payments_list.html">
                         <i class="metismenu-icon"></i>
-                        Payments List
+                        Commision List
                       </a>
                     </li>
                     <li>
@@ -262,9 +262,55 @@
                     </li>
                   </ul>
                 </li>
+
+                <li>
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Orders
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        Add Orders
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        View Orders
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="app-sidebar__heading">Settings</li>
                 <li>
                   <a href="./orders.html">
-                    <i class="metismenu-icon pe-7s-display2"> </i>Orders
+                    <i class="metismenu-icon pe-7s-diamond"> </i>General
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Email
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Taxes
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Payment
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
               </ul>
@@ -288,7 +334,7 @@
                 </div>
               </div>
             </div>
-            <div class="main-card col-md-6 mb-3 card">
+            <div class="main-card col-md-6 mb-3 mx-auto card">
               <div class="card-body">
                 <h5 class="card-title">Add Gown details</h5>
                 <form class="needs-validation" novalidate>
@@ -305,7 +351,7 @@
                       <div class="invalid-feedback">Invalid Image</div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <label for="validationCustom01">RFID</label>
+                      <label for="validationCustom01">RFID tag</label>
                       <input
                         type="text"
                         class="form-control"
@@ -318,7 +364,7 @@
                       <div class="invalid-feedback">Invalid RFID</div>
                     </div>
                     <div class="col-md-6 mb-3">
-                      <label for="validationCustom02">Article Name</label>
+                      <label for="validationCustom02">Gown Name</label>
                       <input
                         type="text"
                         class="form-control"
@@ -328,7 +374,7 @@
                         required
                       />
                       <div class="valid-feedback">Looks good!</div>
-                      <div class="invalid-feedback">Invalid Article Name</div>
+                      <div class="invalid-feedback">Invalid Gown Name</div>
                     </div>
                   </div>
                   <div class="form-row">
@@ -396,13 +442,57 @@
                     </div>
                   </div>
                   <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="price">Gown Size</label>
+                      <input
+                        type="number"
+                        name="gownsize"
+                        id="gown"
+                        placeholder="Gown Size"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="quantity">Designer</label>
+                      <input
+                        type="text"
+                        name="designer"
+                        id="designer"
+                        placeholder="Designer"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row">
                     <div class="col-md-12 mb-3">
+                      <label for="price">Supplier of Designer</label>
+                      <input
+                        type="text"
+                        name="SODesiner"
+                        id="SODesiner"
+                        placeholder="Supplier of Designer"
+                        class="form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
                       <label for="price">Price</label>
                       <input
                         type="number"
                         name="price"
                         id="price"
                         placeholder="Price"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="quantity">Quantity</label>
+                      <input
+                        type="number"
+                        name="quantity"
+                        id="quantity"
+                        placeholder="quantity"
                         class="form-control"
                       />
                     </div>

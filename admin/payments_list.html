@@ -196,7 +196,7 @@
                 <li class="app-sidebar__heading">Inventory</li>
                 <li>
                   <a href="#">
-                    <i class="metismenu-icon pe-7s-diamond mm"></i>
+                    <i class="metismenu-icon pe-7s-diamond"></i>
                     Stock
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
@@ -236,7 +236,7 @@
                     <li>
                       <a href="./payments_list.html" class="mm-active">
                         <i class="metismenu-icon"></i>
-                        Payments List
+                        Commision List
                       </a>
                     </li>
                     <li>
@@ -265,9 +265,55 @@
                     </li>
                   </ul>
                 </li>
+
+                <li>
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Orders
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        Add Orders
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        View Orders
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="app-sidebar__heading">Settings</li>
                 <li>
                   <a href="./orders.html">
-                    <i class="metismenu-icon pe-7s-display2"> </i>Orders
+                    <i class="metismenu-icon pe-7s-diamond"> </i>General
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Email
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Taxes
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Payment
+                  </a>
+                </li>
+                <li>
+                  <a href="./orders.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
               </ul>
@@ -284,8 +330,10 @@
                       <i class="lnr-picture text-danger pe-7s-display2"> </i>
                     </div>
                     <div>
-                      Items List
-                      <div class="page-title-subheading">Items List</div>
+                      Commission List
+                      <div class="page-title-subheading">
+                        Commission Detail List
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -303,7 +351,6 @@
                       <tr>
                         <th>SR #</th>
                         <th>Name</th>
-                        <th>Basic Salary</th>
                         <th>Comission</th>
                         <th>Total Salary</th>
                         <th>Status</th>
@@ -314,9 +361,8 @@
                       <tr>
                         <td>1</td>
                         <td>Alex</td>
-                        <td>1200$</td>
-                        <td>300$</td>
-                        <td>1500$</td>
+                        <td>$300</td>
+                        <td>$1500</td>
                         <td>
                           <span class="btn btn-warning">Pending</span>
                         </td>
@@ -330,7 +376,11 @@
                               Actions
                             </button>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Details</a>
+                              <a
+                                class="dropdown-item"
+                                href="./invoice_details.html"
+                                >Details</a
+                              >
                             </div>
                           </div>
                         </td>
@@ -338,9 +388,8 @@
                       <tr>
                         <td>2</td>
                         <td>Brown</td>
-                        <td>1200$</td>
-                        <td>300$</td>
-                        <td>1500$</td>
+                        <td>$300</td>
+                        <td>$1500</td>
                         <td>
                           <span class="btn btn-success">Payed</span>
                         </td>
@@ -354,9 +403,11 @@
                               Actions
                             </button>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Details</a>
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
+                              <a
+                                class="dropdown-item"
+                                href="./invoice_details.html"
+                                >Details</a
+                              >
                             </div>
                           </div>
                         </td>

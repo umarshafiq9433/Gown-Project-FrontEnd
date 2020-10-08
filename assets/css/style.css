@@ -417,6 +417,201 @@ footer .container .row .col-4 p {
   left: 0;
   top: 201px;
 }
+
+.tgc {
+  color: #7f7f7f;
+  font-family: "Open Sans", sans-serif;
+}
+.um-pwc h1 {
+  color: #0f5b5b;
+  font-family: "Open Sans", sans-serif;
+}
+.um-p1 {
+  color: #7f7f7f;
+  font-family: "" Open Sans ", sans-serif";
+  font-weight: bold;
+  font-size: 16px;
+}
+.um-p2 {
+  color: #0f5b5b;
+}
+.um-ba {
+  background-color: #7f7f7f;
+  color: #0f5b5b;
+}
+.um-sv {
+  background-color: #c9e9e9;
+  color: #7f7f7f;
+  font-family: "" Open Sans ", sans-serif";
+}
+.um-sel {
+  color: #7f7f7f;
+  width: 100%;
+  color: #7f7f7f;
+  font-size: normal;
+  font-family: "" Open Sans ", sans-serif";
+  display: inline;
+}
+.um-c {
+  padding: 1px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: #7f7f7f;
+  border-radius: 50%;
+}
+.um-rad {
+  background-color: #c9e9e9;
+}
+.um-l {
+  font-size: 16px;
+  color: #7f7f7f;
+  font-family: "" Open Sans ", sans-serif";
+}
+.um-l2 {
+  font-size: 18px;
+  color: #545454;
+  font-family: "" Open Sans ", sans-serif";
+}
+.um-tp {
+  background-color: #c9e9e9;
+  width: 100%;
+  color: #7f7f7f;
+}
+.um-tp p {
+  color: #1f1f1f;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* Plus Minus Button */
+
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type="button"] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+/* Plus Minus Button */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .um-img {
+    margin-right: 70px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .um-img {
+    margin-right: 50px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .um-img {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .input,
+  .textarea {
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  .input-group {
+    margin: 10px 0;
+  }
+  .input-group input[type="button"] {
+    min-width: 28px;
+  }
+  .input-group .button-minus,
+  .input-group .button-plus {
+    font-weight: normal;
+    height: 30px;
+    width: 30px;
+  }
+  .input-group .quantity-field {
+    height: 30px;
+    width: 50px;
+    font-size: 10px;
+    margin: 0 0 2px;
+  }
+}
+.um-em {
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .um-em {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .um-em {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .um-em {
+    padding-top: 70px;
+    padding-bottom: 7s0px;
+  }
+}
 /*End Umair'Css*/
 /*Farman'Css*/
 
@@ -510,3 +705,14 @@ footer .container .row .col-4 p {
     padding-right: 80px;
   }
 }
+
+.frak img {
+  width: 250px;
+  height: 220;
+}
+.brnone {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0%;
+}
+/*Farma,s CSS END*/
