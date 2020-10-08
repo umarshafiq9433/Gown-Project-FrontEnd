@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding Gowns | The Gown Connoisseur | Singapor</title>
@@ -9,12 +9,12 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
     />
 
     <!-- Owl Carousel -->
@@ -25,118 +25,131 @@
     <script src="dist/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <style>
-        /*Ahsan,s CSS Start*/
-        form {
-            margin: 2em 0;
-        }
-        .mdiv{
-            margin-top: 120px;
-        }
-        .field {
-            display: flex;
-            flex-flow: column-reverse;
-            margin-bottom: 2em;
-            width: 100% ;
-            color: #86CCCC;
-        }
-        label, input {
-            transition: all 0.2s;
-            touch-action: manipulation;
-        }
+      /*Ahsan,s CSS Start*/
+      form {
+        margin: 2em 0;
+      }
+      .mdiv {
+        margin-top: 120px;
+      }
+      .field {
+        display: flex;
+        flex-flow: column-reverse;
+        margin-bottom: 2em;
+        width: 100%;
+        color: #86cccc;
+      }
+      label,
+      input {
+        transition: all 0.2s;
+        touch-action: manipulation;
+      }
 
-        input {
-            font-size: 100%;
-            border: 0;
-            border-bottom: 1px solid #86CCCC;
-            font-family: "Open Sans", sans-serif;
-            -webkit-appearance: none;
-            border-radius: 0;
-            padding: 0;
-            cursor: text;
-            background-color: transparent;
-            /*color: #86CCCC;*/
-        }
-        input:focus {
-            outline: 0;
-            border-bottom: 1px solid #86CCCC;
-        }
+      input {
+        font-size: 100%;
+        border: 0;
+        border-bottom: 1px solid #86cccc;
+        font-family: "Open Sans", sans-serif;
+        -webkit-appearance: none;
+        border-radius: 0;
+        padding: 0;
+        cursor: text;
+        background-color: transparent;
+        /*color: #86CCCC;*/
+      }
+      input:focus {
+        outline: 0;
+        border-bottom: 1px solid #86cccc;
+      }
 
-        #logIn{
-            background-color: #907057;
-            width: 100%;
-        }
-        .anchor a {
-            text-decoration: none;
-            color:#907057;
-        }
-        .anchor1 a {
-            text-decoration: none;
-            color: #0F5B5B;
-        }
-        .la{
-            margin-bottom: 10px !important;
-            font-weight: normal;
+      #logIn {
+        background-color: #907057;
+        width: 100%;
+      }
+      .anchor a {
+        text-decoration: none;
+        color: #907057;
+      }
+      .anchor1 a {
+        text-decoration: none;
+        color: #0f5b5b;
+      }
+      .la {
+        margin-bottom: 10px !important;
+        font-weight: normal;
+      }
+      .lh {
+        font-weight: normal !important;
+        color: #0f5b5b;
+        font-family: "Open Sans", sans-serif;
+      }
+      label {
+        font-size: 70%;
+        letter-spacing: 0.05em;
+        font-weight: normal !important;
+      }
+      input:placeholder-shown + label {
+        cursor: text;
+        max-width: 66.66%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        transform-origin: left bottom;
+        transform: translate(0, 2.125rem) scale(1.5);
+      }
+      ::-webkit-input-placeholder {
+        opacity: 0;
+        transition: inherit;
+      }
 
-        }
-        .lh{
-            font-weight: normal !important;
-            color: #0F5B5B;
-            font-family: "Open Sans", sans-serif;
-        }
-        label {
-            font-size: 70%;
-            letter-spacing: 0.05em;
-            font-weight: normal !important;
-        }
-        input:placeholder-shown + label {
-            cursor: text;
-            max-width: 66.66%;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            transform-origin: left bottom;
-            transform: translate(0, 2.125rem) scale(1.5);
+      input:focus::-webkit-input-placeholder {
+        opacity: 1;
+      }
 
-        }
-        ::-webkit-input-placeholder {
-            opacity: 0;
-            transition: inherit;
-        }
-
-        input:focus::-webkit-input-placeholder {
-            opacity: 1;
-        }
-
-        input:not(:placeholder-shown) + label,
-        input:focus + label {
-            transform: translate(0, 0) scale(1);
-            cursor: pointer;
-        }
-        /*Ahsan's CSS END*/
+      input:not(:placeholder-shown) + label,
+      input:focus + label {
+        transform: translate(0, 0) scale(1);
+        cursor: pointer;
+      }
+      /*Ahsan's CSS END*/
     </style>
-</head>
-<body style="background-color: #c9e9e9">
-<div class=" container-fluid w-100 mdiv" >
-    <div class="row">
-        <div class="col-md-3 m-auto ">
-            <h1 class="text-center lh" >Sign Up</h1>
-            <p class="text-center lh">Already a member? <span class="anchor"><a href="#">Log In</a></span></p>
-            <form action="">
-                <div class="field">
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <label for="email">Email</label>
-                </div>
+  </head>
+  <body style="background-color: #c9e9e9">
+    <div class="container-fluid w-100 mdiv">
+      <div class="row">
+        <div class="col-md-3 m-auto">
+          <h1 class="text-center lh">Sign Up</h1>
+          <p class="text-center lh">
+            Already a member?
+            <span class="anchor"><a href="./login.html">Log In</a></span>
+          </p>
+          <form action="">
+            <div class="field">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <label for="email">Email</label>
+            </div>
 
-                <div class="field">
-                    <input type="password" name="pass" id="pass" placeholder="Password">
-                    <label for="pass">Password</label>
-                </div>
-                <div class="field ">
-                    <input type="Submit" name="login" id="logIn" Value="Log In" class="btn mx-auto py-2 w-100">
-                </div>
-            </form>
+            <div class="field">
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                placeholder="Password"
+              />
+              <label for="pass">Password</label>
+            </div>
+            <div class="field">
+              <input
+                type="Submit"
+                name="login"
+                id="logIn"
+                value="Log In"
+                class="btn mx-auto py-2 w-100"
+              />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
