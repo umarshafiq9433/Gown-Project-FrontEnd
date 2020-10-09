@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/Payments_settings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_consultant.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_consultant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bookings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/email_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/email_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/gen_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gen_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/order_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/order_summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/orders.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pay_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pay_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/payments_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payments_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/tax_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tax_setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/time_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/time_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/vaiation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vaiation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view_consultants.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_consultants.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +54,7 @@
       <workItem from="1601987428692" duration="3462000" />
       <workItem from="1602042486419" duration="13634000" />
       <workItem from="1602133293131" duration="3237000" />
-      <workItem from="1602136558103" duration="20855000" />
+      <workItem from="1602136558103" duration="22291000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>
@@ -165,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602159534207</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602165565749</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602165565749</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602166814790</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602166814790</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,10 +174,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="243" y="0" key="CommitChangelistDialog2" timestamp="1602165564877">
+    <state x="243" y="0" key="CommitChangelistDialog2" timestamp="1602166813861">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="243" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602165564877" />
+    <state x="243" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602166813861" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1601803197233">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
