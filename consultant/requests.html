@@ -192,7 +192,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="index.html">
+                  <a href="./requests.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-rocket"></i>
                     Customers requests
                   </a>
@@ -204,7 +204,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./invoice.html" class="mm-active">
+                  <a href="./invoice.html">
                     <i class="metismenu-icon pe-7s-display2"></i>
                     Invoices
                   </a>
@@ -231,108 +231,94 @@
             <div class="main-card mb-3 card">
               <div class="card-body">
                 <h5 class="card-title">Items List</h5>
-
-                <table
-                  id="example"
-                  class="table display nowrap"
-                  style="width: 100%"
-                >
-                  <thead>
-                    <tr>
-                      <th>SR #</th>
-                      <th>Invoice ID</th>
-
-                      <th>Customer Name</th>
-                      <th>Consultant</th>
-                      <th>Article RFID</th>
-                      <th>Venue</th>
-                      <th>Total Bill</th>
-                      <th>Security</th>
-                      <th>Date</th>
-                      <th>Status</th>
-                      <th>Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>XE321</td>
-                      <td>Ahsan</td>
-                      <td>Umar</td>
-                      <td>AXDC432E</td>
-                      <td>MM ALAM</td>
-                      <td>1750$</td>
-                      <td>750$</td>
-                      <td>07-Oct-2020</td>
-                      <td><span class="btn btn-warning">Rented</span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button
-                            type="button"
-                            class="btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown"
-                          >
-                            Actions
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Details</a>
-                            <a class="dropdown-item" href="#">Edit</a>
+                <div class="table-responsive">
+                  <table
+                    id="example"
+                    class="table display nowrap"
+                    style="width: 100%"
+                  >
+                    <thead>
+                      <tr>
+                        <th>SR #</th>
+                        <th>Name</th>
+                        <th>Article No.</th>
+                        <th>RFID</th>
+                        <th>Price</th>
+                        <th>Gown Preferences</th>
+                        <th>Appointment Type</th>
+                        <th>Avenue</th>
+                        <th>Time</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Umar</td>
+                        <td>AX123E</td>
+                        <td>ABCD234ED</td>
+                        <td>625$</td>
+                        <td>Mermaid, Bead Dress, Sweetheart</td>
+                        <td>First Session</td>
+                        <td>01:30 PM</td>
+                        <td>MM Alam</td>
+                        <td>08-Oct-2020</td>
+                        <td>
+                          <div class="dropdown">
+                            <button
+                              type="button"
+                              class="btn btn-primary dropdown-toggle"
+                              data-toggle="dropdown"
+                            >
+                              Actions
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Accept</a>
+                              <a class="dropdown-item" href="#">Reject</a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>XE331</td>
-                      <td>Farman</td>
-                      <td>Umar</td>
-                      <td>AXDC432F</td>
-                      <td>OTUS</td>
-                      <td>1750$</td>
-                      <td>750$</td>
-                      <td>09-Oct-2020</td>
-                      <td><span class="btn btn-success">Completed</span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button
-                            type="button"
-                            class="btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown"
-                          >
-                            Actions
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Details</a>
-                            <a class="dropdown-item" href="#">Edit</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Ahsan</td>
+                        <td>AX123F</td>
+                        <td>ABCD234EF</td>
+                        <td>625$</td>
+                        <td>Mermaid, No Preferences, Sweetheart</td>
+                        <td>Final Session</td>
+                        <td>03:00 PM</td>
+                        <td>MM Alam</td>
+                        <td>10-Oct-2020</td>
+                        <td>
+                          <div class="dropdown">
+                            <button
+                              type="button"
+                              class="btn btn-primary dropdown-toggle"
+                              data-toggle="dropdown"
+                            >
+                              Actions
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Accept</a>
+                              <a class="dropdown-item" href="#">Reject</a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Data Tables -->
-                <link
-                  rel="stylesheet"
-                  href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"
-                />
-                <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
-                <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                <!-- Data Tables -->
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
-          <div class="app-footer">
-            <script>
-              $(document).ready(function () {
-                var table = $("#example").DataTable({
-                  scrollX: true,
-                });
-              });
-            </script>
-            <div class="app-footer__inner">
-              <div class="app-footer-left"></div>
-              <div class="app-footer-right"></div>
+          <div class="app-wrapper-footer">
+            <div class="app-footer">
+              <div class="app-footer__inner">
+                <div class="app-footer-left"></div>
+                <div class="app-footer-right"></div>
+              </div>
             </div>
           </div>
         </div>
