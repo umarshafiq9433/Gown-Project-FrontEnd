@@ -25,31 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Payments_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Payments_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_catagory.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_catagory.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/add_consultant.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_consultant.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/add_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_variation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bookings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/email_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/email_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/gen_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gen_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_summery.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_summery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/order_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/order_summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pay_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pay_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/payments_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payments_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/tax_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tax_setting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/time_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/time_settings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/trace_record.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/trace_record.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/vaiation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vaiation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view_consultants.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_consultants.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_items.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/view_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_variation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -248,12 +222,12 @@
           <value>
             <State>
               <option name="BEK_SORT_TYPE" value="1" />
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
