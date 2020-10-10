@@ -4,3 +4,15 @@
 .dataTables_scrollBody{
     overflow: inherit !important;
 }
+.fc-event, .fc-event:hover {
+    opacity: 0.8 !important;
+    color: black !important;
+    text-decoration: none;
+}
+.fc-event, .fc-event-dot {
+    background-color: white !important;
+}
+.fc-event{
+    border: 0px !important;
+    margin: 2px 0px;
+}
