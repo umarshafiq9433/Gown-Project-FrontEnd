@@ -3,7 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Payments_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Payments_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_consultant.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_consultant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bookings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/email_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/email_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/gen_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gen_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/order_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/order_summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/orders.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/pay_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pay_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/payments_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payments_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tax_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tax_setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/time_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/time_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/vaiation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vaiation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_consultants.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_consultants.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultant/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultant/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/invoice.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,14 +48,15 @@
   <component name="ProjectId" id="1iM0VN8mNhA3rj0nSf7AHmmSGaS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,6 +75,7 @@
       <workItem from="1602042486419" duration="13634000" />
       <workItem from="1602133293131" duration="3237000" />
       <workItem from="1602136558103" duration="22892000" />
+      <workItem from="1602246641274" duration="1665000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>
@@ -165,7 +186,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ahsan Umair" />
@@ -190,6 +211,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866665" />
+    <state x="301" y="80" key="SettingsEditor" timestamp="1602247803360">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="301" y="80" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1602247803360" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602134775675">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
