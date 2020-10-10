@@ -188,7 +188,7 @@
               <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                  <a href="index.html" class="mm-active">
+                  <a href="index.html">
                     <i class="metismenu-icon pe-7s-rocket"></i>
                     Dashboard
                   </a>
@@ -209,7 +209,6 @@
                         Add Item
                       </a>
                     </li>
-
                     <li>
                       <a href="./view_items.html">
                         <i class="metismenu-icon"></i>
@@ -230,28 +229,30 @@
                     </li>
                   </ul>
                 </li>
-                <li class="app-sidebar__heading">Consultants</li>
+                <li class="app-sidebar__heading">Customers</li>
                 <li>
                   <a href="#">
                     <i class="metismenu-icon pe-7s-diamond"></i>
-                    Consultant
+                    Customers
                     <i
-                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                            class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="./add_consultant.html">
+                      <a href="./requests.html">
                         <i class="metismenu-icon"></i>
-                        Add Consultant
+                        Customers  Requests
                       </a>
                     </li>
                     <li>
-                      <a href="./payments_list.html">
+                      <a href="./customers.html">
                         <i class="metismenu-icon"></i>
-                        Commission List
+                        Customers List
                       </a>
                     </li>
+                  </ul>
+                </li>
                     <li>
                       <a href="./view_consultants.html">
                         <i class="metismenu-icon"></i>
@@ -280,14 +281,14 @@
                 </li>
 
                 <li>
-                  <a href="#" class="mm-active">
+                  <a href="#">
                     <i class="metismenu-icon pe-7s-diamond"></i>
                     Orders
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
-                  <ul class="mm-collapse mm-show">
+                  <ul>
                     <li>
                       <a href="./add_order.html">
                         <i class="metismenu-icon"></i>
@@ -295,7 +296,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="./orders.html" class="mm-active">
+                      <a href="./orders.html">
                         <i class="metismenu-icon"></i>
                         View Orders
                       </a>
@@ -320,7 +321,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./email_settings.html">
+                  <a href="./email_settings.html" class="mm-active">
                     <i class="metismenu-icon pe-7s-display2"> </i>Email
                   </a>
                 </li>
@@ -346,179 +347,102 @@
         <div class="app-main__outer">
           <div class="app-wrapper-footer">
             <div class="app-main__inner">
-              <div class="app-page-title">
-                <div class="page-title-wrapper">
-                  <div class="page-title-heading">
-                    <div class="page-title-icon">
-                      <i class="lnr-picture text-danger pe-7s-display2"> </i>
-                    </div>
-                    <div>Order List</div>
+              <div class="container mt-5">
+                <p><b>Send a copy of all outgoing emails for:</b></p>
+                <form>
+                  <div class="col-6">
+                    <input class="form-control" type="text" />
                   </div>
-                </div>
-              </div>
-              <div class="main-card mb-3 card">
-                <div class="card-body">
-                  <h5 class="card-title">Items List</h5>
-                  <table
-                    id="example"
-                    class="table display nowrap"
-                    style="width: 100%"
-                  >
-                    <thead class="">
-                      <tr>
-                        <th>SR #</th>
-                        <th>Order ID</th>
-                        <th>Customer Name</th>
-                        <th>Consultant</th>
-                        <th>Article RFID</th>
-                        <th>Venue</th>
-                        <th>Total Bill</th>
-                        <th>Security</th>
-                        <th>Date event</th>
-                        <th>Status date</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>XE321</td>
-                        <td>Deny</td>
-                        <td>Alex Brown</td>
-                        <td>AXDC432E</td>
-                        <td>LA</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>07-Oct-2020</td>
-                        <td>13-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">1st Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a
-                                class="dropdown-item"
-                                href="./order_summary.html"
-                                >Summary</a
-                              >
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>XE331</td>
-                        <td>Julia</td>
-                        <td>James</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>09-Oct-2020</td>
-                        <td>02-Oct-2020</td>
-                        <td><span class="btn btn-warning">altered</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a
-                                class="dropdown-item"
-                                href="./order_summary.html"
-                                >Summary</a
-                              >
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>XE334</td>
-                        <td>Parker</td>
-                        <td>Stephen</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>13-Oct-2020</td>
-                        <td>10-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">Final Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Summary</a>
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
+                  <p class="pt-2">
+                    You can enter multiple eamils addresses,comma seprateed.
+                  </p>
+                  <hr />
 
-                      <tr>
-                        <td>3</td>
-                        <td>XE434</td>
-                        <td>Peter</td>
-                        <td>Alex Brown</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>13-Oct-2020</td>
-                        <td>24-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">1st Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Summary</a>
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- Data Tables -->
-                  <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                  <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                  <!-- Data Tables -->
+                  <input
+                    type="button"
+                    class="btn btn-primary px-4"
+                    name="Save"
+                    value="Save"
+                  />
+                </form>
+              </div>
+              <hr />
+              <div class="container my-5">
+                <p><b>Online reservation Confirmation</b></p>
+                <div class="row pb-5">
+                  <form action="/action_page.php">
+                    <div class="custom-control custom-switch">
+                      <input
+                        type="checkbox"
+                        class="custom-control-input"
+                        id="switch1"
+                        name="example"
+                      />
+                      <label class="custom-control-label" for="switch1"></label>
+                    </div>
+                    <br />
+                  </form>
+                  <p>
+                    <b>Send online order confirmation</b>:<br />Automatically
+                    send an email to customers after they place an online order
+                  </p>
                 </div>
+                <h4>Template</h4>
+                <hr />
+                <a link="" href=""><b>Webshop Confirmation</b></a>
+                <hr />
+                <a link="" href=""><b>Payment SCA Authentication</b></a>
+                <hr />
+              </div>
+              <div class="container">
+                <h4><b>Manuals Emails</b></h4>
+                <h6>
+                  These templates are available when viewing orders,customers
+                  and documents.
+                </h6>
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Template</th>
+                      <th>Available For</th>
+                    </tr>
+                  </thead>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Order Confirmation</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Order Certification</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send quote</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send contract</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a link="" href=""><b>Send Invoice</b></a>
+                    </td>
+                    <td>Order</td>
+                  </tr>
+                </table>
+                <button
+                  class="btn btn-white border border-secondary rounded mb-3"
+                >
+                  <b>New email template</b>
+                </button>
               </div>
             </div>
             <div class="app-footer">
