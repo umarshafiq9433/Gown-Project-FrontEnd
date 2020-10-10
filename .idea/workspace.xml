@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602327011390</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602327989045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602327989045</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,9 +269,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="301" y="80" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1602247803360" />
-    <state x="392" y="168" key="Vcs.Push.Dialog.v2" timestamp="1602307662898">
-      <screen x="0" y="0" width="1600" height="870" />
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2" timestamp="1602328269624">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602328269624" />
     <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602307662898" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602134775675">
       <screen x="0" y="0" width="1366" height="738" />
