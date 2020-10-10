@@ -17,46 +17,6 @@
     <meta name="msapplication-tap-highlight" content="no" />
     <link href="./assets/css/admin.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-
-    <!-- Calendar -->
-    <link href="./assets/lib/main.min.css" rel="stylesheet" />
-    <script src="./assets/lib/main.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var calendarEl = document.getElementById("calendar");
-        var d = new Date();
-        var calendar = new FullCalendar.Calendar(calendarEl, {
-          initialView: "listWeek",
-          events: [
-            {
-              title: "Meeting",
-              start: "2019-08-12T14:30:00",
-              extendedProps: {
-                status: "done",
-              },
-            },
-            {
-              title: "Birthday Party",
-              start: "2019-08-13T07:00:00",
-              backgroundColor: "green",
-              borderColor: "green",
-            },
-          ],
-          eventDidMount: function (info) {
-            if (info.event.extendedProps.status === "done") {
-              // Change background color of row
-              info.el.style.backgroundColor = "red";
-
-              // Change color of dot marker
-              var dotEl = info.el.getElementsByClassName("fc-event-dot")[0];
-              if (dotEl) {
-                dotEl.style.backgroundColor = "white";
-              }
-            }
-          },
-        });
-      });
-    </script>
   </head>
   <body>
     <div
@@ -388,7 +348,6 @@
                 <option value="">Item</option>
               </select>
             </div>
-            <div id="calendar"></div>
           </div>
           <div class="app-wrapper-footer">
             <div class="app-footer">
