@@ -14,6 +14,7 @@
             name="description"
             content="This is an example dashboard created using build-in elements and components."
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="msapplication-tap-highlight" content="no"/>
     <link href="./assets/css/admin.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
@@ -348,38 +349,33 @@
         <div class="app-main__outer">
             <div class="app-main__inner">
                 <div class="col-md-6 bg-white py-3 rounded mx-auto">
-                    <form>
+                    <form action="./view_variation.html">
                         <div class="form-group">
                             <label for="name">Name of variation Piece</label>
                             <input type="text" class="form-control" id="name">
                         </div>
                         <div class="form-group">
-                            <label for="rfid">RFID Tag</label>
-                            <input type="text" class="form-control" id="rfid">
+                            <button type="button" class="btn btn-secondary float-right" id="add-var">
+                                <i class="fa fa-plus-circle"></i> Add Value
+                            </button>
+                            <br>
                         </div>
-                        <div class="form-group">
-                            <label for="color">Colour</label>
-                            <input type="text" class="form-control" id="color">
-                        </div>
-                        <div class="form-group">
-                            <label for="size">Size</label>
-                            <select name="" id="size" class="form-control">
-                                <option value="" selected disabled>Select Size</option>
-                                <option>S</option>
-                                <option>M</option>
-                                <option>L</option>
-                                <option>XL</option>
-                                <option>UK8</option>
-                                <option>UK10</option>
-                                <option>EUR36</option>
-                                <option>USA8</option>
-                            </select>
+                        <div class="form-group" id="values">
+                            <label for="val">Value</label>
+                            <input type="text" class="form-control" id="val">
                         </div>
                         <div class="form-group mb-5">
                             <button class="btn btn-primary float-right">Save</button>
                         </div>
                     </form>
                 </div>
+                <script>
+                    $(document).ready(function () {
+                        $("#add-var").on("click", function () {
+                            $("#values").append("<label for='val'>Value</label><input type='text' class='form-control' id='val'>")
+                        })
+                    })
+                </script>
             </div>
             <div class="app-wrapper-footer">
                 <div class="app-footer">
