@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="Content-Language" content="en"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Wedding Gowns | The Gown Connoisseur | Singapor</title>
     <meta
             name="viewport"
@@ -14,9 +14,9 @@
             name="description"
             content="This is an example dashboard created using build-in elements and components."
     />
-    <meta name="msapplication-tap-highlight" content="no"/>
-    <link href="./assets/css/admin.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <meta name="msapplication-tap-highlight" content="no" />
+    <link href="./assets/css/admin.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -188,7 +188,7 @@
                     <ul class="vertical-nav-menu">
                         <li class="app-sidebar__heading">Dashboards</li>
                         <li>
-                            <a href="index.html">
+                            <a href="index.html" class="mm-active">
                                 <i class="metismenu-icon pe-7s-rocket"></i>
                                 Dashboard
                             </a>
@@ -202,13 +202,14 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul>
+                            <ul class="mm-collapse mm-show">
                                 <li>
                                     <a href="./add_item.html">
                                         <i class="metismenu-icon"></i>
                                         Add Item
                                     </a>
                                 </li>
+
                                 <li>
                                     <a href="./view_items.html">
                                         <i class="metismenu-icon"></i>
@@ -216,7 +217,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="./add_catagory.html">
+                                    <a href="./add_catagory.html" class="mm-active">
                                         <i class="metismenu-icon"></i>
                                         Add Catagory
                                     </a>
@@ -285,14 +286,14 @@
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="#" >
                                 <i class="metismenu-icon pe-7s-diamond"></i>
                                 Orders
                                 <i
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul>
+                            <ul >
                                 <li>
                                     <a href="./add_order.html">
                                         <i class="metismenu-icon"></i>
@@ -320,27 +321,27 @@
 
                         <li class="app-sidebar__heading">Settings</li>
                         <li>
-                            <a href="./orders.html" class="">
+                            <a href="./gen_settings.html">
                                 <i class="metismenu-icon pe-7s-diamond"> </i>General
                             </a>
                         </li>
                         <li>
-                            <a href="./orders.html">
+                            <a href="./email_settings.html">
                                 <i class="metismenu-icon pe-7s-display2"> </i>Email
                             </a>
                         </li>
                         <li>
-                            <a href="./orders.html">
+                            <a href="./tax_setting.html">
                                 <i class="metismenu-icon pe-7s-display2"> </i>Taxes
                             </a>
                         </li>
                         <li>
-                            <a href="./orders.html">
+                            <a href="./pay_settings.html">
                                 <i class="metismenu-icon pe-7s-display2"> </i>Payment
                             </a>
                         </li>
                         <li>
-                            <a href="./orders.html">
+                            <a href="./time_settings.html">
                                 <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                             </a>
                         </li>
@@ -349,98 +350,86 @@
             </div>
         </div>
         <div class="app-main__outer">
+            <div class="app-wrapper-footer">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div class="page-title-icon">
+                                    <i class="lnr-picture text-danger pe-7s-display2"> </i>
+                                </div>
+                                <div>Categories</div>
 
-            <div class="app-main__inner">
-                <div class="container-fluid">
-                    <div class="col-md-2 my-3 py-3 font-size-lg font-weight-bolder">
-                        Order #3290
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <div class="col-md-12 m-auto bg-white rounded p-3 u-or-sum">
-                                <div class="">Customer</div>
-                                <div class="row my-3">
-                                    <div class="col-2 rounded-circle">
-                                        <img src="./assets/images/logo.png" width="100%" class="rounded-circle" alt="">
-                                    </div>
-                                    <div class="col-8">
-                                        <h5>Sam Bush</h5>
-                                        <p>I am a boy.</p>
-                                    </div>
-                                    <div class="col-2">
-                                        &times;
-                                    </div>
-                                </div>
-                                <hr>
-                                <div class="lead my-3">Rental Period</div>
-                                <div class="container-fluid text-secondary text-center"><i
-                                        class="fa fa-calendar-alt"></i> 11-12-2020 09:00 AM
-                                    <i class="fa fa-arrow-right"></i> 12-12-2020 09:00 PM
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="col-md-12 m-auto bg-white rounded p-3 u-or-sum overflow-auto">
-                                <div class="mb-3">Information | 5 Items</div>
-                                <hr>
-                                <div class="col-md-12 my-1 mx-auto bg-light rounded py-3">
-                                    ROM Date
-                                </div>
-                                <div class="col-md-12 my-1 mx-auto bg-light rounded py-3">
-                                    ROM Date
-                                </div>
-                                <div class="col-md-12 my-1 mx-auto bg-light rounded py-3">
-                                    ROM Date
-                                </div>
-                                <div class="col-md-12 my-1 mx-auto bg-light rounded py-3">
-                                    ROM Date
-                                </div>
-                                <div class="col-md-12 my-1 mx-auto bg-light rounded py-3">
-                                    ROM Date
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid my-3 bg-white rounded">
-                        <div class="form-group py-3">
-                            <input type="text" class="form-control" placeholder="Enter search keywords here ...">
+                    <div class="main-card mb-3 card">
+                        <div class="card-body">
+                            <h5 class="card-title">Category List</h5>
+                            <div class="">
+                                <button href="#" class=" btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal">Add Category</button>
+                            </div>
+                            <table
+                                    id="example"
+                                    class="table display nowrap"
+                                    style="width: 100%"
+                            >
+                                <thead class="">
+                                <tr>
+                                    <th>SR #</th>
+                                    <th>Name</th>
+                                    <th>Actions</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Vest</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button
+                                                    type="button"
+                                                    class="btn btn-primary dropdown-toggle"
+                                                    data-toggle="dropdown"
+                                            >
+                                                Actions
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Gown</td>
+                                   <td>
+                                        <div class="dropdown">
+                                            <button
+                                                    type="button"
+                                                    class="btn btn-primary dropdown-toggle"
+                                                    data-toggle="dropdown"
+                                            >
+                                                Actions
+                                            </button>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#">Edit</a>
+                                                <a class="dropdown-item" href="#">Delete</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                </tbody>
+                            </table>
+                            <!-- Data Tables -->
+                            <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+                            <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+                            <!-- Data Tables -->
                         </div>
-                        <table class="table table-responsive">
-                            <tr>
-                                <th>No</th>
-                                <th>Description</th>
-                                <th>Available</th>
-                                <th>Quantity</th>
-                                <th>Unit Price</th>
-                                <th>Total Price</th>
-                                <th>Status</th>
-                                <th>Status Date</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><img src="./assets/images/logo.png" width="50px"> Mermaid Gown</td>
-                                <td><span class="btn btn-success">986 left</span></td>
-                                <td>2</td>
-                                <td>$625</td>
-                                <td>$1250</td>
-                                <td><span class="btn btn-warning">1st Fitting</span></td>
-                                <td>09-Oct-2020</td>
-                            </tr>
-                                <tr class="bg-danger text-white">
-                                <td>2</td>
-                                <td><img src="./assets/images/logo.png" width="50px"> Mermaid Gown</td>
-                                <td><span class="btn btn-success">986 left</span></td>
-                                <td>2</td>
-                                <td>$625</td>
-                                <td>$1250</td>
-                                <td><span class="btn btn-success">Altration</span></td>
-                                <td>07-Oct-2020</td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
-            </div>
-            <div class="app-wrapper-footer">
                 <div class="app-footer">
                     <script>
                         $(document).ready(function () {
@@ -460,5 +449,27 @@
     </div>
 </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="form-group" method="" action="">
+                    <label for="add">Add Category:</label>
+                    <input type="text" class="form-control " name="category" id="add" placeholder="Add category"/>
+
+             </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
