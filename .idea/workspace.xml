@@ -26,11 +26,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/admin/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_item.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/add_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_variation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/vaiation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vaiation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/view_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_items.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/view_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_variation.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/consultant/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/customers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consultant/requests.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/requests.html" afterDir="false" />
+>>>>>>> 2105592fc9e3e0511d60a4c2772fed55efb123ed
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
