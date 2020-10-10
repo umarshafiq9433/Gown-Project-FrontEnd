@@ -15,9 +15,11 @@
       content="This is an example dashboard created using build-in elements and components."
     />
     <meta name="msapplication-tap-highlight" content="no" />
-    <link rel="icon" href="./assets/images/logo.png" />
     <link href="./assets/css/admin.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <div
@@ -142,7 +144,7 @@
       <div class="app-main">
         <div class="app-sidebar sidebar-shadow">
           <div class="app-header__logo">
-            <div class="logo-src">Consultant Panel</div>
+            <div class="logo-src">Admin Panel</div>
             <div class="header__pane ml-auto">
               <div>
                 <button
@@ -181,7 +183,7 @@
               </button>
             </span>
           </div>
-          <div class="scrollbar-sidebar">
+          <div class="scrollbar-sidebar overflow-auto">
             <div class="app-sidebar__inner">
               <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
@@ -191,22 +193,143 @@
                     Dashboard
                   </a>
                 </li>
+                <li class="app-sidebar__heading">Inventory</li>
                 <li>
-                  <a href="index.html">
-                    <i class="metismenu-icon pe-7s-rocket"></i>
-                    Customers requests
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Stock
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./add_item.html">
+                        <i class="metismenu-icon"></i>
+                        Add Item
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./view_items.html">
+                        <i class="metismenu-icon"></i>
+                        View Items
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./add_variation.html">
+                        <i class="metismenu-icon"></i>
+                        Add Variation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./vaiation.html">
+                        <i class="metismenu-icon"></i>
+                        Item Variation
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="app-sidebar__heading">Customers</li>
+                <li>
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Customers
+                    <i
+                            class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./requests.html">
+                        <i class="metismenu-icon"></i>
+                        Customers  Requests
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./customers.html">
+                        <i class="metismenu-icon"></i>
+                        Customers List
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="app-sidebar__heading">Sales</li>
+                <li>
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Invoice
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./invoice_list.html">
+                        <i class="metismenu-icon"></i>
+                        View Invoices List
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <i class="metismenu-icon pe-7s-diamond"></i>
+                    Orders
+                    <i
+                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                    ></i>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="./add_order.html">
+                        <i class="metismenu-icon"></i>
+                        Add Orders
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./orders.html">
+                        <i class="metismenu-icon"></i>
+                        View Orders
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="./Payments_settings.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>Payments
                   </a>
                 </li>
                 <li>
-                  <a href="./customers.html">
-                    <i class="metismenu-icon pe-7s-display2"></i>
-                    Customers Lists
+                  <a href="./bookings.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>Bookings
+                  </a>
+                </li>
+
+                <li class="app-sidebar__heading">Settings</li>
+                <li>
+                  <a href="./gen_settings.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>General
                   </a>
                 </li>
                 <li>
-                  <a href="./invoice.html" class="mm-active">
-                    <i class="metismenu-icon pe-7s-display2"></i>
-                    Invoices
+                  <a href="./email_settings.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Email
+                  </a>
+                </li>
+                <li>
+                  <a href="./tax_setting.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Taxes
+                  </a>
+                </li>
+                <li>
+                  <a href="./pay_settings.html" class="mm-active">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Payment
+                  </a>
+                </li>
+                <li>
+                  <a href="./time_settings.html">
+                    <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
               </ul>
@@ -215,124 +338,39 @@
         </div>
         <div class="app-main__outer">
           <div class="app-main__inner">
-            <div class="app-page-title">
-              <div class="page-title-wrapper">
-                <div class="page-title-heading">
-                  <div class="page-title-icon">
-                    <i class="lnr-picture text-danger pe-7s-display2"> </i>
-                  </div>
-                  <div>
-                    Items List
-                    <div class="page-title-subheading">Items List</div>
-                  </div>
-                </div>
+            <div class="col-md-8 bg-white p-3 mx-auto my-3 border">
+              <div class="col-md-3 my-3">
+                <img src="./assets/images/stripe.png" width="100%" />
+                <button class="btn btn-white border border-secondary">
+                  Connect with stripe
+                </button>
               </div>
-            </div>
-            <div class="main-card mb-3 card">
-              <div class="card-body">
-                <h5 class="card-title">Items List</h5>
-
-                <table
-                  id="example"
-                  class="table display nowrap"
-                  style="width: 100%"
-                >
-                  <thead>
-                    <tr>
-                      <th>SR #</th>
-                      <th>Invoice ID</th>
-
-                      <th>Customer Name</th>
-                      <th>Consultant</th>
-                      <th>Article RFID</th>
-                      <th>Venue</th>
-                      <th>Total Bill</th>
-                      <th>Security</th>
-                      <th>Date</th>
-                      <th>Status</th>
-                      <th>Actions</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>XE321</td>
-                      <td>Ahsan</td>
-                      <td>Umar</td>
-                      <td>AXDC432E</td>
-                      <td>MM ALAM</td>
-                      <td>1750$</td>
-                      <td>750$</td>
-                      <td>07-Oct-2020</td>
-                      <td><span class="btn btn-warning">Rented</span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button
-                            type="button"
-                            class="btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown"
-                          >
-                            Actions
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Details</a>
-                            <a class="dropdown-item" href="#">Edit</a>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>XE331</td>
-                      <td>Farman</td>
-                      <td>Umar</td>
-                      <td>AXDC432F</td>
-                      <td>OTUS</td>
-                      <td>1750$</td>
-                      <td>750$</td>
-                      <td>09-Oct-2020</td>
-                      <td><span class="btn btn-success">Completed</span></td>
-                      <td>
-                        <div class="dropdown">
-                          <button
-                            type="button"
-                            class="btn btn-primary dropdown-toggle"
-                            data-toggle="dropdown"
-                          >
-                            Actions
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Details</a>
-                            <a class="dropdown-item" href="#">Edit</a>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <!-- Data Tables -->
-                <link
-                  rel="stylesheet"
-                  href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"
+              <hr />
+              <div class="col-md-3 my-3">
+                <img
+                  src="./assets/images/paypal_PNG19.png"
+                  class="my-3"
+                  width="100%"
                 />
-                <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
-                <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                <!-- Data Tables -->
+                <button class="btn btn-white border border-secondary">
+                  Connect with PayPal
+                </button>
               </div>
             </div>
           </div>
-          <div class="app-footer">
-            <script>
-              $(document).ready(function () {
-                var table = $("#example").DataTable({
-                  scrollX: true,
+          <div class="app-wrapper-footer">
+            <div class="app-footer">
+              <script>
+                $(document).ready(function () {
+                  var table = $("#example").DataTable({
+                    scrollX: true,
+                  });
                 });
-              });
-            </script>
-            <div class="app-footer__inner">
-              <div class="app-footer-left"></div>
-              <div class="app-footer-right"></div>
+              </script>
+              <div class="app-footer__inner">
+                <div class="app-footer-left"></div>
+                <div class="app-footer-right"></div>
+              </div>
             </div>
           </div>
         </div>

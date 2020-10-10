@@ -188,28 +188,27 @@
               <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
                 <li>
-                  <a href="index.html" class="mm-active">
+                  <a href="index.html">
                     <i class="metismenu-icon pe-7s-rocket"></i>
                     Dashboard
                   </a>
                 </li>
                 <li class="app-sidebar__heading">Inventory</li>
                 <li>
-                  <a href="#">
+                  <a href="#" class="mm-active">
                     <i class="metismenu-icon pe-7s-diamond"></i>
                     Stock
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
-                  <ul>
+                  <ul class="mm-collapse mm-show">
                     <li>
                       <a href="./add_item.html">
                         <i class="metismenu-icon"></i>
                         Add Item
                       </a>
                     </li>
-
                     <li>
                       <a href="./view_items.html">
                         <i class="metismenu-icon"></i>
@@ -223,39 +222,33 @@
                       </a>
                     </li>
                     <li>
-                      <a href="./vaiation.html">
+                      <a href="./vaiation.html" class="mm-active">
                         <i class="metismenu-icon"></i>
                         Item Variation
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li class="app-sidebar__heading">Consultants</li>
+                <li class="app-sidebar__heading">Customers</li>
                 <li>
                   <a href="#">
                     <i class="metismenu-icon pe-7s-diamond"></i>
-                    Consultant
+                    Customers
                     <i
-                      class="metismenu-state-icon pe-7s-angle-down caret-left"
+                            class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
                   <ul>
                     <li>
-                      <a href="./add_consultant.html">
+                      <a href="./requests.html">
                         <i class="metismenu-icon"></i>
-                        Add Consultant
+                        Customers  Requests
                       </a>
                     </li>
                     <li>
-                      <a href="./payments_list.html">
+                      <a href="./customers.html">
                         <i class="metismenu-icon"></i>
-                        Commission List
-                      </a>
-                    </li>
-                    <li>
-                      <a href="./view_consultants.html">
-                        <i class="metismenu-icon"></i>
-                        View Consultants
+                        Customers List
                       </a>
                     </li>
                   </ul>
@@ -278,16 +271,15 @@
                     </li>
                   </ul>
                 </li>
-
                 <li>
-                  <a href="#" class="mm-active">
+                  <a href="#">
                     <i class="metismenu-icon pe-7s-diamond"></i>
                     Orders
                     <i
                       class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
-                  <ul class="mm-collapse mm-show">
+                  <ul>
                     <li>
                       <a href="./add_order.html">
                         <i class="metismenu-icon"></i>
@@ -295,7 +287,7 @@
                       </a>
                     </li>
                     <li>
-                      <a href="./orders.html" class="mm-active">
+                      <a href="./orders.html">
                         <i class="metismenu-icon"></i>
                         View Orders
                       </a>
@@ -352,172 +344,85 @@
                     <div class="page-title-icon">
                       <i class="lnr-picture text-danger pe-7s-display2"> </i>
                     </div>
-                    <div>Order List</div>
+                    <div>Variation</div>
                   </div>
                 </div>
               </div>
               <div class="main-card mb-3 card">
                 <div class="card-body">
-                  <h5 class="card-title">Items List</h5>
-                  <table
-                    id="example"
-                    class="table display nowrap"
-                    style="width: 100%"
-                  >
-                    <thead class="">
-                      <tr>
-                        <th>SR #</th>
-                        <th>Order ID</th>
-                        <th>Customer Name</th>
-                        <th>Consultant</th>
-                        <th>Article RFID</th>
-                        <th>Venue</th>
-                        <th>Total Bill</th>
-                        <th>Security</th>
-                        <th>Date event</th>
-                        <th>Status date</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>XE321</td>
-                        <td>Deny</td>
-                        <td>Alex Brown</td>
-                        <td>AXDC432E</td>
-                        <td>LA</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>07-Oct-2020</td>
-                        <td>13-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">1st Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a
-                                class="dropdown-item"
-                                href="./order_summary.html"
-                                >Summary</a
+                  <h5 class="card-title"></h5>
+                  <button class="btn border float-right mt-4" type="submit">
+                    + Add Property
+                  </button>
+                  <div class="table-responsive">
+                    <table
+                      id="example"
+                      class="table display nowrap"
+                      style="width: 100%"
+                    >
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Delport</td>
+                          <td>0100</td>
+                          <td>
+                            <div class="dropdown">
+                              <button
+                                type="button"
+                                class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
                               >
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
+                                Actions
+                              </button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Details</a>
+                                <a class="dropdown-item" href="#">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                              </div>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>XE331</td>
-                        <td>Julia</td>
-                        <td>James</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>09-Oct-2020</td>
-                        <td>02-Oct-2020</td>
-                        <td><span class="btn btn-warning">altered</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a
-                                class="dropdown-item"
-                                href="./order_summary.html"
-                                >Summary</a
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>James</td>
+                          <td>$331</td>
+                          <td>
+                            <div class="dropdown">
+                              <button
+                                type="button"
+                                class="btn btn-primary dropdown-toggle"
+                                data-toggle="dropdown"
                               >
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
+                                Actions
+                              </button>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Details</a>
+                                <a class="dropdown-item" href="#">Edit</a>
+                                <a class="dropdown-item" href="#">Delete</a>
+                              </div>
                             </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>XE334</td>
-                        <td>Parker</td>
-                        <td>Stephen</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>13-Oct-2020</td>
-                        <td>10-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">Final Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Summary</a>
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!-- Data Tables -->
 
-                      <tr>
-                        <td>3</td>
-                        <td>XE434</td>
-                        <td>Peter</td>
-                        <td>Alex Brown</td>
-                        <td>AXDC432F</td>
-                        <td>OTUS</td>
-                        <td>$1750</td>
-                        <td>$750</td>
-                        <td>13-Oct-2020</td>
-                        <td>24-Oct-2020</td>
-                        <td>
-                          <span class="btn btn-warning">1st Session</span>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button
-                              type="button"
-                              class="btn btn-primary dropdown-toggle"
-                              data-toggle="dropdown"
-                            >
-                              Actions
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="#">Summary</a>
-                              <a class="dropdown-item" href="#">Edit</a>
-                              <a class="dropdown-item" href="#">Delete</a>
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <!-- Data Tables -->
-                  <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                  <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                  <!-- Data Tables -->
+                    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+                    <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+                    <!-- Data Tables -->
+                  </div>
+
+                  <hr />
+                  <button
+                    class="btn btn-primary float-right mt-4"
+                    type="submit"
+                  >
+                    + Add Variation
+                  </button>
                 </div>
               </div>
             </div>
