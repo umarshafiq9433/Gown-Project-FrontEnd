@@ -25,6 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/payments_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payments_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602312618090</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602327011390</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602327011390</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
