@@ -302,10 +302,16 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="./Payments_settings.html" class="mm-active">
+                                <i class="metismenu-icon pe-7s-display2"> </i>Payments
+                            </a>
+                        </li>
+                        <li>
                             <a href="./bookings.html">
                                 <i class="metismenu-icon pe-7s-diamond"> </i>Bookings
                             </a>
                         </li>
+
 
                         <li class="app-sidebar__heading">Settings</li>
                         <li>
@@ -324,7 +330,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./pay_settings.html" class="mm-active">
+                            <a href="./pay_settings.html">
                                 <i class="metismenu-icon pe-7s-display2"> </i>Payment
                             </a>
                         </li>
@@ -339,13 +345,71 @@
         </div>
         <div class="app-main__outer">
             <div class="app-main__inner">
-                <div class="container-fluid">
-                    <table class="table table-responsive">
+                <div class="container-fluid bg-white py-3">
+                    <table class="table table-responsive-md">
+                        <h3 class="p-3">Payments</h3>
                         <tr>
-                            td*
+                            <thead>
+                            <th>No</th>
+                            <th>Invoice ID</th>
+                            <th>Total Paid Amount</th>
+                            <th>Total Outstanding amount</th>
+                            <th>Total Amount</th>
+                            <th>Security Deposit</th>
+                            <th>Due Date</th>
+                            <th>Actions</th>
+                            </tr>
+                            </thead>
+                        <tr>
+                            <td>1</td>
+                            <td>AB123</td>
+                            <td>$720</td>
+                            <td>$1000</td>
+                            <td>$1720</td>
+                            <td><span class="btn btn-success">Refunded</span></td>
+                            <td>25-12-2020</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button
+                                            type="button"
+                                            class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown"
+                                    >
+                                        Actions
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Summary</a>
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </td>
                         </tr>
-                        <tr></tr>
-                        <tr></tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AB123</td>
+                            <td>$720</td>
+                            <td>$1000</td>
+                            <td>$1720</td>
+                            <td><span class="btn btn-warning">Pending</span></td>
+                            <td>25-12-2020</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button
+                                            type="button"
+                                            class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown"
+                                    >
+                                        Actions
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Summary</a>
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
                     </table>
                 </div>
             </div>
