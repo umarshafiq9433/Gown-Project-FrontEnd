@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/pay_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pay_settings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +54,8 @@
       <workItem from="1602042486419" duration="13634000" />
       <workItem from="1602133293131" duration="3237000" />
       <workItem from="1602136558103" duration="22892000" />
+      <workItem from="1602225968049" duration="291000" />
+      <workItem from="1602234690759" duration="755000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602166814790</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602226010474</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602226010474</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
