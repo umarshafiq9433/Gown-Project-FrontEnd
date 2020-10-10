@@ -20,112 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/invoice_summery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/Payments_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/add_consultant.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/add_item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/add_order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/add_variation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/images/paypal_PNG19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/images/stripe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-kw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/en-nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/es-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/fr-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/ug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/locales/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/assets/lib/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/bookings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/email_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/gen_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/invoice_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/invoice_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/invoice_summery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/order_summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/pay_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/payments_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/tax_setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/time_settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/trace_record.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/vaiation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/view_consultants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/view_items.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consultant/view_variation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/orders.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consultant/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consultant/customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/customers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consultant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consultant/invoice.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consultant/requests.html" beforeDir="false" afterPath="$PROJECT_DIR$/consultant/requests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602166814790</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <created>1602312618090</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602312618090</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
