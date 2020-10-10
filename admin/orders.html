@@ -183,7 +183,7 @@
               </button>
             </span>
           </div>
-          <div class="scrollbar-sidebar">
+          <div class="scrollbar-sidebar overflow-auto">
             <div class="app-sidebar__inner">
               <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">Dashboards</li>
@@ -209,16 +209,23 @@
                         Add Item
                       </a>
                     </li>
-                    <li>
-                      <a href="./vaiation.html">
-                        <i class="metismenu-icon"></i>
-                        Item Variation
-                      </a>
-                    </li>
+
                     <li>
                       <a href="./view_items.html">
                         <i class="metismenu-icon"></i>
                         View Items
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./add_variation.html">
+                        <i class="metismenu-icon"></i>
+                        Add Variation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="./vaiation.html">
+                        <i class="metismenu-icon"></i>
+                        Item Variation
                       </a>
                     </li>
                   </ul>
@@ -296,7 +303,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="./Payments_settings.html" >
+                  <a href="./Payments_settings.html">
                     <i class="metismenu-icon pe-7s-diamond"> </i>Payments
                   </a>
                 </li>
@@ -367,7 +374,8 @@
                         <th>Venue</th>
                         <th>Total Bill</th>
                         <th>Security</th>
-                        <th>Date</th>
+                        <th>Date event</th>
+                        <th>Status date</th>
                         <th>Status</th>
                         <th>Actions</th>
                       </tr>
@@ -384,6 +392,11 @@
                         <td>$750</td>
                         <td>07-Oct-2020</td>
                         <td>
+                          <button type="button" class="btn btn-success">
+                            1st Fitting
+                          </button>
+                        </td>
+                        <td>
                           <span class="btn btn-warning">1st Session</span>
                         </td>
                         <td>
@@ -396,7 +409,11 @@
                               Actions
                             </button>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="./order_summary.html">Summary</a>
+                              <a
+                                class="dropdown-item"
+                                href="./order_summary.html"
+                                >Summary</a
+                              >
                               <a class="dropdown-item" href="#">Edit</a>
                               <a class="dropdown-item" href="#">Delete</a>
                             </div>
@@ -413,7 +430,12 @@
                         <td>$1750</td>
                         <td>$750</td>
                         <td>09-Oct-2020</td>
-                        <td><span class="btn btn-success">Rented</span></td>
+                        <td>
+                          <button type="button" class="btn btn-success">
+                            2st Fitting
+                          </button>
+                        </td>
+                        <td><span class="btn btn-warning">altered</span></td>
                         <td>
                           <div class="dropdown">
                             <button
@@ -424,7 +446,11 @@
                               Actions
                             </button>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item" href="./order_summary.html">Summary</a>
+                              <a
+                                class="dropdown-item"
+                                href="./order_summary.html"
+                                >Summary</a
+                              >
                               <a class="dropdown-item" href="#">Edit</a>
                               <a class="dropdown-item" href="#">Delete</a>
                             </div>
@@ -441,6 +467,11 @@
                         <td>$1750</td>
                         <td>$750</td>
                         <td>13-Oct-2020</td>
+                        <td>
+                          <button type="button" class="btn btn-success">
+                            alteration
+                          </button>
+                        </td>
                         <td>
                           <span class="btn btn-warning">Final Session</span>
                         </td>
@@ -473,6 +504,11 @@
                         <td>$750</td>
                         <td>13-Oct-2020</td>
                         <td>
+                          <button type="button" class="btn btn-success">
+                            altered
+                          </button>
+                        </td>
+                        <td>
                           <span class="btn btn-warning">1st Session</span>
                         </td>
                         <td>
@@ -495,12 +531,7 @@
                     </tbody>
                   </table>
                   <!-- Data Tables -->
-                  <link
-                    rel="stylesheet"
-                    href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css"
-                  />
                   <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                  <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
                   <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
                   <!-- Data Tables -->
                 </div>
