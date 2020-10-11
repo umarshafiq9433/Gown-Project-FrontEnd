@@ -25,7 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -263,14 +263,15 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="395" y="85" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1602154866665" />
-    <state x="301" y="80" key="SettingsEditor" timestamp="1602247803360">
-      <screen x="0" y="0" width="1600" height="870" />
-    </state>
-    <state x="301" y="80" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1602247803360" />
-    <state x="335" y="143" key="Vcs.Push.Dialog.v2" timestamp="1602328269624">
+    <state x="257" y="23" key="SettingsEditor" timestamp="1602332495178">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="335" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602328269624" />
+    <state x="257" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1602332495178" />
+    <state x="301" y="80" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1602247803360" />
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2" timestamp="1602332656341">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="335" y="143" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602332656341" />
     <state x="392" y="168" key="Vcs.Push.Dialog.v2/0.0.1600.870@0.0.1600.870" timestamp="1602307662898" />
     <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602134775675">
       <screen x="0" y="0" width="1366" height="738" />
