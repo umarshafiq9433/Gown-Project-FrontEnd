@@ -21,7 +21,30 @@
   <component name="ChangeListManager">
     <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Payments_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Payments_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_catagory.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_catagory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_consultant.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_consultant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_order.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/add_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_variation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/bookings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bookings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/email_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/email_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/gen_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/gen_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/invoice_summery.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/invoice_summery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/order_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/order_summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pay_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pay_settings.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/payments_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/payments_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tax_setting.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tax_setting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/time_settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/time_settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/trace_record.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/trace_record.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/vaiation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/vaiation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_consultants.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_consultants.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_items.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/view_variation.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/view_variation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +103,9 @@
       <workItem from="1602246641274" duration="6407000" />
       <workItem from="1602305078846" duration="2098000" />
       <workItem from="1602333071286" duration="271000" />
-      <workItem from="1602398748872" duration="428000" />
+      <workItem from="1602398748872" duration="739000" />
+      <workItem from="1602403709327" duration="23000" />
+      <workItem from="1602483734532" duration="1197000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>
@@ -264,10 +289,11 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="92" y="92" width="1416" height="686" key="DiffContextDialog/0.0.1600.870@0.0.1600.870" timestamp="1602307529278" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1601803197233">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="542" y="146" key="FileChooserDialogImpl" timestamp="1602403730599">
+      <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601803197233" />
+    <state x="542" y="146" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1602403730599" />
     <state x="129" y="56" key="MergeDialog" timestamp="1602154866658">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
