@@ -200,7 +200,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                     <a href="./add_item.html">
                                         <i class="metismenu-icon"></i>
@@ -225,7 +225,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                 <li>
                                     <a href="./add_catagory.html">
@@ -386,9 +386,12 @@
                             </button>
                             <br>
                         </div>
-                        <div class="form-group" id="values">
+                        <div class="form-group" id="">
                             <label for="val">Value</label>
                             <input type="text" class="form-control" id="val">
+                        </div>
+                        <div id="values" class="mb-2">
+
                         </div>
                         <div class="form-group mb-5">
                             <button class="btn btn-primary float-right">Save</button>
@@ -397,9 +400,14 @@
                 </div>
                 <script>
                     $(document).ready(function () {
+                        var counter = 0;
                         $("#add-var").on("click", function () {
-                            $("#values").append("<label for='val'>Value</label><input type='text' class='form-control' id='val'>")
+                            $("#values").append("<div class='form-group'><label for='val'>Value</label><br><input type='text' class='form-control col-11 d-inline' id='val'> <button type='button' class='btn btn-danger' id='rem-var'><i class='fa fa-minus-circle'></i></button></div>");
+                            $("#rem-var-div").removeClass("d-none");
                         })
+                        $(document).on("click","#rem-var",function(){
+                            $(this).parents("div.form-group").css('display','none');
+                        });
                     })
                 </script>
             </div>

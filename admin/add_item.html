@@ -498,7 +498,7 @@
                                 $("#color").on("click", function () {
                                     var str = "";
                                     str = "<table class='table table-responsive-md'>" +
-                                        "<h4>Color</h4>" +
+                                        "<h4>Color <span id='rem-var' class='text-danger'><i class='fa fa-minus-circle float-right'></i></span></h4>" +
                                         "<tr>" +
                                         "<td>1</td>" +
                                         "<td>Red</td>" +
@@ -521,7 +521,7 @@
                                 $("#type").on("click", function () {
                                     var str = "";
                                     str = "<table class='table table-responsive-md'>" +
-                                        "<h4>Type</h4>" +
+                                        "<h4>Type <span id='rem-var' class='text-danger'><i class='fa fa-minus-circle float-right'></i></span></h4>" +
                                         "<tr>" +
                                         "<td>1</td>" +
                                         "<td>Gown</td>" +
@@ -539,7 +539,7 @@
                                 $("#size").on("click", function () {
                                     var str = "";
                                     str = "<table class='table table-responsive-md'>" +
-                                        "<h4>Size</h4>" +
+                                        "<h4>Size <span id='rem-var' class='text-danger'><i class='fa fa-minus-circle float-right'></i></span></h4>" +
                                         "<tr>" +
                                         "<td>1</td>" +
                                         "<td>Medium</td>" +
@@ -552,6 +552,11 @@
                                         "</tr>" +
                                         "</table>"
                                     $("#tab").append(str);
+                                });
+
+                                $(document).on("click","#rem-var",function(){
+                                    $(this).parents().next().addClass("d-none");
+                                    $(this).parents("h4").addClass("d-none");
                                 });
                             })
                         </script>
