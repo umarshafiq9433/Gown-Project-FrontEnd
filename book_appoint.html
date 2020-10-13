@@ -297,20 +297,21 @@
 
     $(document).ready(function () {
         $(document).scroll(function () {
-            if ($(this).scrollTop() >= 0 && $(this).scrollTop() <= 650) {
+            if ($(this).scrollTop() >= 0 && $(this).scrollTop() <= 650 && $(document).width() >= 768) {
                 $("#move").css("margin-top", $(this).scrollTop() + "px")
             }
         });
 
         $(".time").on("click", function () {
             $("#time").html($(this).html());
-        })
+        });
 
         $(".consul").on("click", function () {
             event.preventDefault();
             $("#consultant").html($(this).html());
             $("#next").removeClass("d-none");
-        })
+        });
+
     })
 </script>
 
