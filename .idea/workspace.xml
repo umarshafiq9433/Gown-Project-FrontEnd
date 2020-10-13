@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html" />
+    <list default="true" id="e8083062-bdec-419e-8598-8d2f1fe010eb" name="Default Changelist" comment="Merge branch 'main' of https://github.com/umarshafiq9433/Gown-Project-FrontEnd into main&#10;&#10;# Conflicts:&#10;#&#9;admin/orders.html">
+      <change beforePath="$PROJECT_DIR$/book_appoint.html" beforeDir="false" afterPath="$PROJECT_DIR$/book_appoint.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +85,7 @@
       <workItem from="1602305078846" duration="2098000" />
       <workItem from="1602333071286" duration="271000" />
       <workItem from="1602398748872" duration="428000" />
-      <workItem from="1602564631155" duration="13641000" />
+      <workItem from="1602564631155" duration="14036000" />
     </task>
     <task id="LOCAL-00001" summary="Ahsan Umair">
       <created>1602134748417</created>

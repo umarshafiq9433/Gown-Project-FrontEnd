@@ -264,7 +264,9 @@
                 <div id="consultant"></div>
                 <div>3 Ang Mo Kio Street 62, Singapore 569139 #02-04 Link@AMK</div>
 
-                <a href="./Booking.html"><button class="btn btn-secondary my-3 d-none" id="next">Next</button></a>
+                <a href="./Booking.html">
+                    <button class="btn btn-secondary my-3 d-none" id="next">Next</button>
+                </a>
             </div>
         </div>
     </div>
@@ -295,16 +297,16 @@
 
     $(document).ready(function () {
         $(document).scroll(function () {
-            if($(this).scrollTop()>=0 && $(this).scrollTop()<=650){
-                $("#move").css("margin-top",$(this).scrollTop()+"px")
+            if ($(this).scrollTop() >= 0 && $(this).scrollTop() <= 650) {
+                $("#move").css("margin-top", $(this).scrollTop() + "px")
             }
         });
 
-        $(".time").on("click",function () {
+        $(".time").on("click", function () {
             $("#time").html($(this).html());
         })
 
-        $(".consul").on("click",function () {
+        $(".consul").on("click", function () {
             event.preventDefault();
             $("#consultant").html($(this).html());
             $("#next").removeClass("d-none");
