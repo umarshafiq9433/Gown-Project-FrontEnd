@@ -199,7 +199,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                     <a href="./add_item.html">
                                         <i class="metismenu-icon"></i>
@@ -224,7 +224,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                 <li>
                                     <a href="./add_catagory.html">
@@ -349,15 +349,34 @@
                             </ul>
                         </li>
                         <li>
+                            <a href="#" class="mm-active">
+                                <i class="metismenu-icon pe-7s-diamond"></i>
+                                Bookings
+                                <i
+                                        class="metismenu-state-icon pe-7s-angle-down caret-left"
+                                ></i>
+                            </a>
+                            <ul class="mm-collapse mm-show">
+                                <li>
+                                    <a href="./bookings_list.html">
+                                        <i class="metismenu-icon"></i>
+                                        Calendar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./bookings.html" class="mm-active">
+                                        <i class="metismenu-icon"></i>
+                                        List
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
                             <a href="./Payments_settings.html">
                                 <i class="metismenu-icon pe-7s-diamond"> </i>Payments
                             </a>
                         </li>
-                        <li>
-                            <a href="./bookings.html" class="mm-active">
-                                <i class="metismenu-icon pe-7s-diamond"> </i>Bookings
-                            </a>
-                        </li>
+
 
                         <li class="app-sidebar__heading">Settings</li>
                         <li>
@@ -391,82 +410,72 @@
         </div>
         <div class="app-main__outer">
             <div class="app-main__inner">
-                <div class="col-md-6 my-3 mx-auto p-3 bg-white rounded">
-                    <label>Filter</label>
-                    <select class="form-control" name="" id="">
-                        <option value="">Consultant</option>
-                        <option value="">Item</option>
-                    </select>
+                <div class="container-fluid bg-white p-5">
+                    <h2 class="my-3">BOOKINGS LIST</h2>
+                    <table class="table table-responsive-md">
+                        <tr>
+                            <th>No.</th>
+                            <th>Customer Name</th>
+                            <th>Consultant Name</th>
+                            <th>Event Type</th>
+                            <th>Status</th>
+                            <th>Status Date</th>
+                            <th>Security Deposit</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>John</td>
+                            <td>Lincoln</td>
+                            <td>POS</td>
+                            <td>1st Session</td>
+                            <td>10-09-1-2020</td>
+                            <td><span class="btn btn-warning">Pending</span></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button
+                                            type="button"
+                                            class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown"
+                                    >
+                                        Actions
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Detail</a>
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>John</td>
+                            <td>Cena</td>
+                            <td>PWS</td>
+                            <td>2nd Session</td>
+                            <td>10-09-1-2020</td>
+                            <td><span class="btn btn-success">Paid</span></td>
+                            <td>
+                                <div class="dropdown">
+                                    <button
+                                            type="button"
+                                            class="btn btn-primary dropdown-toggle"
+                                            data-toggle="dropdown"
+                                    >
+                                        Actions
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Detail</a>
+                                        <a class="dropdown-item" href="#">Edit</a>
+                                        <a class="dropdown-item" href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
                 </div>
-                <div id="calendarList"></div>
-
-                <!--Calendar Files-->
-                <link href="./assets/lib/calendar.css" rel="stylesheet"/>
-                <script src="./assets/lib/calendar.js"></script>
-                <script>
-                    document.addEventListener("DOMContentLoaded", function () {
-                        var calendarEl = document.getElementById("calendarList");
-
-                        var calendar = new FullCalendar.Calendar(calendarEl, {
-                            headerToolbar: {
-                                left: "prev,next today",
-                                center: "title",
-                                right: "dayGridMonth,listMonth",
-                            },
-
-                            // customize the button names,
-                            // otherwise they'd all just say "list"
-                            views: {
-                                listDay: {buttonText: "list day"},
-                                listWeek: {buttonText: "list week"},
-                            },
-
-                            initialView: "dayGridMonth",
-                            initialDate: "2020-09-12",
-                            navLinks: true, // can click day/week names to navigate views
-                            editable: true,
-                            dayMaxEvents: true, // allow "more" link when too many events
-                            events: [
-                                {
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-01",
-                                },
-                                {
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-07",
-                                    end: "2020-09-10",
-                                },
-                                {
-                                    groupId: 999,
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-09T16:00:00",
-                                },
-                                {
-                                    groupId: 999,
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-16T16:00:00",
-                                },
-                                {
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-11",
-                                    end: "2020-09-13",
-                                },
-                                {
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-12T10:30:00",
-                                    end: "2020-09-12T12:30:00",
-                                },
-                                {
-                                    title: "Customer : James Consultant : John 1st Session",
-                                    start: "2020-09-12T12:00:00",
-                                },
-                            ],
-                        });
-
-                        calendar.render();
-                    });
-                </script>
-                <!--Calendar Files-->
             </div>
         </div>
         <div class="app-wrapper-footer">
