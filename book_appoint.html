@@ -30,29 +30,6 @@
     <!-- Latest compiled JavaScript -->
     <script src="dist/owl.carousel.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-
-    <!-- Calendar -->
-    <link href="./assets/lib/main.css" rel="stylesheet"/>
-    <script src="./assets/lib/main.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var calendarEl = document.getElementById("calendar");
-            var d = new Date();
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: "dayGridMonth",
-                selectable: true,
-                schedulerLicenseKey: "GPL-My-Project-Is-Open-Source",
-                validRange: {
-                    start: d.getFullYear + "-" + d.getMonth + "-" + d.getDay,
-                },
-                dateClick: function (info) {
-                    alert("Date: " + info.dateStr);
-                    alert("Resource ID: " + info.resource.id);
-                },
-            });
-            calendar.render();
-        });
-    </script>
 </head>
 <body>
 <!-- Header Started -->
@@ -153,132 +130,187 @@
 <!-- Header Ended -->
 <!-- Content Starts -->
 <div class="content">
-    <div class="container my-5 p-5" style="background-color: #c9e9e9">
-        <h1 class="lead">Schedule Online</h1>
-        <div
-                class="my-3"
-                style="
+    <div class="container" style="background-color: #c9e9e9">
+        <div class="row my-5">
+            <div class="col-md-8 p-5 border border-secondary">
+                <h1 class="lead">Schedule Online</h1>
+                <div
+                        class="my-3"
+                        style="
             color: #7f7f7f;
             font-family: sans-serif;
             font-size: x-large;
             font-weight: bold;
           "
-        >
-            <p class="lead">Singapore Time (GMT +08:00)</p>
-        </div>
-        <div class="col-md-3 my-3 float-right">
-            <select name="" id="" class="form-control">
-                <option value="">All Staff</option>
-                <option value="">Kelly</option>
-                <option value="">John</option>
-            </select>
-        </div>
-        <div id="calendar" class="my-5 col-md-12 col-sm-12"></div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="col-11 mx-auto">
-                    <h3 class="lead text-center">Morning</h3>
-                    <p class="lead text-center">No Slots Available</p>
+                >
+                    <p class="lead">Singapore Time (GMT +08:00)</p>
+                </div>
+                <div class="col-md-3 my-3 float-right">
+                    <select name="" id="" class="form-control">
+                        <option value="">All Staff</option>
+                        <option value="">Kelly</option>
+                        <option value="">John</option>
+                    </select>
+                </div>
+                <div id="calendar" class="my-5 col-md-12 col-sm-12"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="col-11 mx-auto">
+                            <h3 class="lead text-center">Morning</h3>
+                            <p class="lead text-center">No Slots Available</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-11 mx-auto">
+                            <h3 class="lead text-center">After Noon</h3>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    01:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    02:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    03:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="col-11 mx-auto">
+                            <h3 class="lead text-center">Evening</h3>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    06:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    07:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                            <div class="dropdown mx-auto my-2 rounded border border-secondary">
+                                <button
+                                        type="button"
+                                        class="btn dropdown-toggle time"
+                                        data-toggle="dropdown"
+                                >
+                                    08:00 PM
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item consul" href="#">Kelly</a>
+                                    <a class="dropdown-item consul" href="#">Jenner</a>
+                                    <a class="dropdown-item consul" href="#">Danials</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="col-11 mx-auto">
-                    <h3 class="lead text-center">After Noon</h3>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            01:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            02:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            03:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="col-11 mx-auto">
-                    <h3 class="lead text-center">Evening</h3>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            06:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            07:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                    <div class="dropdown col-6 mx-auto my-2 rounded border border-secondary">
-                        <button
-                                type="button"
-                                class="btn dropdown-toggle"
-                                data-toggle="dropdown"
-                        >
-                            08:00 PM
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Kelly</a>
-                            <a class="dropdown-item" href="#">Jenner</a>
-                            <a class="dropdown-item" href="#">Danials</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-4 p-5 border border-secondary lead" id="move">
+                <div>New Consultation</div>
+                <div>2hr | Complimentary</div>
+                <hr>
+                <div><span id="date"></span> <span id="time"></span></div>
+                <div id="consultant"></div>
+                <div>3 Ang Mo Kio Street 62, Singapore 569139 #02-04 Link@AMK</div>
+
+                <a href="./Booking.html"><button class="btn btn-secondary my-3 d-none" id="next">Next</button></a>
             </div>
         </div>
     </div>
 </div>
 <!-- Content Start End-->
+
+<!-- Calendar -->
+<link href="./assets/lib/main.css" rel="stylesheet"/>
+<script src="./assets/lib/main.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var calendarEl = document.getElementById("calendar");
+        var d = new Date();
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: "dayGridMonth",
+            selectable: true,
+            schedulerLicenseKey: "GPL-My-Project-Is-Open-Source",
+            validRange: {
+                start: d.getFullYear + "-" + d.getMonth + "-" + d.getDay,
+            },
+            dateClick: function (info) {
+                document.getElementById("date").innerHTML = info.dateStr;
+                document.getElementById("time").innerHTML = "";
+            },
+        });
+        calendar.render();
+    });
+
+    $(document).ready(function () {
+        $(document).scroll(function () {
+            if($(this).scrollTop()>=0 && $(this).scrollTop()<=650){
+                $("#move").css("margin-top",$(this).scrollTop()+"px")
+            }
+        });
+
+        $(".time").on("click",function () {
+            $("#time").html($(this).html());
+        })
+
+        $(".consul").on("click",function () {
+            event.preventDefault();
+            $("#consultant").html($(this).html());
+            $("#next").removeClass("d-none");
+        })
+    })
+</script>
 
 <!-- Footer Started -->
 <footer class="col-12 pt-5">
