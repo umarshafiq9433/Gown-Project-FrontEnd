@@ -202,16 +202,16 @@
                             class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
-                  <ul class="mm-collapse mm-show">
+                  <ul >
                     <li>
-                      <a href="./add_item.html" >
+                      <a href="./add_item.html">
                         <i class="metismenu-icon"></i>
                         Add Item
                       </a>
                     </li>
 
                     <li>
-                      <a href="./view_items.html" class="mm-active">
+                      <a href="./view_items.html">
                         <i class="metismenu-icon"></i>
                         View Items
                       </a>
@@ -293,16 +293,16 @@
                 </li>
                 <li class="app-sidebar__heading">Customers</li>
                 <li>
-                  <a href="#">
+                  <a href="#" class="mm-active">
                     <i class="metismenu-icon pe-7s-diamond"></i>
                     Customers
                     <i
                             class="metismenu-state-icon pe-7s-angle-down caret-left"
                     ></i>
                   </a>
-                  <ul>
+                  <ul class="mm-collapse mm-show">
                     <li>
-                      <a href="./customers.html">
+                      <a href="./customers.html" class="mm-active">
                         <i class="metismenu-icon"></i>
                         Customers List
                       </a>
@@ -326,16 +326,6 @@
                       </a>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <a href="./Payments_settings.html">
-                    <i class="metismenu-icon pe-7s-diamond"> </i>Payments
-                  </a>
-                </li>
-                <li>
-                  <a href="./bookings.html">
-                    <i class="metismenu-icon pe-7s-diamond"> </i>Bookings
-                  </a>
                 </li>
 
                 <li>
@@ -361,6 +351,16 @@
                     </li>
                   </ul>
                 </li>
+                <li>
+                  <a href="./Payments_settings.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>Payments
+                  </a>
+                </li>
+                <li>
+                  <a href="./bookings.html">
+                    <i class="metismenu-icon pe-7s-diamond"> </i>Bookings
+                  </a>
+                </li>
 
                 <li class="app-sidebar__heading">Settings</li>
                 <li>
@@ -379,12 +379,12 @@
                   </a>
                 </li>
                 <li>
-                  <a href="./pay_settings.html" class="mm-active">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Payment
                   </a>
                 </li>
                 <li>
-                  <a href="./time_settings.html">
+                  <a href="./orders.html">
                     <i class="metismenu-icon pe-7s-display2"> </i>Timezone
                   </a>
                 </li>
@@ -402,106 +402,99 @@
                       <i class="lnr-picture text-danger pe-7s-display2"> </i>
                     </div>
                     <div>
-                      Items List
-                      <div class="page-title-subheading">Items List</div>
+                      Customers
+                      <div class="page-title-subheading">Customers List</div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="main-card mb-3 card">
                 <div class="card-body">
-                  <h5 class="card-title">Items List</h5>
+                  <h5 class="card-title"></h5>
                   <div class="table-responsive">
                     <table
-                      id="example"
-                      class="table display nowrap"
-                      style="width: 100%"
+                            id="example"
+                            class="table display nowrap"
+                            style="width: 100%"
                     >
                       <thead>
-                        <tr>
-                          <th>SR #</th>
-                          <th>Item Name</th>
-                          <th>Item size</th>
-                          <!--<th>Price</th>-->
-                          <!--<th>Month's Sale</th/>-->
-                          <!--<th>Month's Booking</th>-->
-                          <th>Total Bookings</th>
-                          <!--<th>Current Quantity</th>-->
-                          <th>Actions</th>
-                        </tr>
+                      <tr>
+                        <th>SR #</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Gown Preferences</th>
+                        <th>Size</th>
+                        <th>Gown Tried</th>
+                        <th>Gown Finalized</th>
+                        <th>Appointment Type</th>
+                        <th>Avenue</th>
+                        <th>Time</th>
+                        <th>Event Type</th>
+                        <th>Event Date</th>
+                        <th>Actions</th>
+                      </tr>
                       </thead>
                       <tbody>
-                        <tr>
-                          <td>1</td>
-                          <td>Gown</td>
-                          <td>
-                            <select name="" id="" class="form-control">
-                              <option value="">S</option>
-                              <option value="">L</option>
-                              <option value="">USA6</option>
-                            </select>
-                          </td>
-                          <!--<td>$8765</td>-->
-                          <!--<td>2</td>-->
-                          <!--<td>8</td>-->
-                          <td>140</td>
-                          <!--<td>140</td>-->
-                          <td>
-                            <div class="dropdown">
-                              <button
-                                type="button"
-                                class="btn btn-primary dropdown-toggle"
-                                data-toggle="dropdown"
-                              >
-                                Actions
-                              </button>
-                              <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Details</a>
-                                <a class="dropdown-item" href="#">Edit</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                              </div>
+                      <tr>
+                        <td>1</td>
+                        <td>Brown</td>
+                        <td>625$</td>
+                        <td>Mermaid, Bead Dress, Sweetheart</td>
+                        <td>Large</td>
+                        <td>Mermaid,Beads</td>
+                        <td>Mermaid</td>
+                        <td>First Session</td>
+                        <td>01:30 PM</td>
+                        <td>MM Alam</td>
+                        <td>PWS</td>
+                        <td>08-Oct-2020</td>
+                        <td>
+                          <div class="dropdown">
+                            <button
+                                    type="button"
+                                    class="btn btn-primary dropdown-toggle"
+                                    data-toggle="dropdown"
+                            >
+                              Actions
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Detail</a>
+                              <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#myModal">Edit</a>
                             </div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>2</td>
-                          <td>Coke</td>
-                          <td>
-                            <select name="" id="" class="form-control">
-                              <option value="">S</option>
-                              <option value="">M</option>
-                              <option value="">L</option>
-                            </select>
-                          </td>
-                          <!--<td>$625</td>-->
-                          <!--<td>$8765</td>-->
-                          <!--<td>2</td>-->
-                          <td>8</td>
-                          <!--<td>198</td>-->
-                          <td>
-                            <div class="dropdown">
-                              <button
-                                type="button"
-                                class="btn btn-primary dropdown-toggle"
-                                data-toggle="dropdown"
-                              >
-                                Actions
-                              </button>
-                              <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Details</a>
-                                <a class="dropdown-item" href="#">Edit</a>
-                                <a class="dropdown-item" href="#">Delete</a>
-                              </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Alex</td>
+                        <td>625$</td>
+                        <td>Mermaid, No Preferences, Sweetheart</td>
+                        <td>Medium</td>
+                        <td>Mermaid,Beads</td>
+                        <td>Mermaid</td>
+                        <td>Final Session</td>
+                        <td>03:00 PM</td>
+                        <td>MM Alam</td>
+                        <td>PWS</td>
+                        <td>10-Oct-2020</td>
+                        <td>
+                          <div class="dropdown">
+                            <button
+                                    type="button"
+                                    class="btn btn-primary dropdown-toggle"
+                                    data-toggle="dropdown"
+                            >
+                              Actions
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#">Detail</a>
+                              <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#myModal">Edit</a>
                             </div>
-                          </td>
-                        </tr>
+                          </div>
+                        </td>
+                      </tr>
                       </tbody>
                     </table>
-                    <!-- Data Tables -->
-
-                    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-                    <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
-                    <!-- Data Tables -->
                   </div>
                 </div>
               </div>
@@ -525,5 +518,41 @@
       </div>
     </div>
     <script type="text/javascript" src="./assets/scripts/main.js"></script>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Order # 123</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="g-pref">Preferences</label>
+                <input type="text" name="g-pref" id="g-pref" class="form-control" placeholder="Enter Gown Preferences" value="Mermaid, Beads">
+              </div>
+              <div class="form-group">
+                <label for="g-size">Size</label>
+                <input type="text" name="g-pref" id="g-size" class="form-control" placeholder="Enter Size" value="Large">
+              </div>
+              <div class="form-group">
+                <label for="g-tried">Tried Gowns</label>
+                <input type="text" name="g-pref" id="g-tried" class="form-control" placeholder="Enter Gown Name" value="Mermaid">
+              </div>
+              <div class="form-group float-right">
+                <button type="submit" class="btn btn-success">Update</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- The Modal -->
   </body>
 </html>
