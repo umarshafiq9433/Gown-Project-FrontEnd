@@ -391,7 +391,7 @@
                 </div>
                 <div class="main-card col-md-6 mb-3 mx-auto card">
                     <div class="card-body">
-                        <h5 class="card-title">Add Gown details</h5>
+                        <h5 class="card-title">Add Item details</h5>
                         <form class="needs-validation" novalidate>
                             <div class="form-row">
                                 <div class="col-md-12 mb-3">
@@ -555,8 +555,9 @@
                                 });
 
                                 $(document).on("click","#rem-var",function(){
-                                    $(this).parents().next().addClass("d-none");
-                                    $(this).parents("h4").addClass("d-none");
+                                    alert($(this).parents().next().html())
+                                    //$(this).parents().next().addClass("d-none");
+                                    //$(this).parents("h4").addClass("d-none");
                                 });
                             })
                         </script>
