@@ -15,6 +15,7 @@
             content="This is an example dashboard created using build-in elements and components."
     />
     <meta name="msapplication-tap-highlight" content="no"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="./assets/css/admin.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
@@ -199,7 +200,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                     <a href="./add_item.html">
                                         <i class="metismenu-icon"></i>
@@ -224,7 +225,7 @@
                                         class="metismenu-state-icon pe-7s-angle-down caret-left"
                                 ></i>
                             </a>
-                            <ul >
+                            <ul>
                                 <li>
                                 <li>
                                     <a href="./add_catagory.html">
@@ -412,9 +413,9 @@
             <div class="app-main__inner">
                 <div class="col-md-6 my-3 mx-auto p-3 bg-white rounded">
                     <label>Filter</label>
-                    <select class="form-control" name="" id="">
-                        <option value="">Consultant</option>
-                        <option value="">Item</option>
+                    <select class="form-control" name="" id="filter">
+                        <option value="1">Consultant</option>
+                        <option value="2">Item</option>
                     </select>
                 </div>
                 <div id="calendarList"></div>
@@ -483,6 +484,111 @@
                         });
 
                         calendar.render();
+                    });
+                </script>
+                <script>
+                    $(document).ready(function () {
+                        $("#filter").on("change", function () {
+                            if ($(this).val() == 2) {
+                                var calendarEl = document.getElementById("calendarList");
+                                var calendar = new FullCalendar.Calendar(calendarEl, {
+                                    headerToolbar: {
+                                        left: "prev,next today",
+                                        center: "title",
+                                        right: "dayGridMonth,listMonth",
+                                    },
+
+                                    // customize the button names,
+                                    // otherwise they'd all just say "list"
+                                    views: {
+                                        listDay: {buttonText: "list day"},
+                                        listWeek: {buttonText: "list week"},
+                                    },
+
+                                    initialView: "dayGridMonth",
+                                    initialDate: "2020-09-12",
+                                    navLinks: true, // can click day/week names to navigate views
+                                    editable: false,
+                                    dayMaxEvents: true, // allow "more" link when too many events
+                                    events: [
+                                        {
+                                            groupId: 999,
+                                            title: "Item Name: Gown Mermaid",
+                                            start: "2020-09-09T16:00:00",
+                                        }, {
+                                            groupId: 999,
+                                            title: "Item Name: Gown Mermaid",
+                                            start: "2020-09-10T16:00:00",
+                                        }, {
+                                            groupId: 999,
+                                            title: "Item Name: Gown Mermaid",
+                                            start: "2020-09-11T16:00:00",
+                                        },
+                                    ],
+                                });
+
+                                calendar.render();
+                            } else {
+                                var calendarEl = document.getElementById("calendarList");
+                                var calendar = new FullCalendar.Calendar(calendarEl, {
+                                    headerToolbar: {
+                                        left: "prev,next today",
+                                        center: "title",
+                                        right: "dayGridMonth,listMonth",
+                                    },
+
+                                    // customize the button names,
+                                    // otherwise they'd all just say "list"
+                                    views: {
+                                        listDay: {buttonText: "list day"},
+                                        listWeek: {buttonText: "list week"},
+                                    },
+
+                                    initialView: "dayGridMonth",
+                                    initialDate: "2020-09-12",
+                                    navLinks: true, // can click day/week names to navigate views
+                                    editable: true,
+                                    dayMaxEvents: true, // allow "more" link when too many events
+                                    events: [
+                                        {
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-01",
+                                        },
+                                        {
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-07",
+                                            end: "2020-09-10",
+                                        },
+                                        {
+                                            groupId: 999,
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-09T16:00:00",
+                                        },
+                                        {
+                                            groupId: 999,
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-16T16:00:00",
+                                        },
+                                        {
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-11",
+                                            end: "2020-09-13",
+                                        },
+                                        {
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-12T10:30:00",
+                                            end: "2020-09-12T12:30:00",
+                                        },
+                                        {
+                                            title: "Customer : James Consultant : John 1st Session",
+                                            start: "2020-09-12T12:00:00",
+                                        },
+                                    ],
+                                });
+
+                                calendar.render();
+                            }
+                        });
                     });
                 </script>
                 <!--Calendar Files-->
