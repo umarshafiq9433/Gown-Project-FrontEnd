@@ -16,3 +16,10 @@
     border: 0px !important;
     margin: 2px 0px;
 }
+
+.fc-daygrid-dot-event:hover {
+    position: absolute;
+    background-color: white !important;
+    font-size: 1.2rem;
+    display: block;
+}
