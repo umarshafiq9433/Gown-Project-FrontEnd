@@ -23,3 +23,8 @@
     font-size: 1.2rem;
     display: block;
 }
+
+.clickable-row:hover{
+    background-color: blue !important;
+    color: white !important;
+}
