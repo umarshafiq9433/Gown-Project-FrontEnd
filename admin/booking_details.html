@@ -702,26 +702,40 @@
                     <h1>Create Quotation</h1>
                     <form action="">
                         <div class="form-row my-2">
-                            <div class="col-md-5">
-                                <div class="form-group" >
-                                    <label for="file">File</label>
-                                    <input type="file" id="file" name="file" class="form-control">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="date">Date</label>
+                                    <input type="date" id="date" name="file" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="item">Product</label>
-                                    <select name="select" class="form-control" id="item">
-                                        <option value="Mermaid">Mermaid</option>
-                                        <option value="Beads">Beads</option>
-                                        <option value="Fish">Fish</option>
-                                    </select>
+                                    <label for="edate">Expires On</label>
+                                    <input type="date" id="edate" name="file" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-4">
                                 <div class="form-group">
-                                    <label for="">Add</label><br>
-                                    <input type="button" id="add" class="btn btn-success" value="Add">
+                                    <label for="po">P.O/S.O</label>
+                                    <input type="text" id="po" name="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sh">SubHeading</label>
+                                    <input type="text" id="sh" name="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="foot">Footer</label>
+                                    <input type="text" id="foot" name="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sh">Memo</label>
+                                    <textarea id="memo" name="file" class="form-control"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -737,14 +751,50 @@
                         <thead>
                         <tr>
                             <th>No</th>
+                            <th>Item</th>
                             <th>Description</th>
+                            <th>Quantity</th>
                             <th>File</th>
+                            <th>Price</th>
                             <th>Amount</th>
                         </tr>
                         </thead>
                         <tbody id="tbody">
                         </tbody>
                         <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="form-group">
+                                    <select name="select" class="form-control" id="item">
+                                        <option value="Mermaid">Mermaid</option>
+                                        <option value="Beads">Beads</option>
+                                        <option value="Fish">Fish</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <input type="text" id="desciption" name="" class="form-control">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <input type="number" id="quantity" min="1" value="1" name="" class="form-control">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <input type="file" id="file" name="file" class="form-control">
+                                </div>
+                            </td>
+                            <td></td>
+                            <td>
+                                <div class="form-group">
+                                    <input type="button" id="add" class="btn btn-success" value="Add">
+                                </div>
+                            </td>
+                        </tr>
                         <tr>
                             <th colspan="3">Total</th>
                             <th>$<span id="total">0</span></th>
@@ -771,15 +821,15 @@
 <script>
     $(document).ready(function () {
         var counter = 1;
-        $("#add").on("click",function () {
+        $("#add").on("click", function () {
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '');
             $('input[type=file]').val("");
-            $("#tbody").append("<tr class='minus'><td>"+ counter++ +"</td><td>"+$("#item").val()+"</td><td>"+filename+"</td><td class='price'>$<span class='pri'>100</span></td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td></tr>");
+            $("#tbody").append("<tr class='minus'><td>" + counter++ + "</td><td>" + $("#item").val() + "</td><td>" + $("#desciption").val() + "</td><td>" + $("#quantity").val() + "</td><td>" + filename + "</td><td class='price'>$<span class='pri'>100</span></td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td><td>$100</td></tr>");
             $("#total").html(parseInt($("#total").html()) + 100);
         });
-        $(document).on("click","#minus",function () {
+        $(document).on("click", "#minus", function () {
             $("#total").html(parseInt($("#total").html()) - 100);
-           $(this).parents("tr.minus").remove();
+            $(this).parents("tr.minus").remove();
         });
     })
 </script>
