@@ -17,6 +17,7 @@
     <meta name="msapplication-tap-highlight" content="no"/>
     <link href="./assets/css/admin.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./assets/css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <div
@@ -410,320 +411,346 @@
         </div>
         <div class="app-main__outer">
             <div class="app-main__inner">
-                    <!-- Content Starts -->
-    <div class="content not-print">
-       <div class="container border border-secondary mt-5">
-           <h1 class="text-center">Booking Form</h1>
-           <p>
-               Hello! We would like to find out more about your preferences to ensure
-               that you have a wonderful and fulfilling experience with us. This
-               checklist will help to frame an idea of the dream gown that you are
-               looking for. Sit back, relax and enjoy while you take time to ponder on
-               your dream gown!
-           </p>
-           <div class="text-center font-weight-bold border border-secondary py-2">Information</div>
-           <div class="row ">
-               <div class="col-lg-6">
-                   <label>Name of Bride</label>
-                   <form method="GET" action="">
-                       <input class="form-control form-control-lg" value="Angelina" type="text">
-               </div>
-               <div class="col-lg-6">
-                   <label>Name of Groom</label>
-                   <input class="form-control form-control-lg" value="Brad" type="text">
-               </div>
-           </div>
-           <div class="row">
-               <div class="col-md-3">
-                   <label>Phone</label>
-                   <input class="form-control form-control-lg" value="12313131313" type="text">
-               </div>
-               <div class="col-md-3">
-                   <label>Email</label>
-                   <input class="form-control form-control-lg" value="gmail@gmail.com" type="text">
-               </div>
-               <div class="col-md-6">
-                   <label>How did you hear about us?</label>
-                   <input class="form-control form-control-lg" type="text" value="From a friend">
-               </div>
-           </div>
-           <div class="text-center border p-2 border-secondary mt-2"><b>Event Deatils</b></div>
-           <div class="row">
-               <div class="col-md-3">
-                   <label>Event Date</label>
-                   <input class="form-control " type="date"/>
-               </div>
-               <div class="col-md-4">
-                   <label>Event Venue</label>
-                   <select class="form-control">
-                       <option selected>None</option>
-                       <option>PWS</option>
-                       <option>Actual</option>
-                       <option>ROM</option>
-                   </select>
-               </div>
-               <div class="col-md-5">
-                   <label>Event Value</label>
-                   <input type="text" class="form-control brnone form-control-lg" name="" value=""/>
-               </div>
-           </div>
-           <div class="row">
-               <div class="col-md-3">
-                   <label>Event Date</label>
-                   <input class="form-control " type="date"/>
-               </div>
-               <div class="col-md-4">
-                   <label>Event Venue</label>
-                   <select class="form-control">
-                       <option selected>None</option>
-                       <option>PWS</option>
-                       <option>Actual</option>
-                       <option>ROM</option>
-                   </select>
-               </div>
-               <div class="col-md-5">
-                   <label>Event Value</label>
-                   <input type="text" class="form-control brnone form-control-lg" name="" value=""/>
-               </div>
-           </div>
-           <div class="row">
-               <div class="col-md-3">
-                   <label>Event Date</label>
-                   <input class="form-control " type="date"/>
-               </div>
-               <div class="col-md-4">
-                   <label>Event Venue</label>
-                   <select class="form-control">
-                       <option selected>None</option>
-                       <option>PWS</option>
-                       <option>Actual</option>
-                       <option>ROM</option>
-                   </select>
-               </div>
-               <div class="col-md-5">
-                   <label>Event Value</label>
-                   <input type="text" class="form-control brnone form-control-lg" name="" id="">
-               </div>
-           </div>
-           <div class="text-center font-weight-bold border border-secondary py-2 my-1">Gown Preferences</div>
-           <div class="form-row rounded">
-               <div class="col-md-12">
-                <b>Required Outfit (Please Tick):</b>
-               </div>
-               <div class="col-md-4">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Bridal Gown</label>
+                <!-- Content Starts -->
+                <div class="content not-print">
+                    <div class="container border border-secondary mt-5">
+                        <h1 class="text-center">Booking Form</h1>
+                        <p>
+                            Hello! We would like to find out more about your preferences to ensure
+                            that you have a wonderful and fulfilling experience with us. This
+                            checklist will help to frame an idea of the dream gown that you are
+                            looking for. Sit back, relax and enjoy while you take time to ponder on
+                            your dream gown!
+                        </p>
+                        <div class="text-center font-weight-bold border border-secondary py-2">Information</div>
+                        <div class="row ">
+                            <div class="col-lg-6">
+                                <label>Name of Bride</label>
+                                <form method="GET" action="">
+                                    <input class="form-control form-control-lg" value="Angelina" type="text">
+                            </div>
+                            <div class="col-lg-6">
+                                <label>Name of Groom</label>
+                                <input class="form-control form-control-lg" value="Brad" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>Phone</label>
+                                <input class="form-control form-control-lg" value="12313131313" type="text">
+                            </div>
+                            <div class="col-md-3">
+                                <label>Email</label>
+                                <input class="form-control form-control-lg" value="gmail@gmail.com" type="text">
+                            </div>
+                            <div class="col-md-6">
+                                <label>How did you hear about us?</label>
+                                <input class="form-control form-control-lg" type="text" value="From a friend">
+                            </div>
+                        </div>
+                        <div class="text-center border p-2 border-secondary mt-2"><b>Event Deatils</b></div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>Event Date</label>
+                                <input class="form-control " type="date"/>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Event Venue</label>
+                                <select class="form-control">
+                                    <option selected>None</option>
+                                    <option>PWS</option>
+                                    <option>Actual</option>
+                                    <option>ROM</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <label>Event Value</label>
+                                <input type="text" class="form-control brnone form-control-lg" name="" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>Event Date</label>
+                                <input class="form-control " type="date"/>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Event Venue</label>
+                                <select class="form-control">
+                                    <option selected>None</option>
+                                    <option>PWS</option>
+                                    <option>Actual</option>
+                                    <option>ROM</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <label>Event Value</label>
+                                <input type="text" class="form-control brnone form-control-lg" name="" value=""/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label>Event Date</label>
+                                <input class="form-control " type="date"/>
+                            </div>
+                            <div class="col-md-4">
+                                <label>Event Venue</label>
+                                <select class="form-control">
+                                    <option selected>None</option>
+                                    <option>PWS</option>
+                                    <option>Actual</option>
+                                    <option>ROM</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <label>Event Value</label>
+                                <input type="text" class="form-control brnone form-control-lg" name="" id="">
+                            </div>
+                        </div>
+                        <div class="text-center font-weight-bold border border-secondary py-2 my-1">Gown Preferences
+                        </div>
+                        <div class="form-row rounded">
+                            <div class="col-md-12">
+                                <b>Required Outfit (Please Tick):</b>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Bridal Gown</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Evening Gown</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="req">No. of gowns required:</label>
+                                    <input type="number" min="0" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row border border-secondary rounded py-2">
+                            <div class="col-md-12">
+                                <b>Preferred Silhouette (Please Tick): </b>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Mermaid </label>
+                                </div>
+                                <img src="./assets/images/booking/Mermaid.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Ball </label>
+                                </div>
+                                <img src="./assets/images/booking/Ball.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">A-Line</label>
+                                </div>
+                                <img src="./assets/images/booking/A-Line.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Modified-Line</label>
+                                </div>
+                                <img src="./assets/images/booking/Modified-Line.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Column</label>
+                                </div>
+                                <img src="./assets/images/booking/Column.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Trumpet </label>
+                                </div>
+                                <img src="./assets/images/booking/Trumpet.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> No Preference </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="other">Others:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-row border border-secondary rounded py-2">
+                            <div class="col-md-12">
+                                <b>Preferred Details: </b>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Bead Dress</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck">Lace Dress</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Plain </label>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> No Preference </label>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <label for="other">Others:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-row border border-secondary rounded py-2">
+                            <div class="col-md-12">
+                                <b>Preferred Neckline: </b>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Sweetheart </label>
+                                </div>
+                                <img src="./assets/images/booking/Sweetheart.png" class="w-50 d-block m-auto" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> V-Neck </label>
+                                </div>
+                                <img src="./assets/images/booking/V-Neck.png" class="w-50 d-block m-auto" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Off-Shoulder </label>
+                                </div>
+                                <img src="./assets/images/booking/Off-Shoulder.png" class="w-50 d-block m-auto" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Straight Across </label>
+                                </div>
+                                <img src="./assets/images/booking/Straight Across.png" class="w-50 d-block m-auto"
+                                     alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Illusion </label>
+                                </div>
+                                <img src="./assets/images/booking/Illusion.png" class="w-50 d-block m-auto" alt="">
+                            </div>
+                            <div class="col-md-3">
+                                <div class="custom-control custom-checkbox my-3 text-center">
+                                    <input type="checkbox" class="custom-control-input" id="customCheck"
+                                           name="example1">
+                                    <label class="custom-control-label" for="customCheck"> Bateau </label>
+                                </div>
+                                <img src="./assets/images/booking/Bateau.png" class="w-50 d-block m-auto" alt="">
+                            </div>
+                            <div class="col-md-12">
+                                <label for="other">Others:</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="text-center py-4">
+                            <input type="submit" class="btn btn-primary" value="Book" name="submit"/>
+                        </div>
+                        </form>
                     </div>
-               </div>
-               <div class="col-md-4">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Evening Gown</label>
-                    </div>
-               </div>
-               <div class="col-md-4">
-                   <div class="form-group"> 
-                        <label for="req">No. of gowns required:</label>
-                        <input type="number" min="0" class="form-control">
-                    </div> 
-               </div>
-           </div>
-           <div class="form-row border border-secondary rounded py-2">
-                <div class="col-md-12">
-                    <b>Preferred Silhouette (Please Tick): </b>
                 </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck"> Mermaid </label>
-                    </div>
-                    <img src="./assets/images/booking/Mermaid.jpg" class="w-100" alt="">
+                <div class="container my-2 border border-secondary">
+                    <h1>Create Quotation</h1>
+                    <form action="">
+                        <div class="form-row my-2">
+                            <div class="col-md-5">
+                                <div class="form-group" >
+                                    <label for="file">File</label>
+                                    <input type="file" id="file" name="file" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="form-group">
+                                    <label for="item">Product</label>
+                                    <select name="select" class="form-control" id="item">
+                                        <option value="Mermaid">Mermaid</option>
+                                        <option value="Beads">Beads</option>
+                                        <option value="Fish">Fish</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="">Add</label><br>
+                                    <input type="button" id="add" class="btn btn-success" value="Add">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck"> Ball </label>
-                    </div>
-                    <img src="./assets/images/booking/Ball.jpg" class="w-100" alt="">
+                <div class="container border border-secondary my-3" id="quotation">
+                    <div class="lead">Order # 123CD3</div>
+                    <div class="lead">Name: John</div>
+                    <div class="lead">Consultant: Kelly</div>
+                    <div class="lead">Date: 25-12-2020</div>
+                    <br>
+                    <table class="table table-responsive-md">
+                        <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                        </tr>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <th colspan="2">Total</th>
+                            <th>$<span id="total">0</span></th>
+                        </tr>
+                        </tfoot>
+                    </table>
                 </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">A-Line</label>
-                    </div>
-                    <img src="./assets/images/booking/A-Line.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Modified-Line</label>
-                    </div>
-                    <img src="./assets/images/booking/Modified-Line.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck">Column</label>
-                    </div>
-                    <img src="./assets/images/booking/Column.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck"> Trumpet </label>
-                    </div>
-                    <img src="./assets/images/booking/Trumpet.jpg" class="w-100" alt="">
-                </div>
-                <div class="col-md-3">
-                    <div class="custom-control custom-checkbox my-3 text-center">
-                        <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                        <label class="custom-control-label" for="customCheck"> No Preference </label>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <label for="other">Others:</label>
-                    <input type="text" class="form-control">
-                </div>
-           </div>
-           <div class="form-row border border-secondary rounded py-2">
-            <div class="col-md-12">
-             <b>Preferred Details: </b>
-            </div>
-            <div class="col-md-3">
-                 <div class="custom-control custom-checkbox my-3 text-center">
-                     <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                     <label class="custom-control-label" for="customCheck">Bead Dress</label>
-                 </div>
-            </div>
-            <div class="col-md-3">
-                 <div class="custom-control custom-checkbox my-3 text-center">
-                     <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                     <label class="custom-control-label" for="customCheck">Lace Dress</label>
-                 </div>
-            </div>
-            <div class="col-md-3">
-                 <div class="custom-control custom-checkbox my-3 text-center">
-                     <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                     <label class="custom-control-label" for="customCheck"> Plain </label>
-                 </div>
-            </div>
-            <div class="col-md-3">
-                 <div class="custom-control custom-checkbox my-3 text-center">
-                     <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                     <label class="custom-control-label" for="customCheck"> No Preference </label>
-                 </div>
-            </div>
-            <div class="col-md-12">
-                <label for="other">Others:</label>
-                <input type="text" class="form-control">
-            </div>
-        </div>
-        <div class="form-row border border-secondary rounded py-2">
-            <div class="col-md-12">
-                <b>Preferred Neckline:  </b>
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck"> Sweetheart </label>
-                </div>
-                <img src="./assets/images/booking/Sweetheart.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck">  V-Neck  </label>
-                </div>
-                <img src="./assets/images/booking/V-Neck.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck"> Off-Shoulder </label>
-                </div>
-                <img src="./assets/images/booking/Off-Shoulder.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck"> Straight Across </label>
-                </div>
-                <img src="./assets/images/booking/Straight Across.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck"> Illusion </label>
-                </div>
-                <img src="./assets/images/booking/Illusion.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-3">
-                <div class="custom-control custom-checkbox my-3 text-center">
-                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-                    <label class="custom-control-label" for="customCheck">  Bateau  </label>
-                </div>
-                <img src="./assets/images/booking/Bateau.png" class="w-50 d-block m-auto" alt="">
-            </div>
-            <div class="col-md-12">
-                <label for="other">Others:</label>
-                <input type="text" class="form-control">
-            </div>
-       </div>
-           <div class="text-center py-4">
-               <input type="submit" class="btn btn-primary" value="Book" name="submit"/>
-           </div>
-           </form>
-       </div>
-    </div>
-
-    <div class="container border border-secondary my-3" id="quotation">
-       <div class="lead">Order # 123CD3</div>
-       <div class="lead">Name: John</div>
-       <div class="lead">Consultant: Kelly</div>
-       <div class="lead">Date: 25-12-2020</div>
-       <br>
-       <table class="table table-responsive-md">
-           <thead>
-           <tr>
-               <th>No</th>
-               <th>Description</th>
-               <th>Amount</th>
-           </tr>
-           </thead>
-           <tr>
-               <td>1</td>
-               <td>Gown Rate</td>
-               <td>$625</td>
-           </tr>
-           <tr>
-               <td>2</td>
-               <td>Evening Gown</td>
-               <td>$250</td>
-           </tr>
-           <tr>
-               <td>3</td>
-               <td>A-Line</td>
-               <td>$200</td>
-           </tr>
-           <tr>
-               <td>4</td>
-               <td>Bead Dress</td>
-               <td>$100</td>
-           </tr>
-           <tr>
-               <td>5</td>
-               <td>V-Neck</td>
-               <td>$50</td>
-           </tr>
-           <tfoot>
-           <tr>
-               <th colspan="2">Total</th>
-               <th>$1225</th>
-           </tr>
-           </tfoot>
-       </table>
-    </div>
             </div>
         </div>
         <div class="app-wrapper-footer">
@@ -739,5 +766,20 @@
 </div>
 </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script>
+
+<script>
+    $(document).ready(function () {
+        var counter = 1;
+        $("#add").on("click",function () {
+            $("#tbody").append("<tr class='minus'><td>"+ counter++ +"</td><td>"+$("#item").val()+"</td><td class='price'>$<span class='pri'>100</span></td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td></tr>");
+            $("#total").html(parseInt($("#total").html()) + 100);
+        });
+        $(document).on("click","#minus",function () {
+            $("#total").html(parseInt($("#total").html()) - 100);
+           $(this).parents("tr.minus").remove();
+        });
+    })
+</script>
+
 </body>
 </html>
