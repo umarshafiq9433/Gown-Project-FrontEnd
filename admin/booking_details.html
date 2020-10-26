@@ -750,12 +750,12 @@
                     <table class="table table-responsive-md">
                         <thead>
                         <tr>
-                            <th>No</th>
                             <th>Item</th>
                             <th>Description</th>
                             <th>Quantity</th>
                             <th>File</th>
                             <th>Price</th>
+                            <th>Tax</th>
                             <th>Amount</th>
                         </tr>
                         </thead>
@@ -763,7 +763,6 @@
                         </tbody>
                         <tfoot>
                         <tr>
-                            <td></td>
                             <td>
                                 <div class="form-group">
                                     <select name="select" class="form-control" id="item">
@@ -788,6 +787,8 @@
                                     <input type="file" id="file" name="file" class="form-control">
                                 </div>
                             </td>
+                            <td></td>
+                            <td></td>
                             <td></td>
                             <td>
                                 <div class="form-group">
@@ -824,7 +825,7 @@
         $("#add").on("click", function () {
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '');
             $('input[type=file]').val("");
-            $("#tbody").append("<tr class='minus'><td>" + counter++ + "</td><td>" + $("#item").val() + "</td><td>" + $("#desciption").val() + "</td><td>" + $("#quantity").val() + "</td><td>" + filename + "</td><td class='price'>$<span class='pri'>100</span></td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td><td>$100</td></tr>");
+            $("#tbody").append("<tr class='minus'><td>" + $("#item").val() + "</td><td>" + $("#desciption").val() + "</td><td>" + $("#quantity").val() + "</td><td>" + filename + "</td><td class='price'>$<span class='pri'>100</span></td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td><td>$100</td></tr>");
             $("#total").html(parseInt($("#total").html()) + 100);
         });
         $(document).on("click", "#minus", function () {
