@@ -777,17 +777,17 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="form-group">
+                                <div class="form-group w-25 ">
                                     <input type="number" id="quantity" min="1" value="1" name="" class="form-control">
                                 </div>
                             </td>
                             <td>
-                                <div class="form-group">
+                                <div class="form-group w-25">
                                     <input type="number" id="price" min="1" value="1" name="" class="form-control">
                                 </div>
                             </td>
                             <td>
-                                <div class="form-group">
+                                <div class="form-group w-25">
                                     <input type="number" id="tax" min="1" value="1" name="" class="form-control">
                                 </div>
                             </td>
@@ -834,7 +834,7 @@
         $("#add").on("click", function () {
             var filename = $('input[type=file]').val().replace(/C:\\fakepath\\/i, '');
             $('input[type=file]').val("");
-            $("#tbody").append("<tr class='minus'><td>" + $("#item").val() + "</td><td>" + $("#desciption").val() + "</td><td>" + $("#quantity").val() + "</td><td class='price'>$<span class='pri'>100</span></td><td>"+$("#tax").val()+"</td><td>$100</td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td></tr>");
+            $("#tbody").append("<tr class='minus'><td>" + $("#item").val() + "</td><td>" + $("#desciption").val() + "</td><td>" + $("#quantity").val() + "</td><td class='price'>$<span class='pri'>100</span></td><td>" + $("#tax").val() + "</td><td>$100</td><td class='text-danger'><i id='minus' class='fa fa-minus-circle'></i></td></tr>");
             $("#total").html(parseInt($("#total").html()) + 100);
         });
         $(document).on("click", "#minus", function () {
