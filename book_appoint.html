@@ -255,6 +255,10 @@
           dateClick: function (info) {
             document.getElementById("date").innerHTML = info.dateStr;
             document.getElementById("time").innerHTML = "";
+            $(".fc-daygrid-day").on("click",function(){
+              $(".fc-daygrid-day").css("border","inherit");
+            $(this).css("border", "1px solid black");
+            });
           },
         });
         calendar.render();
